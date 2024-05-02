@@ -1,6 +1,6 @@
-# CMSIS Build Audit File generated on 2024-05-02T09:35:56
+# CMSIS Build Audit File generated on 2024-05-02T09:51:51
 
-# Project Description File: C:/Test/USBD/HID/HID.Debug+B-U585I-IOT02A.cprj
+# Project Description File: c:/Test/USBD/HID/HID.Debug+B-U585I-IOT02A.cprj
 
 # Toolchain Configuration File: C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.3.0/etc/AC6.6.18.0.cmake
 
@@ -42,8 +42,8 @@
   Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS-RTX/5.8.0/
 
   * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0
-    - ConfigFile: C:/Test/USBD/HID/RTE/CMSIS/RTX_Config.c:5.2.0
-    - ConfigFile: C:/Test/USBD/HID/RTE/CMSIS/RTX_Config.h:5.6.0
+    - ConfigFile: c:/Test/USBD/HID/RTE/CMSIS/RTX_Config.c:5.2.0
+    - ConfigFile: c:/Test/USBD/HID/RTE/CMSIS/RTX_Config.h:5.6.0
 
 # Package: Keil::B-U585I-IOT02A_BSP@2.0.0-dev1
   Location: C:/w/pack-examples/B-U585I-IOT02A_BSP/
@@ -54,13 +54,13 @@
   Location: C:/w/MDK-Middleware/
 
   * Component: Keil::USB&MDK:CORE@6.18.0
-    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USB_Debug.h:1.0.0
+    - ConfigFile: c:/Test/USBD/HID/RTE/USB/USB_Debug.h:1.0.0
 
   * Component: Keil::USB&MDK:Device:HID@6.18.0
-    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USBD_Config_HID_0.h:5.1.0
+    - ConfigFile: c:/Test/USBD/HID/RTE/USB/USBD_Config_HID_0.h:5.1.0
 
   * Component: Keil::USB&MDK:Device@6.18.0
-    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USBD_Config_0.h:1.0.0
+    - ConfigFile: c:/Test/USBD/HID/RTE/USB/USBD_Config_0.h:1.0.0
 
 # Package: Keil::STM32U5xx_DFP@3.0.0-dev0
   Location: C:/w/pack-examples/STM32U5xx_DFP/
