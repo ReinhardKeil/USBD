@@ -1,0 +1,38 @@
+build:
+  generated-by: csolution version 2.3.0
+  solution: ../USB_Device.csolution.yml
+  project: MassStorage.cproject.yml
+  context: MassStorage.Release+B-U5
+  compiler: AC6
+  board: B-U585I-IOT02A
+  optimize: balanced
+  debug: off
+  misc:
+    ASM:
+      - -masm=auto
+    C:
+      - -std=gnu11
+      - -Wno-macro-redefined
+      - -Wno-pragma-pack
+      - -Wno-parentheses-equality
+      - -Wno-license-management
+    CPP:
+      - -Wno-macro-redefined
+      - -Wno-pragma-pack
+      - -Wno-parentheses-equality
+      - -Wno-license-management
+    Link:
+      - --entry=Reset_Handler
+      - --map
+      - --info summarysizes
+      - --summary_stderr
+      - --diag_suppress=L6314W
+  output-dirs:
+    intdir: ../tmp/MassStorage/B-U5/Release
+    outdir: ../out/MassStorage/B-U5/Release
+    rtedir: RTE
+  output:
+    - type: elf
+      file: MassStorage.axf
+  constructed-files:
+    - category: header

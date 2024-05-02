@@ -1,0 +1,36 @@
+build-idx:
+  generated-by: csolution version 2.3.0
+  cdefault: cdefault.yml
+  csolution: USB_Device.csolution.yml
+  cprojects:
+    - cproject: HID/HID.cproject.yml
+      clayers:
+        - clayer: HID/$Board-Layer$
+    - cproject: MassStorage/MassStorage.cproject.yml
+      clayers:
+        - clayer: MassStorage/$Board-Layer$
+    - cproject: VirtualCOM/VirtualCOM.cproject.yml
+      clayers:
+        - clayer: VirtualCOM/$Board-Layer$
+  cbuilds:
+    - cbuild: HID/HID.Debug+B-U585I-IOT02A.cbuild.yml
+      project: HID
+      configuration: .Debug+B-U585I-IOT02A
+      errors: true
+    - cbuild: HID/HID.Release+B-U585I-IOT02A.cbuild.yml
+      project: HID
+      configuration: .Release+B-U585I-IOT02A
+    - cbuild: MassStorage/MassStorage.Debug+B-U585I-IOT02A.cbuild.yml
+      project: MassStorage
+      configuration: .Debug+B-U585I-IOT02A
+      errors: true
+    - cbuild: MassStorage/MassStorage.Release+B-U585I-IOT02A.cbuild.yml
+      project: MassStorage
+      configuration: .Release+B-U585I-IOT02A
+    - cbuild: VirtualCOM/VirtualCOM.Debug+B-U585I-IOT02A.cbuild.yml
+      project: VirtualCOM
+      configuration: .Debug+B-U585I-IOT02A
+      errors: true
+    - cbuild: VirtualCOM/VirtualCOM.Release+B-U585I-IOT02A.cbuild.yml
+      project: VirtualCOM
+      configuration: .Release+B-U585I-IOT02A

@@ -1,0 +1,24 @@
+solution:
+  created-for: CMSIS-Toolbox@2.0.0
+
+  cdefault:
+
+  target-types:
+    - type: B-U585I-IOT02A          # type name identical with board name?
+      board: B-U585I-IOT02A
+      variables:
+#       - Board-Layer: $SolutionDir$\Board\B-U585I-IOT02A\Board.clayer.yml
+        - Board-Layer: C:\Test\USBD\Board\B-U585I-IOT02A\Board.clayer.yml
+
+  build-types:
+    - type: Debug
+      debug: on
+      optimize: none
+    - type: Release
+      debug: off
+      optimize: balanced
+
+  projects:
+    - project: HID/HID.cproject.yml
+    - project: MassStorage/MassStorage.cproject.yml
+    - project: VirtualCOM/VirtualCOM.cproject.yml
