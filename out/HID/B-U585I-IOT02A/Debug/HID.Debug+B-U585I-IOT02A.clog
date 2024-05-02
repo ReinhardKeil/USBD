@@ -1,0 +1,72 @@
+# CMSIS Build Audit File generated on 2024-05-02T09:35:56
+
+# Project Description File: C:/Test/USBD/HID/HID.Debug+B-U585I-IOT02A.cprj
+
+# Toolchain Configuration File: C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.3.0/etc/AC6.6.18.0.cmake
+
+# Package: ARM::CMSIS@6.0.0
+  Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS/6.0.0/
+
+  * Component: ARM::CMSIS:CORE@6.0.0
+
+  * Component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+
+  * API: CMSIS Driver:USART(API)@2.4.0:2.4.0
+
+  * API: CMSIS Driver:USB Device(API)@2.3.0:2.3.0
+
+  * API: CMSIS Driver:VIO(API)@1.0.0:1.0.0
+
+  * API: CMSIS:OS Tick(API)@1.0.1:1.0.1
+
+  * API: CMSIS:RTOS2(API)@2.3.0:2.3.0
+
+# Package: ARM::CMSIS-Compiler@2.0.0
+  Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS-Compiler/2.0.0/
+
+  * Component: ARM::CMSIS-Compiler:CORE@1.0.0
+
+  * Component: ARM::CMSIS-Compiler:STDERR:Custom@1.0.0
+
+  * Component: ARM::CMSIS-Compiler:STDIN:Custom@1.0.0
+
+  * Component: ARM::CMSIS-Compiler:STDOUT:Custom@1.0.0
+
+  * API: CMSIS-Compiler:STDERR(API)@1.0.0:1.0.0
+
+  * API: CMSIS-Compiler:STDIN(API)@1.0.0:1.0.0
+
+  * API: CMSIS-Compiler:STDOUT(API)@1.0.0:1.0.0
+
+# Package: ARM::CMSIS-RTX@5.8.0
+  Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS-RTX/5.8.0/
+
+  * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0
+    - ConfigFile: C:/Test/USBD/HID/RTE/CMSIS/RTX_Config.c:5.2.0
+    - ConfigFile: C:/Test/USBD/HID/RTE/CMSIS/RTX_Config.h:5.6.0
+
+# Package: Keil::B-U585I-IOT02A_BSP@2.0.0-dev1
+  Location: C:/w/pack-examples/B-U585I-IOT02A_BSP/
+
+  * Component: Keil::CMSIS Driver:VIO:Board&B-U585I-IOT02A@2.0.1
+
+# Package: Keil::MDK-Middleware@8.0.0-dev0
+  Location: C:/w/MDK-Middleware/
+
+  * Component: Keil::USB&MDK:CORE@6.18.0
+    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USB_Debug.h:1.0.0
+
+  * Component: Keil::USB&MDK:Device:HID@6.18.0
+    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USBD_Config_HID_0.h:5.1.0
+
+  * Component: Keil::USB&MDK:Device@6.18.0
+    - ConfigFile: C:/Test/USBD/HID/RTE/USB/USBD_Config_0.h:1.0.0
+
+# Package: Keil::STM32U5xx_DFP@3.0.0-dev0
+  Location: C:/w/pack-examples/STM32U5xx_DFP/
+
+  * Component: Keil::CMSIS Driver:USART@1.2.0
+
+  * Component: Keil::CMSIS Driver:USB Device:Full-speed@1.1.0
+
+  * Component: Keil::Device:CubeMX@1.0.0

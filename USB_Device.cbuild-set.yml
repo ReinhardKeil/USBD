@@ -2,5 +2,3 @@ cbuild-set:
   generated-by: csolution version 2.3.0
   contexts:
     - context: HID.Debug+B-U585I-IOT02A
-    - context: MassStorage.Debug+B-U585I-IOT02A
-    - context: VirtualCOM.Debug+B-U585I-IOT02A

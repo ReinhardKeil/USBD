@@ -6,7 +6,6 @@ build:
   compiler: AC6
   board: B-U585I-IOT02A
   board-pack: Keil::B-U585I-IOT02A_BSP@2.0.0-dev1
-  device: STM32U585AIIx
   device-pack: Keil::STM32U5xx_DFP@3.0.0-dev0
   processor:
     dsp: on
@@ -50,9 +49,17 @@ build:
       - --summary_stderr
       - --diag_suppress=L6314W
   define:
+    - USE_FULL_LL_DRIVER
+    - USE_HAL_DRIVER
+    - STM32U585xx
     - STM32U585xx
     - _RTE_
   add-path:
+    - ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Inc
+    - ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Inc/Legacy
+    - ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/CMSIS/Device/ST/STM32U5xx/Include
+    - ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Inc
+    - ../Board/B-U585I-IOT02A/CubeMX/MX_Device/Board
     - RTE/CMSIS
     - RTE/USB
     - RTE/_Debug_B-U585I-IOT02A
@@ -365,6 +372,90 @@ build:
     - group: Board
       files:
         - file: ../Board/B-U585I-IOT02A/retarget_stdio.c
+          category: sourceC
+    - group: CubeMX
+      files:
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Src/main.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Src/stm32u5xx_it.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Src/stm32u5xx_hal_msp.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Src/stm32u5xx_hal_timebase_tim.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/MDK-ARM/startup_stm32u585xx.s
+          category: sourceAsm
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Src/system_stm32u5xx.c
+          category: sourceC
+    - group: STM32 HAL Driver
+      files:
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_utils.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_exti.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_mdf.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_ospi.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dlyb.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_spi_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_ucpd.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_gpio.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_lpgpio.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_dma.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c
+          category: sourceC
+        - file: ../Board/B-U585I-IOT02A/CubeMX/STM32CubeMX/Drivers/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c
           category: sourceC
   constructed-files:
     - file: RTE/_Debug_B-U585I-IOT02A/RTE_Components.h

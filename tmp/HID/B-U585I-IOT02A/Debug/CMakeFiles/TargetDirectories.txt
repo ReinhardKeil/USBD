@@ -1,0 +1,4 @@
+C:/Test/USBD/tmp/HID/B-U585I-IOT02A/Debug/CMakeFiles/database.dir
+C:/Test/USBD/tmp/HID/B-U585I-IOT02A/Debug/CMakeFiles/HID.dir
+C:/Test/USBD/tmp/HID/B-U585I-IOT02A/Debug/CMakeFiles/edit_cache.dir
+C:/Test/USBD/tmp/HID/B-U585I-IOT02A/Debug/CMakeFiles/rebuild_cache.dir
