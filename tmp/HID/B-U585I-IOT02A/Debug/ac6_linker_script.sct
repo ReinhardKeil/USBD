@@ -1,13 +1,13 @@
-# 1 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
+# 1 "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
 # 404 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/regions_B_U585I_IOT02A.h" 1
+# 1 "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/regions_B-U585I-IOT02A.h" 1
 # 2 "<built-in>" 2
-# 1 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src" 2
-# 36 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
+# 1 "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src" 2
+# 36 "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
 LR_ROM0 0x08000000 0x00200000 {
 
   ER_ROM0 0x08000000 0x00200000 {
@@ -30,9 +30,28 @@ LR_ROM0 0x08000000 0x00200000 {
   RW_RAM0 AlignExpr(+0, 8) (0x00040000 - 0 - 0 - 0 - AlignExpr(ImageLength(RW_NOINIT), 8)) {
     *(+RW +ZI)
   }
-# 75 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
+# 75 "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
   RW_RAM1 0x20040000 0x00080000 {
    .ANY (+RW +ZI)
   }
-# 91 "C:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src"
+
+
+
+  RW_RAM2 0x90000000 0x00800000 {
+   .ANY (+RW +ZI)
+  }
+
+
+
+
+
+
+
+}
+
+
+LR_ROM1 0x70000000 0x04000000 {
+  ER_ROM1 +0 0x04000000 {
+   .ANY (+RO +XO)
+  }
 }

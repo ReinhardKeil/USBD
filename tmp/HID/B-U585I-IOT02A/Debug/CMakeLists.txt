@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2024-05-02T09:51:51
+# CMSIS Build CMakeLists generated on 2024-05-06T15:57:52
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -21,7 +21,7 @@ set(CC_FLAGS_GLOBAL "-std=gnu11 -Wno-macro-redefined -Wno-pragma-pack -Wno-paren
 set(CXX_FLAGS_GLOBAL "-Wno-macro-redefined -Wno-pragma-pack -Wno-parentheses-equality -Wno-license-management")
 set(LD_FLAGS_GLOBAL "--entry=Reset_Handler --map --info summarysizes --summary_stderr --diag_suppress=L6314W")
 set(LD_SCRIPT "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src")
-set(LD_REGIONS "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/regions_B_U585I_IOT02A.h")
+set(LD_REGIONS "c:/Test/USBD/Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/regions_B-U585I-IOT02A.h")
 set(LD_SCRIPT_PP "C:/Test/USBD/tmp/HID/B-U585I-IOT02A/Debug/ac6_linker_script.sct")
 
 set(DEFINES
@@ -139,8 +139,8 @@ set(CC_SRC_FILES
 set(REGISTERED_TOOLCHAIN_ROOT "c:/Users/reikei01/.vcpkg/artifacts/2139c4c6/compilers.arm.armclang/6.22.0/bin")
 set(REGISTERED_TOOLCHAIN_VERSION "6.22.0")
 set(TOOLCHAIN_VERSION_MIN "6.22.0")
-include ("C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.3.0/etc/AC6.6.18.0.cmake")
-include ("C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.3.0/etc/CMSIS-Build-Utils.cmake")
+include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.18.0.cmake")
+include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/CMSIS-Build-Utils.cmake")
 
 # Setup project
 

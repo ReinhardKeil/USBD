@@ -133,6 +133,7 @@ bool USBD_HID0_SetReport (uint8_t rtype, uint8_t req, uint8_t rid, const uint8_t
   switch (rtype) {
     case HID_REPORT_OUTPUT:
       vioSetSignal(0xFFU, *buf);
+      vioSetSignal(2, 3);
       break;
  
     case HID_REPORT_FEATURE:

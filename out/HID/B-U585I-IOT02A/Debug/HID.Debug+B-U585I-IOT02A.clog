@@ -1,8 +1,8 @@
-# CMSIS Build Audit File generated on 2024-05-02T09:57:04
+# CMSIS Build Audit File generated on 2024-05-06T16:09:13
 
 # Project Description File: c:/Test/USBD/HID/HID.Debug+B-U585I-IOT02A.cprj
 
-# Toolchain Configuration File: C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/tools.open.cmsis.pack.cmsis.toolbox/2.3.0/etc/AC6.6.18.0.cmake
+# Toolchain Configuration File: C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.18.0.cmake
 
 # Package: ARM::CMSIS@6.0.0
   Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS/6.0.0/

@@ -1,14 +1,17 @@
 solution:
   created-for: CMSIS-Toolbox@2.0.0
-
   cdefault:
 
   target-types:
-    - type: B-U585I-IOT02A          # type name identical with board name?
-      board: B-U585I-IOT02A
+    - type: B-U585I-IOT02A
+      board: B-U585I-IOT02A         # name of a target board with layer
       variables:
-#       - Board-Layer: $SolutionDir$\Board\B-U585I-IOT02A\Board.clayer.yml
-        - Board-Layer: C:\Test\USBD\Board\B-U585I-IOT02A\Board.clayer.yml
+        - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
+
+    - type: LPC55S69-EVK            # name of a target board with layer
+      board: LPC55S69-EVK
+      variables:
+        - Board-Layer: $SolutionDir()$\Board\LPC55S69-EVK\Board.clayer.yml
 
   build-types:
     - type: Debug
