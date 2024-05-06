@@ -6,42 +6,39 @@ The Board layer is copied into a directory with the name `.\Board\B-U585I-IOT02A
 
 ## Workflow Issues
 
-1. Initially the project does not have any target-types.  The message should hint the user towards it.
+1. Initially the project does not have any target-types.  The message should hint the user towards it. Note that the message should refer to the target type.
 
 ```txt
   target-types:
-#    - type: B-U585I-IOT02A          # type name identical with board name?
+#    - type: B-U585I-IOT02A
 #      board: B-U585I-IOT02A
 #      variables:
-#       - Board-Layer: $SolutionDir$\Board\B-U585I-IOT02A\Board.clayer.yml
-#        - Board-Layer: C:\Test\USBD\Board\B-U585I-IOT02A\Board.clayer.yml
+#       - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
 
-C:\Test\USBD>cbuild USB_Device.csolution.yml   
-C:/Test/USBD/USB_Device.csolution.yml:6:3 - error csolution: node 'target-types' shall contain sequence elements
-```
+#    - type: LPC55S69-EVK
+#      board: LPC55S69-EVK
 
-2. With Targets added, tool should detect the missing variable `Board-Layer` and search for compatible layers
+
+2. With Targets added, tool should detect the missing variable `Board-Layer` and search for compatible layers.
 
 ```txt
   target-types:
    - type: B-U585I-IOT02A          # type name identical with board name?
      board: B-U585I-IOT02A
-#      variables:
-#       - Board-Layer: $SolutionDir$\Board\B-U585I-IOT02A\Board.clayer.yml
-#        - Board-Layer: C:\Test\USBD\Board\B-U585I-IOT02A\Board.clayer.yml
+     variables:
+       - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
 ```
 
-## Workaround to allow build
+Once `variables:` are set, the user can compile using:
 
-- Board\B-U585I-IOT02A\CubeMX\HID.cgen.yml added to make this command working
-
-```bash
-cbuild USB_Device.csolution.yml -S
+```
+>cbuild USB_Device.csolution.yml --update-rte --context-set --toolchain AC6
 ```
 
-## Problems
+> **Note:** To make it work use [CMSIS-Toolbox 2.4.0 pre-release devint1](https://github.com/brondani/cmsis-toolbox/releases/tag/2.4.0-devint1)
+
+## Known Problems
 
 - CMSIS-RTX pack: 
 MISSING ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0
   require Device:Startup
-
