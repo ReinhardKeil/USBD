@@ -167,1063 +167,1063 @@ Memory Map of the image
     0x08002360   0x00000050   Code   RO         5038    .text               c_wu.l(defsig_rtmem_inner.o)
     0x080023b0   0x0000000a   Code   RO         5047    .text               c_wu.l(h1_final_threads.o)
     0x080023ba   0x00000002   PAD
-    0x080023bc   0x00000016   Code   RO          617    .text.$Sub$$_fp_init  rtx_lib.o
+    0x080023bc   0x00000016   Code   RO         3241    .text.$Sub$$_fp_init  rtx_lib.o
     0x080023d2   0x00000002   PAD
-    0x080023d4   0x00000004   Code   RO         4440    .text.BusFault_Handler  stm32u5xx_it.o
-    0x080023d8   0x00000784   Code   RO         2072    .text.DMA_Init      stm32u5xx_hal_dma.o
-    0x08002b5c   0x0000005e   Code   RO         2119    .text.DMA_List_GetCLLRNodeInfo  stm32u5xx_hal_dma_ex.o
+    0x080023d4   0x00000004   Code   RO         2555    .text.BusFault_Handler  stm32u5xx_it.o
+    0x080023d8   0x00000784   Code   RO          187    .text.DMA_Init      stm32u5xx_hal_dma.o
+    0x08002b5c   0x0000005e   Code   RO          234    .text.DMA_List_GetCLLRNodeInfo  stm32u5xx_hal_dma_ex.o
     0x08002bba   0x00000002   PAD
-    0x08002bbc   0x00000040   Code   RO         2078    .text.DMA_SetConfig  stm32u5xx_hal_dma.o
-    0x08002bfc   0x00000002   Code   RO         4444    .text.DebugMon_Handler  stm32u5xx_it.o
+    0x08002bbc   0x00000040   Code   RO          193    .text.DMA_SetConfig  stm32u5xx_hal_dma.o
+    0x08002bfc   0x00000002   Code   RO         2559    .text.DebugMon_Handler  stm32u5xx_it.o
     0x08002bfe   0x00000002   PAD
-    0x08002c00   0x0000001a   Code   RO         1521    .text.EP_IDX        usbd_lib_core.o
+    0x08002c00   0x0000001a   Code   RO         4145    .text.EP_IDX        usbd_lib_core.o
     0x08002c1a   0x00000002   PAD
-    0x08002c1c   0x0000001e   Code   RO         1577    .text.EP_MSK        usbd_lib_core.o
+    0x08002c1c   0x0000001e   Code   RO         4201    .text.EP_MSK        usbd_lib_core.o
     0x08002c3a   0x00000002   PAD
-    0x08002c3c   0x00000006   Code   RO         4360    .text.Error_Handler  main.o
+    0x08002c3c   0x00000006   Code   RO         2475    .text.Error_Handler  main.o
     0x08002c42   0x00000002   PAD
-    0x08002c44   0x00000008   Code   RO          299    .text.EvrRtxDelay   rtx_evr.o
-    0x08002c4c   0x00000008   Code   RO          307    .text.EvrRtxDelayCompleted  rtx_evr.o
-    0x08002c54   0x00000008   Code   RO          297    .text.EvrRtxDelayError  rtx_evr.o
-    0x08002c5c   0x00000008   Code   RO          303    .text.EvrRtxDelayStarted  rtx_evr.o
-    0x08002c64   0x00000008   Code   RO          355    .text.EvrRtxEventFlagsWaitTimeout  rtx_evr.o
-    0x08002c6c   0x00000008   Code   RO          143    .text.EvrRtxKernelError  rtx_evr.o
-    0x08002c74   0x0000000a   Code   RO          191    .text.EvrRtxKernelErrorNotify  rtx_evr.o
+    0x08002c44   0x00000008   Code   RO         2923    .text.EvrRtxDelay   rtx_evr.o
+    0x08002c4c   0x00000008   Code   RO         2931    .text.EvrRtxDelayCompleted  rtx_evr.o
+    0x08002c54   0x00000008   Code   RO         2921    .text.EvrRtxDelayError  rtx_evr.o
+    0x08002c5c   0x00000008   Code   RO         2927    .text.EvrRtxDelayStarted  rtx_evr.o
+    0x08002c64   0x00000008   Code   RO         2979    .text.EvrRtxEventFlagsWaitTimeout  rtx_evr.o
+    0x08002c6c   0x00000008   Code   RO         2767    .text.EvrRtxKernelError  rtx_evr.o
+    0x08002c74   0x0000000a   Code   RO         2815    .text.EvrRtxKernelErrorNotify  rtx_evr.o
     0x08002c7e   0x00000002   PAD
-    0x08002c80   0x00000008   Code   RO          153    .text.EvrRtxKernelGetState  rtx_evr.o
-    0x08002c88   0x00000008   Code   RO          185    .text.EvrRtxKernelGetTickFreq  rtx_evr.o
-    0x08002c90   0x00000002   Code   RO          145    .text.EvrRtxKernelInitialize  rtx_evr.o
+    0x08002c80   0x00000008   Code   RO         2777    .text.EvrRtxKernelGetState  rtx_evr.o
+    0x08002c88   0x00000008   Code   RO         2809    .text.EvrRtxKernelGetTickFreq  rtx_evr.o
+    0x08002c90   0x00000002   Code   RO         2769    .text.EvrRtxKernelInitialize  rtx_evr.o
     0x08002c92   0x00000002   PAD
-    0x08002c94   0x00000002   Code   RO          147    .text.EvrRtxKernelInitialized  rtx_evr.o
+    0x08002c94   0x00000002   Code   RO         2771    .text.EvrRtxKernelInitialized  rtx_evr.o
     0x08002c96   0x00000002   PAD
-    0x08002c98   0x00000002   Code   RO          155    .text.EvrRtxKernelStart  rtx_evr.o
+    0x08002c98   0x00000002   Code   RO         2779    .text.EvrRtxKernelStart  rtx_evr.o
     0x08002c9a   0x00000002   PAD
-    0x08002c9c   0x00000002   Code   RO          157    .text.EvrRtxKernelStarted  rtx_evr.o
+    0x08002c9c   0x00000002   Code   RO         2781    .text.EvrRtxKernelStarted  rtx_evr.o
     0x08002c9e   0x00000002   PAD
-    0x08002ca0   0x0000000e   Code   RO          133    .text.EvrRtxMemoryAlloc  rtx_evr.o
+    0x08002ca0   0x0000000e   Code   RO         2757    .text.EvrRtxMemoryAlloc  rtx_evr.o
     0x08002cae   0x00000002   PAD
-    0x08002cb0   0x0000000a   Code   RO          139    .text.EvrRtxMemoryBlockAlloc  rtx_evr.o
+    0x08002cb0   0x0000000a   Code   RO         2763    .text.EvrRtxMemoryBlockAlloc  rtx_evr.o
     0x08002cba   0x00000002   PAD
-    0x08002cbc   0x0000000c   Code   RO          141    .text.EvrRtxMemoryBlockFree  rtx_evr.o
-    0x08002cc8   0x0000000e   Code   RO          137    .text.EvrRtxMemoryBlockInit  rtx_evr.o
+    0x08002cbc   0x0000000c   Code   RO         2765    .text.EvrRtxMemoryBlockFree  rtx_evr.o
+    0x08002cc8   0x0000000e   Code   RO         2761    .text.EvrRtxMemoryBlockInit  rtx_evr.o
     0x08002cd6   0x00000002   PAD
-    0x08002cd8   0x0000000c   Code   RO          135    .text.EvrRtxMemoryFree  rtx_evr.o
-    0x08002ce4   0x0000000c   Code   RO          131    .text.EvrRtxMemoryInit  rtx_evr.o
-    0x08002cf0   0x00000008   Code   RO          433    .text.EvrRtxMemoryPoolAllocTimeout  rtx_evr.o
-    0x08002cf8   0x0000000a   Code   RO          461    .text.EvrRtxMessageQueueCreated  rtx_evr.o
+    0x08002cd8   0x0000000c   Code   RO         2759    .text.EvrRtxMemoryFree  rtx_evr.o
+    0x08002ce4   0x0000000c   Code   RO         2755    .text.EvrRtxMemoryInit  rtx_evr.o
+    0x08002cf0   0x00000008   Code   RO         3057    .text.EvrRtxMemoryPoolAllocTimeout  rtx_evr.o
+    0x08002cf8   0x0000000a   Code   RO         3085    .text.EvrRtxMessageQueueCreated  rtx_evr.o
     0x08002d02   0x00000002   PAD
-    0x08002d04   0x0000000a   Code   RO          457    .text.EvrRtxMessageQueueError  rtx_evr.o
+    0x08002d04   0x0000000a   Code   RO         3081    .text.EvrRtxMessageQueueError  rtx_evr.o
     0x08002d0e   0x00000002   PAD
-    0x08002d10   0x0000000e   Code   RO          477    .text.EvrRtxMessageQueueGet  rtx_evr.o
+    0x08002d10   0x0000000e   Code   RO         3101    .text.EvrRtxMessageQueueGet  rtx_evr.o
     0x08002d1e   0x00000002   PAD
-    0x08002d20   0x0000000c   Code   RO          479    .text.EvrRtxMessageQueueGetPending  rtx_evr.o
-    0x08002d2c   0x00000008   Code   RO          481    .text.EvrRtxMessageQueueGetTimeout  rtx_evr.o
-    0x08002d34   0x0000000a   Code   RO          471    .text.EvrRtxMessageQueueInsertPending  rtx_evr.o
+    0x08002d20   0x0000000c   Code   RO         3103    .text.EvrRtxMessageQueueGetPending  rtx_evr.o
+    0x08002d2c   0x00000008   Code   RO         3105    .text.EvrRtxMessageQueueGetTimeout  rtx_evr.o
+    0x08002d34   0x0000000a   Code   RO         3095    .text.EvrRtxMessageQueueInsertPending  rtx_evr.o
     0x08002d3e   0x00000002   PAD
-    0x08002d40   0x0000000a   Code   RO          473    .text.EvrRtxMessageQueueInserted  rtx_evr.o
+    0x08002d40   0x0000000a   Code   RO         3097    .text.EvrRtxMessageQueueInserted  rtx_evr.o
     0x08002d4a   0x00000002   PAD
-    0x08002d4c   0x0000000a   Code   RO          475    .text.EvrRtxMessageQueueNotInserted  rtx_evr.o
+    0x08002d4c   0x0000000a   Code   RO         3099    .text.EvrRtxMessageQueueNotInserted  rtx_evr.o
     0x08002d56   0x00000002   PAD
-    0x08002d58   0x0000000a   Code   RO          485    .text.EvrRtxMessageQueueNotRetrieved  rtx_evr.o
+    0x08002d58   0x0000000a   Code   RO         3109    .text.EvrRtxMessageQueueNotRetrieved  rtx_evr.o
     0x08002d62   0x00000002   PAD
-    0x08002d64   0x00000010   Code   RO          465    .text.EvrRtxMessageQueuePut  rtx_evr.o
-    0x08002d74   0x0000000c   Code   RO          467    .text.EvrRtxMessageQueuePutPending  rtx_evr.o
-    0x08002d80   0x00000008   Code   RO          469    .text.EvrRtxMessageQueuePutTimeout  rtx_evr.o
-    0x08002d88   0x0000000a   Code   RO          483    .text.EvrRtxMessageQueueRetrieved  rtx_evr.o
+    0x08002d64   0x00000010   Code   RO         3089    .text.EvrRtxMessageQueuePut  rtx_evr.o
+    0x08002d74   0x0000000c   Code   RO         3091    .text.EvrRtxMessageQueuePutPending  rtx_evr.o
+    0x08002d80   0x00000008   Code   RO         3093    .text.EvrRtxMessageQueuePutTimeout  rtx_evr.o
+    0x08002d88   0x0000000a   Code   RO         3107    .text.EvrRtxMessageQueueRetrieved  rtx_evr.o
     0x08002d92   0x00000002   PAD
-    0x08002d94   0x0000000a   Code   RO          373    .text.EvrRtxMutexAcquire  rtx_evr.o
+    0x08002d94   0x0000000a   Code   RO         2997    .text.EvrRtxMutexAcquire  rtx_evr.o
     0x08002d9e   0x00000002   PAD
-    0x08002da0   0x0000000a   Code   RO          375    .text.EvrRtxMutexAcquirePending  rtx_evr.o
+    0x08002da0   0x0000000a   Code   RO         2999    .text.EvrRtxMutexAcquirePending  rtx_evr.o
     0x08002daa   0x00000002   PAD
-    0x08002dac   0x00000008   Code   RO          377    .text.EvrRtxMutexAcquireTimeout  rtx_evr.o
-    0x08002db4   0x0000000a   Code   RO          379    .text.EvrRtxMutexAcquired  rtx_evr.o
+    0x08002dac   0x00000008   Code   RO         3001    .text.EvrRtxMutexAcquireTimeout  rtx_evr.o
+    0x08002db4   0x0000000a   Code   RO         3003    .text.EvrRtxMutexAcquired  rtx_evr.o
     0x08002dbe   0x00000002   PAD
-    0x08002dc0   0x0000000a   Code   RO          369    .text.EvrRtxMutexCreated  rtx_evr.o
+    0x08002dc0   0x0000000a   Code   RO         2993    .text.EvrRtxMutexCreated  rtx_evr.o
     0x08002dca   0x00000002   PAD
-    0x08002dcc   0x00000008   Code   RO          389    .text.EvrRtxMutexDelete  rtx_evr.o
-    0x08002dd4   0x00000008   Code   RO          391    .text.EvrRtxMutexDestroyed  rtx_evr.o
-    0x08002ddc   0x0000000a   Code   RO          365    .text.EvrRtxMutexError  rtx_evr.o
+    0x08002dcc   0x00000008   Code   RO         3013    .text.EvrRtxMutexDelete  rtx_evr.o
+    0x08002dd4   0x00000008   Code   RO         3015    .text.EvrRtxMutexDestroyed  rtx_evr.o
+    0x08002ddc   0x0000000a   Code   RO         2989    .text.EvrRtxMutexError  rtx_evr.o
     0x08002de6   0x00000002   PAD
-    0x08002de8   0x00000008   Code   RO          367    .text.EvrRtxMutexNew  rtx_evr.o
-    0x08002df0   0x00000008   Code   RO          381    .text.EvrRtxMutexNotAcquired  rtx_evr.o
-    0x08002df8   0x00000008   Code   RO          383    .text.EvrRtxMutexRelease  rtx_evr.o
-    0x08002e00   0x0000000a   Code   RO          385    .text.EvrRtxMutexReleased  rtx_evr.o
+    0x08002de8   0x00000008   Code   RO         2991    .text.EvrRtxMutexNew  rtx_evr.o
+    0x08002df0   0x00000008   Code   RO         3005    .text.EvrRtxMutexNotAcquired  rtx_evr.o
+    0x08002df8   0x00000008   Code   RO         3007    .text.EvrRtxMutexRelease  rtx_evr.o
+    0x08002e00   0x0000000a   Code   RO         3009    .text.EvrRtxMutexReleased  rtx_evr.o
     0x08002e0a   0x00000002   PAD
-    0x08002e0c   0x0000000a   Code   RO          401    .text.EvrRtxSemaphoreAcquire  rtx_evr.o
+    0x08002e0c   0x0000000a   Code   RO         3025    .text.EvrRtxSemaphoreAcquire  rtx_evr.o
     0x08002e16   0x00000002   PAD
-    0x08002e18   0x0000000a   Code   RO          403    .text.EvrRtxSemaphoreAcquirePending  rtx_evr.o
+    0x08002e18   0x0000000a   Code   RO         3027    .text.EvrRtxSemaphoreAcquirePending  rtx_evr.o
     0x08002e22   0x00000002   PAD
-    0x08002e24   0x00000008   Code   RO          405    .text.EvrRtxSemaphoreAcquireTimeout  rtx_evr.o
-    0x08002e2c   0x0000000a   Code   RO          407    .text.EvrRtxSemaphoreAcquired  rtx_evr.o
+    0x08002e24   0x00000008   Code   RO         3029    .text.EvrRtxSemaphoreAcquireTimeout  rtx_evr.o
+    0x08002e2c   0x0000000a   Code   RO         3031    .text.EvrRtxSemaphoreAcquired  rtx_evr.o
     0x08002e36   0x00000002   PAD
-    0x08002e38   0x0000000a   Code   RO          397    .text.EvrRtxSemaphoreCreated  rtx_evr.o
+    0x08002e38   0x0000000a   Code   RO         3021    .text.EvrRtxSemaphoreCreated  rtx_evr.o
     0x08002e42   0x00000002   PAD
-    0x08002e44   0x00000008   Code   RO          417    .text.EvrRtxSemaphoreDelete  rtx_evr.o
-    0x08002e4c   0x00000008   Code   RO          419    .text.EvrRtxSemaphoreDestroyed  rtx_evr.o
-    0x08002e54   0x0000000a   Code   RO          393    .text.EvrRtxSemaphoreError  rtx_evr.o
+    0x08002e44   0x00000008   Code   RO         3041    .text.EvrRtxSemaphoreDelete  rtx_evr.o
+    0x08002e4c   0x00000008   Code   RO         3043    .text.EvrRtxSemaphoreDestroyed  rtx_evr.o
+    0x08002e54   0x0000000a   Code   RO         3017    .text.EvrRtxSemaphoreError  rtx_evr.o
     0x08002e5e   0x00000002   PAD
-    0x08002e60   0x0000000c   Code   RO          395    .text.EvrRtxSemaphoreNew  rtx_evr.o
-    0x08002e6c   0x00000008   Code   RO          409    .text.EvrRtxSemaphoreNotAcquired  rtx_evr.o
-    0x08002e74   0x00000008   Code   RO          411    .text.EvrRtxSemaphoreRelease  rtx_evr.o
-    0x08002e7c   0x0000000a   Code   RO          413    .text.EvrRtxSemaphoreReleased  rtx_evr.o
+    0x08002e60   0x0000000c   Code   RO         3019    .text.EvrRtxSemaphoreNew  rtx_evr.o
+    0x08002e6c   0x00000008   Code   RO         3033    .text.EvrRtxSemaphoreNotAcquired  rtx_evr.o
+    0x08002e74   0x00000008   Code   RO         3035    .text.EvrRtxSemaphoreRelease  rtx_evr.o
+    0x08002e7c   0x0000000a   Code   RO         3037    .text.EvrRtxSemaphoreReleased  rtx_evr.o
     0x08002e86   0x00000002   PAD
-    0x08002e88   0x0000000a   Code   RO          241    .text.EvrRtxThreadBlocked  rtx_evr.o
+    0x08002e88   0x0000000a   Code   RO         2865    .text.EvrRtxThreadBlocked  rtx_evr.o
     0x08002e92   0x00000002   PAD
-    0x08002e94   0x0000000c   Code   RO          199    .text.EvrRtxThreadCreated  rtx_evr.o
-    0x08002ea0   0x00000008   Code   RO          253    .text.EvrRtxThreadDestroyed  rtx_evr.o
-    0x08002ea8   0x0000000a   Code   RO          195    .text.EvrRtxThreadError  rtx_evr.o
+    0x08002e94   0x0000000c   Code   RO         2823    .text.EvrRtxThreadCreated  rtx_evr.o
+    0x08002ea0   0x00000008   Code   RO         2877    .text.EvrRtxThreadDestroyed  rtx_evr.o
+    0x08002ea8   0x0000000a   Code   RO         2819    .text.EvrRtxThreadError  rtx_evr.o
     0x08002eb2   0x00000002   PAD
-    0x08002eb4   0x00000002   Code   RO          249    .text.EvrRtxThreadExit  rtx_evr.o
+    0x08002eb4   0x00000002   Code   RO         2873    .text.EvrRtxThreadExit  rtx_evr.o
     0x08002eb6   0x00000002   PAD
-    0x08002eb8   0x0000000a   Code   RO          275    .text.EvrRtxThreadFlagsError  rtx_evr.o
+    0x08002eb8   0x0000000a   Code   RO         2899    .text.EvrRtxThreadFlagsError  rtx_evr.o
     0x08002ec2   0x00000002   PAD
-    0x08002ec4   0x0000000a   Code   RO          277    .text.EvrRtxThreadFlagsSet  rtx_evr.o
+    0x08002ec4   0x0000000a   Code   RO         2901    .text.EvrRtxThreadFlagsSet  rtx_evr.o
     0x08002ece   0x00000002   PAD
-    0x08002ed0   0x0000000a   Code   RO          279    .text.EvrRtxThreadFlagsSetDone  rtx_evr.o
+    0x08002ed0   0x0000000a   Code   RO         2903    .text.EvrRtxThreadFlagsSetDone  rtx_evr.o
     0x08002eda   0x00000002   PAD
-    0x08002edc   0x0000000c   Code   RO          287    .text.EvrRtxThreadFlagsWait  rtx_evr.o
-    0x08002ee8   0x0000000e   Code   RO          293    .text.EvrRtxThreadFlagsWaitCompleted  rtx_evr.o
+    0x08002edc   0x0000000c   Code   RO         2911    .text.EvrRtxThreadFlagsWait  rtx_evr.o
+    0x08002ee8   0x0000000e   Code   RO         2917    .text.EvrRtxThreadFlagsWaitCompleted  rtx_evr.o
     0x08002ef6   0x00000002   PAD
-    0x08002ef8   0x0000000a   Code   RO          295    .text.EvrRtxThreadFlagsWaitNotCompleted  rtx_evr.o
+    0x08002ef8   0x0000000a   Code   RO         2919    .text.EvrRtxThreadFlagsWaitNotCompleted  rtx_evr.o
     0x08002f02   0x00000002   PAD
-    0x08002f04   0x0000000c   Code   RO          289    .text.EvrRtxThreadFlagsWaitPending  rtx_evr.o
-    0x08002f10   0x00000008   Code   RO          291    .text.EvrRtxThreadFlagsWaitTimeout  rtx_evr.o
-    0x08002f18   0x00000008   Code   RO          207    .text.EvrRtxThreadGetId  rtx_evr.o
-    0x08002f20   0x00000008   Code   RO          239    .text.EvrRtxThreadJoined  rtx_evr.o
-    0x08002f28   0x0000000c   Code   RO          197    .text.EvrRtxThreadNew  rtx_evr.o
-    0x08002f34   0x00000008   Code   RO          245    .text.EvrRtxThreadPreempted  rtx_evr.o
-    0x08002f3c   0x00000008   Code   RO          247    .text.EvrRtxThreadSwitched  rtx_evr.o
-    0x08002f44   0x00000008   Code   RO          251    .text.EvrRtxThreadTerminate  rtx_evr.o
-    0x08002f4c   0x0000000a   Code   RO          243    .text.EvrRtxThreadUnblocked  rtx_evr.o
+    0x08002f04   0x0000000c   Code   RO         2913    .text.EvrRtxThreadFlagsWaitPending  rtx_evr.o
+    0x08002f10   0x00000008   Code   RO         2915    .text.EvrRtxThreadFlagsWaitTimeout  rtx_evr.o
+    0x08002f18   0x00000008   Code   RO         2831    .text.EvrRtxThreadGetId  rtx_evr.o
+    0x08002f20   0x00000008   Code   RO         2863    .text.EvrRtxThreadJoined  rtx_evr.o
+    0x08002f28   0x0000000c   Code   RO         2821    .text.EvrRtxThreadNew  rtx_evr.o
+    0x08002f34   0x00000008   Code   RO         2869    .text.EvrRtxThreadPreempted  rtx_evr.o
+    0x08002f3c   0x00000008   Code   RO         2871    .text.EvrRtxThreadSwitched  rtx_evr.o
+    0x08002f44   0x00000008   Code   RO         2875    .text.EvrRtxThreadTerminate  rtx_evr.o
+    0x08002f4c   0x0000000a   Code   RO         2867    .text.EvrRtxThreadUnblocked  rtx_evr.o
     0x08002f56   0x00000002   PAD
-    0x08002f58   0x0000000a   Code   RO          311    .text.EvrRtxTimerCallback  rtx_evr.o
+    0x08002f58   0x0000000a   Code   RO         2935    .text.EvrRtxTimerCallback  rtx_evr.o
     0x08002f62   0x00000002   PAD
-    0x08002f64   0x0000000a   Code   RO          315    .text.EvrRtxTimerCreated  rtx_evr.o
+    0x08002f64   0x0000000a   Code   RO         2939    .text.EvrRtxTimerCreated  rtx_evr.o
     0x08002f6e   0x00000002   PAD
-    0x08002f70   0x0000000a   Code   RO          309    .text.EvrRtxTimerError  rtx_evr.o
+    0x08002f70   0x0000000a   Code   RO         2933    .text.EvrRtxTimerError  rtx_evr.o
     0x08002f7a   0x00000002   PAD
-    0x08002f7c   0x0000000a   Code   RO          327    .text.EvrRtxTimerIsRunning  rtx_evr.o
+    0x08002f7c   0x0000000a   Code   RO         2951    .text.EvrRtxTimerIsRunning  rtx_evr.o
     0x08002f86   0x00000002   PAD
-    0x08002f88   0x0000000e   Code   RO          313    .text.EvrRtxTimerNew  rtx_evr.o
+    0x08002f88   0x0000000e   Code   RO         2937    .text.EvrRtxTimerNew  rtx_evr.o
     0x08002f96   0x00000002   PAD
-    0x08002f98   0x0000000a   Code   RO          319    .text.EvrRtxTimerStart  rtx_evr.o
+    0x08002f98   0x0000000a   Code   RO         2943    .text.EvrRtxTimerStart  rtx_evr.o
     0x08002fa2   0x00000002   PAD
-    0x08002fa4   0x00000008   Code   RO          321    .text.EvrRtxTimerStarted  rtx_evr.o
-    0x08002fac   0x00000008   Code   RO          323    .text.EvrRtxTimerStop  rtx_evr.o
-    0x08002fb4   0x00000008   Code   RO          325    .text.EvrRtxTimerStopped  rtx_evr.o
-    0x08002fbc   0x0000011a   Code   RO         2121    .text.HAL_DMAEx_List_Start_IT  stm32u5xx_hal_dma_ex.o
+    0x08002fa4   0x00000008   Code   RO         2945    .text.EvrRtxTimerStarted  rtx_evr.o
+    0x08002fac   0x00000008   Code   RO         2947    .text.EvrRtxTimerStop  rtx_evr.o
+    0x08002fb4   0x00000008   Code   RO         2949    .text.EvrRtxTimerStopped  rtx_evr.o
+    0x08002fbc   0x0000011a   Code   RO          236    .text.HAL_DMAEx_List_Start_IT  stm32u5xx_hal_dma_ex.o
     0x080030d6   0x00000002   PAD
-    0x080030d8   0x000000fc   Code   RO         2082    .text.HAL_DMA_Abort  stm32u5xx_hal_dma.o
-    0x080031d4   0x00000048   Code   RO         2084    .text.HAL_DMA_Abort_IT  stm32u5xx_hal_dma.o
-    0x0800321c   0x0000000c   Code   RO         2096    .text.HAL_DMA_GetError  stm32u5xx_hal_dma.o
-    0x08003228   0x00000380   Code   RO         2070    .text.HAL_DMA_Init  stm32u5xx_hal_dma.o
-    0x080035a8   0x000000be   Code   RO         2080    .text.HAL_DMA_Start_IT  stm32u5xx_hal_dma.o
+    0x080030d8   0x000000fc   Code   RO          197    .text.HAL_DMA_Abort  stm32u5xx_hal_dma.o
+    0x080031d4   0x00000048   Code   RO          199    .text.HAL_DMA_Abort_IT  stm32u5xx_hal_dma.o
+    0x0800321c   0x0000000c   Code   RO          211    .text.HAL_DMA_GetError  stm32u5xx_hal_dma.o
+    0x08003228   0x00000380   Code   RO          185    .text.HAL_DMA_Init  stm32u5xx_hal_dma.o
+    0x080035a8   0x000000be   Code   RO          195    .text.HAL_DMA_Start_IT  stm32u5xx_hal_dma.o
     0x08003666   0x00000002   PAD
-    0x08003668   0x00000042   Code   RO         1923    .text.HAL_Delay     stm32u5xx_hal.o
+    0x08003668   0x00000042   Code   RO           38    .text.HAL_Delay     stm32u5xx_hal.o
     0x080036aa   0x00000002   PAD
-    0x080036ac   0x00000196   Code   RO         2337    .text.HAL_GPIO_DeInit  stm32u5xx_hal_gpio.o
+    0x080036ac   0x00000196   Code   RO          452    .text.HAL_GPIO_DeInit  stm32u5xx_hal_gpio.o
     0x08003842   0x00000002   PAD
-    0x08003844   0x000003d8   Code   RO         2335    .text.HAL_GPIO_Init  stm32u5xx_hal_gpio.o
-    0x08003c1c   0x00000028   Code   RO         2339    .text.HAL_GPIO_ReadPin  stm32u5xx_hal_gpio.o
-    0x08003c44   0x00000028   Code   RO         2341    .text.HAL_GPIO_WritePin  stm32u5xx_hal_gpio.o
-    0x08003c6c   0x0000000c   Code   RO         1915    .text.HAL_GetTick   stm32u5xx_hal.o
-    0x08003c78   0x00000084   Code   RO         2537    .text.HAL_I2CEx_ConfigAnalogFilter  stm32u5xx_hal_i2c_ex.o
-    0x08003cfc   0x0000008e   Code   RO         2539    .text.HAL_I2CEx_ConfigDigitalFilter  stm32u5xx_hal_i2c_ex.o
+    0x08003844   0x000003d8   Code   RO          450    .text.HAL_GPIO_Init  stm32u5xx_hal_gpio.o
+    0x08003c1c   0x00000028   Code   RO          454    .text.HAL_GPIO_ReadPin  stm32u5xx_hal_gpio.o
+    0x08003c44   0x00000028   Code   RO          456    .text.HAL_GPIO_WritePin  stm32u5xx_hal_gpio.o
+    0x08003c6c   0x0000000c   Code   RO           30    .text.HAL_GetTick   stm32u5xx_hal.o
+    0x08003c78   0x00000084   Code   RO          652    .text.HAL_I2CEx_ConfigAnalogFilter  stm32u5xx_hal_i2c_ex.o
+    0x08003cfc   0x0000008e   Code   RO          654    .text.HAL_I2CEx_ConfigDigitalFilter  stm32u5xx_hal_i2c_ex.o
     0x08003d8a   0x00000002   PAD
-    0x08003d8c   0x00000104   Code   RO         2368    .text.HAL_I2C_Init  stm32u5xx_hal_i2c.o
-    0x08003e90   0x00000136   Code   RO         4392    .text.HAL_I2C_MspInit  stm32u5xx_hal_msp.o
+    0x08003d8c   0x00000104   Code   RO          483    .text.HAL_I2C_Init  stm32u5xx_hal_i2c.o
+    0x08003e90   0x00000136   Code   RO         2507    .text.HAL_I2C_MspInit  stm32u5xx_hal_msp.o
     0x08003fc6   0x00000002   PAD
-    0x08003fc8   0x0000003a   Code   RO         2560    .text.HAL_ICACHE_ConfigAssociativityMode  stm32u5xx_hal_icache.o
+    0x08003fc8   0x0000003a   Code   RO          675    .text.HAL_ICACHE_ConfigAssociativityMode  stm32u5xx_hal_icache.o
     0x08004002   0x00000002   PAD
-    0x08004004   0x00000014   Code   RO         2564    .text.HAL_ICACHE_Enable  stm32u5xx_hal_icache.o
-    0x08004018   0x0000001a   Code   RO         1913    .text.HAL_IncTick   stm32u5xx_hal.o
+    0x08004004   0x00000014   Code   RO          679    .text.HAL_ICACHE_Enable  stm32u5xx_hal_icache.o
+    0x08004018   0x0000001a   Code   RO           28    .text.HAL_IncTick   stm32u5xx_hal.o
     0x08004032   0x00000002   PAD
-    0x08004034   0x00000068   Code   RO         1903    .text.HAL_Init      stm32u5xx_hal.o
-    0x0800409c   0x000000c8   Code   RO         4420    .text.HAL_InitTick  stm32u5xx_hal_timebase_tim.o
-    0x08004164   0x00000346   Code   RO         2603    .text.HAL_MDF_Init  stm32u5xx_hal_mdf.o
+    0x08004034   0x00000068   Code   RO           18    .text.HAL_Init      stm32u5xx_hal.o
+    0x0800409c   0x000000c8   Code   RO         2535    .text.HAL_InitTick  stm32u5xx_hal_timebase_tim.o
+    0x08004164   0x00000346   Code   RO          718    .text.HAL_MDF_Init  stm32u5xx_hal_mdf.o
     0x080044aa   0x00000002   PAD
-    0x080044ac   0x000000ac   Code   RO         4388    .text.HAL_MDF_MspInit  stm32u5xx_hal_msp.o
-    0x08004558   0x00000024   Code   RO         4386    .text.HAL_MspInit   stm32u5xx_hal_msp.o
-    0x0800457c   0x00000010   Code   RO         2005    .text.HAL_NVIC_DisableIRQ  stm32u5xx_hal_cortex.o
-    0x0800458c   0x00000010   Code   RO         2001    .text.HAL_NVIC_EnableIRQ  stm32u5xx_hal_cortex.o
-    0x0800459c   0x0000002a   Code   RO         1993    .text.HAL_NVIC_SetPriority  stm32u5xx_hal_cortex.o
+    0x080044ac   0x000000ac   Code   RO         2503    .text.HAL_MDF_MspInit  stm32u5xx_hal_msp.o
+    0x08004558   0x00000024   Code   RO         2501    .text.HAL_MspInit   stm32u5xx_hal_msp.o
+    0x0800457c   0x00000010   Code   RO          120    .text.HAL_NVIC_DisableIRQ  stm32u5xx_hal_cortex.o
+    0x0800458c   0x00000010   Code   RO          116    .text.HAL_NVIC_EnableIRQ  stm32u5xx_hal_cortex.o
+    0x0800459c   0x0000002a   Code   RO          108    .text.HAL_NVIC_SetPriority  stm32u5xx_hal_cortex.o
     0x080045c6   0x00000002   PAD
-    0x080045c8   0x00000010   Code   RO         1989    .text.HAL_NVIC_SetPriorityGrouping  stm32u5xx_hal_cortex.o
-    0x080045d8   0x00000832   Code   RO         2795    .text.HAL_OSPIM_Config  stm32u5xx_hal_ospi.o
+    0x080045c8   0x00000010   Code   RO          104    .text.HAL_NVIC_SetPriorityGrouping  stm32u5xx_hal_cortex.o
+    0x080045d8   0x00000832   Code   RO          910    .text.HAL_OSPIM_Config  stm32u5xx_hal_ospi.o
     0x08004e0a   0x00000002   PAD
-    0x08004e0c   0x000000e6   Code   RO         2783    .text.HAL_OSPI_Abort  stm32u5xx_hal_ospi.o
+    0x08004e0c   0x000000e6   Code   RO          898    .text.HAL_OSPI_Abort  stm32u5xx_hal_ospi.o
     0x08004ef2   0x00000002   PAD
-    0x08004ef4   0x00000096   Code   RO         2799    .text.HAL_OSPI_DLYB_SetConfig  stm32u5xx_hal_ospi.o
+    0x08004ef4   0x00000096   Code   RO          914    .text.HAL_OSPI_DLYB_SetConfig  stm32u5xx_hal_ospi.o
     0x08004f8a   0x00000002   PAD
-    0x08004f8c   0x0000017e   Code   RO         2713    .text.HAL_OSPI_Init  stm32u5xx_hal_ospi.o
+    0x08004f8c   0x0000017e   Code   RO          828    .text.HAL_OSPI_Init  stm32u5xx_hal_ospi.o
     0x0800510a   0x00000002   PAD
-    0x0800510c   0x000003f2   Code   RO         4396    .text.HAL_OSPI_MspInit  stm32u5xx_hal_msp.o
+    0x0800510c   0x000003f2   Code   RO         2511    .text.HAL_OSPI_MspInit  stm32u5xx_hal_msp.o
     0x080054fe   0x00000002   PAD
-    0x08005500   0x00000012   Code   RO         2717    .text.HAL_OSPI_SetTimeout  stm32u5xx_hal_ospi.o
+    0x08005500   0x00000012   Code   RO          832    .text.HAL_OSPI_SetTimeout  stm32u5xx_hal_ospi.o
     0x08005512   0x00000002   PAD
-    0x08005514   0x00000036   Code   RO         2901    .text.HAL_PCDEx_ActivateLPM  stm32u5xx_hal_pcd_ex.o
+    0x08005514   0x00000036   Code   RO         1016    .text.HAL_PCDEx_ActivateLPM  stm32u5xx_hal_pcd_ex.o
     0x0800554a   0x00000002   PAD
-    0x0800554c   0x0000000a   Code   RO         2913    .text.HAL_PCDEx_LPM_Callback  stm32u5xx_hal_pcd_ex.o
+    0x0800554c   0x0000000a   Code   RO         1028    .text.HAL_PCDEx_LPM_Callback  stm32u5xx_hal_pcd_ex.o
     0x08005556   0x00000002   PAD
-    0x08005558   0x00000018   Code   RO         2899    .text.HAL_PCDEx_SetRxFiFo  stm32u5xx_hal_pcd_ex.o
-    0x08005570   0x0000009c   Code   RO         2897    .text.HAL_PCDEx_SetTxFiFo  stm32u5xx_hal_pcd_ex.o
-    0x0800560c   0x00000012   Code   RO         2882    .text.HAL_PCD_ActivateRemoteWakeup  stm32u5xx_hal_pcd.o
+    0x08005558   0x00000018   Code   RO         1014    .text.HAL_PCDEx_SetRxFiFo  stm32u5xx_hal_pcd_ex.o
+    0x08005570   0x0000009c   Code   RO         1012    .text.HAL_PCDEx_SetTxFiFo  stm32u5xx_hal_pcd_ex.o
+    0x0800560c   0x00000012   Code   RO          997    .text.HAL_PCD_ActivateRemoteWakeup  stm32u5xx_hal_pcd.o
     0x0800561e   0x00000002   PAD
-    0x08005620   0x00000028   Code   RO         1845    .text.HAL_PCD_ConnectCallback  USBD_OTG_STM32U5xx.o
-    0x08005648   0x000000f6   Code   RO         1829    .text.HAL_PCD_DataInStageCallback  USBD_OTG_STM32U5xx.o
+    0x08005620   0x00000028   Code   RO         4469    .text.HAL_PCD_ConnectCallback  USBD_OTG_STM32U5xx.o
+    0x08005648   0x000000f6   Code   RO         4453    .text.HAL_PCD_DataInStageCallback  USBD_OTG_STM32U5xx.o
     0x0800573e   0x00000002   PAD
-    0x08005740   0x00000112   Code   RO         1827    .text.HAL_PCD_DataOutStageCallback  USBD_OTG_STM32U5xx.o
+    0x08005740   0x00000112   Code   RO         4451    .text.HAL_PCD_DataOutStageCallback  USBD_OTG_STM32U5xx.o
     0x08005852   0x00000002   PAD
-    0x08005854   0x00000044   Code   RO         2820    .text.HAL_PCD_DeInit  stm32u5xx_hal_pcd.o
-    0x08005898   0x00000062   Code   RO         2862    .text.HAL_PCD_DevDisconnect  stm32u5xx_hal_pcd.o
+    0x08005854   0x00000044   Code   RO          935    .text.HAL_PCD_DeInit  stm32u5xx_hal_pcd.o
+    0x08005898   0x00000062   Code   RO          977    .text.HAL_PCD_DevDisconnect  stm32u5xx_hal_pcd.o
     0x080058fa   0x00000002   PAD
-    0x080058fc   0x00000028   Code   RO         1847    .text.HAL_PCD_DisconnectCallback  USBD_OTG_STM32U5xx.o
-    0x08005924   0x0000005a   Code   RO         2850    .text.HAL_PCD_EP_Abort  stm32u5xx_hal_pcd.o
+    0x080058fc   0x00000028   Code   RO         4471    .text.HAL_PCD_DisconnectCallback  USBD_OTG_STM32U5xx.o
+    0x08005924   0x0000005a   Code   RO          965    .text.HAL_PCD_EP_Abort  stm32u5xx_hal_pcd.o
     0x0800597e   0x00000002   PAD
-    0x08005980   0x000000a2   Code   RO         2868    .text.HAL_PCD_EP_Close  stm32u5xx_hal_pcd.o
+    0x08005980   0x000000a2   Code   RO          983    .text.HAL_PCD_EP_Close  stm32u5xx_hal_pcd.o
     0x08005a22   0x00000002   PAD
-    0x08005a24   0x000000c0   Code   RO         2878    .text.HAL_PCD_EP_ClrStall  stm32u5xx_hal_pcd.o
-    0x08005ae4   0x00000022   Code   RO         2872    .text.HAL_PCD_EP_GetRxCount  stm32u5xx_hal_pcd.o
+    0x08005a24   0x000000c0   Code   RO          993    .text.HAL_PCD_EP_ClrStall  stm32u5xx_hal_pcd.o
+    0x08005ae4   0x00000022   Code   RO          987    .text.HAL_PCD_EP_GetRxCount  stm32u5xx_hal_pcd.o
     0x08005b06   0x00000002   PAD
-    0x08005b08   0x000000e0   Code   RO         2866    .text.HAL_PCD_EP_Open  stm32u5xx_hal_pcd.o
-    0x08005be8   0x0000006c   Code   RO         2870    .text.HAL_PCD_EP_Receive  stm32u5xx_hal_pcd.o
-    0x08005c54   0x000000d6   Code   RO         2876    .text.HAL_PCD_EP_SetStall  stm32u5xx_hal_pcd.o
+    0x08005b08   0x000000e0   Code   RO          981    .text.HAL_PCD_EP_Open  stm32u5xx_hal_pcd.o
+    0x08005be8   0x0000006c   Code   RO          985    .text.HAL_PCD_EP_Receive  stm32u5xx_hal_pcd.o
+    0x08005c54   0x000000d6   Code   RO          991    .text.HAL_PCD_EP_SetStall  stm32u5xx_hal_pcd.o
     0x08005d2a   0x00000002   PAD
-    0x08005d2c   0x0000006c   Code   RO         2874    .text.HAL_PCD_EP_Transmit  stm32u5xx_hal_pcd.o
-    0x08005d98   0x00000888   Code   RO         2828    .text.HAL_PCD_IRQHandler  stm32u5xx_hal_pcd.o
-    0x08006620   0x0000000c   Code   RO         1843    .text.HAL_PCD_ISOINIncompleteCallback  USBD_OTG_STM32U5xx.o
-    0x0800662c   0x0000000c   Code   RO         1841    .text.HAL_PCD_ISOOUTIncompleteCallback  USBD_OTG_STM32U5xx.o
-    0x08006638   0x0000024a   Code   RO         2816    .text.HAL_PCD_Init  stm32u5xx_hal_pcd.o
+    0x08005d2c   0x0000006c   Code   RO          989    .text.HAL_PCD_EP_Transmit  stm32u5xx_hal_pcd.o
+    0x08005d98   0x00000888   Code   RO          943    .text.HAL_PCD_IRQHandler  stm32u5xx_hal_pcd.o
+    0x08006620   0x0000000c   Code   RO         4467    .text.HAL_PCD_ISOINIncompleteCallback  USBD_OTG_STM32U5xx.o
+    0x0800662c   0x0000000c   Code   RO         4465    .text.HAL_PCD_ISOOUTIncompleteCallback  USBD_OTG_STM32U5xx.o
+    0x08006638   0x0000024a   Code   RO          931    .text.HAL_PCD_Init  stm32u5xx_hal_pcd.o
     0x08006882   0x00000002   PAD
-    0x08006884   0x0000003a   Code   RO         4410    .text.HAL_PCD_MspDeInit  stm32u5xx_hal_msp.o
+    0x08006884   0x0000003a   Code   RO         2525    .text.HAL_PCD_MspDeInit  stm32u5xx_hal_msp.o
     0x080068be   0x00000002   PAD
-    0x080068c0   0x000000f4   Code   RO         4408    .text.HAL_PCD_MspInit  stm32u5xx_hal_msp.o
-    0x080069b4   0x0000007c   Code   RO         1835    .text.HAL_PCD_ResetCallback  USBD_OTG_STM32U5xx.o
-    0x08006a30   0x00000028   Code   RO         1839    .text.HAL_PCD_ResumeCallback  USBD_OTG_STM32U5xx.o
-    0x08006a58   0x00000008   Code   RO         2848    .text.HAL_PCD_SOFCallback  stm32u5xx_hal_pcd.o
-    0x08006a60   0x00000056   Code   RO         2864    .text.HAL_PCD_SetAddress  stm32u5xx_hal_pcd.o
+    0x080068c0   0x000000f4   Code   RO         2523    .text.HAL_PCD_MspInit  stm32u5xx_hal_msp.o
+    0x080069b4   0x0000007c   Code   RO         4459    .text.HAL_PCD_ResetCallback  USBD_OTG_STM32U5xx.o
+    0x08006a30   0x00000028   Code   RO         4463    .text.HAL_PCD_ResumeCallback  USBD_OTG_STM32U5xx.o
+    0x08006a58   0x00000008   Code   RO          963    .text.HAL_PCD_SOFCallback  stm32u5xx_hal_pcd.o
+    0x08006a60   0x00000056   Code   RO          979    .text.HAL_PCD_SetAddress  stm32u5xx_hal_pcd.o
     0x08006ab6   0x00000002   PAD
-    0x08006ab8   0x00000066   Code   RO         1831    .text.HAL_PCD_SetupStageCallback  USBD_OTG_STM32U5xx.o
+    0x08006ab8   0x00000066   Code   RO         4455    .text.HAL_PCD_SetupStageCallback  USBD_OTG_STM32U5xx.o
     0x08006b1e   0x00000002   PAD
-    0x08006b20   0x0000006a   Code   RO         2824    .text.HAL_PCD_Start  stm32u5xx_hal_pcd.o
+    0x08006b20   0x0000006a   Code   RO          939    .text.HAL_PCD_Start  stm32u5xx_hal_pcd.o
     0x08006b8a   0x00000002   PAD
-    0x08006b8c   0x00000028   Code   RO         1837    .text.HAL_PCD_SuspendCallback  USBD_OTG_STM32U5xx.o
-    0x08006bb4   0x000000d8   Code   RO         2971    .text.HAL_PWREx_ConfigSupply  stm32u5xx_hal_pwr_ex.o
-    0x08006c8c   0x00000156   Code   RO         2967    .text.HAL_PWREx_ControlVoltageScaling  stm32u5xx_hal_pwr_ex.o
+    0x08006b8c   0x00000028   Code   RO         4461    .text.HAL_PCD_SuspendCallback  USBD_OTG_STM32U5xx.o
+    0x08006bb4   0x000000d8   Code   RO         1086    .text.HAL_PWREx_ConfigSupply  stm32u5xx_hal_pwr_ex.o
+    0x08006c8c   0x00000156   Code   RO         1082    .text.HAL_PWREx_ControlVoltageScaling  stm32u5xx_hal_pwr_ex.o
     0x08006de2   0x00000002   PAD
-    0x08006de4   0x00000012   Code   RO         3003    .text.HAL_PWREx_EnableVddIO2  stm32u5xx_hal_pwr_ex.o
+    0x08006de4   0x00000012   Code   RO         1118    .text.HAL_PWREx_EnableVddIO2  stm32u5xx_hal_pwr_ex.o
     0x08006df6   0x00000002   PAD
-    0x08006df8   0x00000012   Code   RO         2999    .text.HAL_PWREx_EnableVddUSB  stm32u5xx_hal_pwr_ex.o
+    0x08006df8   0x00000012   Code   RO         1114    .text.HAL_PWREx_EnableVddUSB  stm32u5xx_hal_pwr_ex.o
     0x08006e0a   0x00000002   PAD
-    0x08006e0c   0x00000010   Code   RO         2969    .text.HAL_PWREx_GetVoltageRange  stm32u5xx_hal_pwr_ex.o
-    0x08006e1c   0x00000300   Code   RO         3147    .text.HAL_RCCEx_GetPLL1ClockFreq  stm32u5xx_hal_rcc_ex.o
-    0x0800711c   0x00000300   Code   RO         3149    .text.HAL_RCCEx_GetPLL2ClockFreq  stm32u5xx_hal_rcc_ex.o
-    0x0800741c   0x00000300   Code   RO         3151    .text.HAL_RCCEx_GetPLL3ClockFreq  stm32u5xx_hal_rcc_ex.o
-    0x0800771c   0x00001786   Code   RO         3153    .text.HAL_RCCEx_GetPeriphCLKFreq  stm32u5xx_hal_rcc_ex.o
+    0x08006e0c   0x00000010   Code   RO         1084    .text.HAL_PWREx_GetVoltageRange  stm32u5xx_hal_pwr_ex.o
+    0x08006e1c   0x00000300   Code   RO         1262    .text.HAL_RCCEx_GetPLL1ClockFreq  stm32u5xx_hal_rcc_ex.o
+    0x0800711c   0x00000300   Code   RO         1264    .text.HAL_RCCEx_GetPLL2ClockFreq  stm32u5xx_hal_rcc_ex.o
+    0x0800741c   0x00000300   Code   RO         1266    .text.HAL_RCCEx_GetPLL3ClockFreq  stm32u5xx_hal_rcc_ex.o
+    0x0800771c   0x00001786   Code   RO         1268    .text.HAL_RCCEx_GetPeriphCLKFreq  stm32u5xx_hal_rcc_ex.o
     0x08008ea2   0x00000002   PAD
-    0x08008ea4   0x000008d4   Code   RO         3139    .text.HAL_RCCEx_PeriphCLKConfig  stm32u5xx_hal_rcc_ex.o
-    0x08009778   0x00000502   Code   RO         3104    .text.HAL_RCC_ClockConfig  stm32u5xx_hal_rcc.o
+    0x08008ea4   0x000008d4   Code   RO         1254    .text.HAL_RCCEx_PeriphCLKConfig  stm32u5xx_hal_rcc_ex.o
+    0x08009778   0x00000502   Code   RO         1219    .text.HAL_RCC_ClockConfig  stm32u5xx_hal_rcc.o
     0x08009c7a   0x00000002   PAD
-    0x08009c7c   0x0000006e   Code   RO         3118    .text.HAL_RCC_GetClockConfig  stm32u5xx_hal_rcc.o
+    0x08009c7c   0x0000006e   Code   RO         1233    .text.HAL_RCC_GetClockConfig  stm32u5xx_hal_rcc.o
     0x08009cea   0x00000002   PAD
-    0x08009cec   0x00000030   Code   RO         3102    .text.HAL_RCC_GetHCLKFreq  stm32u5xx_hal_rcc.o
-    0x08009d1c   0x00000022   Code   RO         3110    .text.HAL_RCC_GetPCLK1Freq  stm32u5xx_hal_rcc.o
+    0x08009cec   0x00000030   Code   RO         1217    .text.HAL_RCC_GetHCLKFreq  stm32u5xx_hal_rcc.o
+    0x08009d1c   0x00000022   Code   RO         1225    .text.HAL_RCC_GetPCLK1Freq  stm32u5xx_hal_rcc.o
     0x08009d3e   0x00000002   PAD
-    0x08009d40   0x00000022   Code   RO         3112    .text.HAL_RCC_GetPCLK2Freq  stm32u5xx_hal_rcc.o
+    0x08009d40   0x00000022   Code   RO         1227    .text.HAL_RCC_GetPCLK2Freq  stm32u5xx_hal_rcc.o
     0x08009d62   0x00000002   PAD
-    0x08009d64   0x00000022   Code   RO         3114    .text.HAL_RCC_GetPCLK3Freq  stm32u5xx_hal_rcc.o
+    0x08009d64   0x00000022   Code   RO         1229    .text.HAL_RCC_GetPCLK3Freq  stm32u5xx_hal_rcc.o
     0x08009d86   0x00000002   PAD
-    0x08009d88   0x00000250   Code   RO         3106    .text.HAL_RCC_GetSysClockFreq  stm32u5xx_hal_rcc.o
-    0x08009fd8   0x00001078   Code   RO         3098    .text.HAL_RCC_OscConfig  stm32u5xx_hal_rcc.o
-    0x0800b050   0x00000082   Code   RO         3341    .text.HAL_SPIEx_SetConfigAutonomousMode  stm32u5xx_hal_spi_ex.o
+    0x08009d88   0x00000250   Code   RO         1221    .text.HAL_RCC_GetSysClockFreq  stm32u5xx_hal_rcc.o
+    0x08009fd8   0x00001078   Code   RO         1213    .text.HAL_RCC_OscConfig  stm32u5xx_hal_rcc.o
+    0x0800b050   0x00000082   Code   RO         1456    .text.HAL_SPIEx_SetConfigAutonomousMode  stm32u5xx_hal_spi_ex.o
     0x0800b0d2   0x00000002   PAD
-    0x0800b0d4   0x00000276   Code   RO         3228    .text.HAL_SPI_Init  stm32u5xx_hal_spi.o
+    0x0800b0d4   0x00000276   Code   RO         1343    .text.HAL_SPI_Init  stm32u5xx_hal_spi.o
     0x0800b34a   0x00000002   PAD
-    0x0800b34c   0x000000f8   Code   RO         4400    .text.HAL_SPI_MspInit  stm32u5xx_hal_msp.o
-    0x0800b444   0x0000009a   Code   RO         2039    .text.HAL_SYSTICK_CLKSourceConfig  stm32u5xx_hal_cortex.o
+    0x0800b34c   0x000000f8   Code   RO         2515    .text.HAL_SPI_MspInit  stm32u5xx_hal_msp.o
+    0x0800b444   0x0000009a   Code   RO          154    .text.HAL_SYSTICK_CLKSourceConfig  stm32u5xx_hal_cortex.o
     0x0800b4de   0x00000002   PAD
-    0x0800b4e0   0x00000008   Code   RO         3729    .text.HAL_TIMEx_Break2Callback  stm32u5xx_hal_tim_ex.o
-    0x0800b4e8   0x00000008   Code   RO         3727    .text.HAL_TIMEx_BreakCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b4f0   0x00000008   Code   RO         3723    .text.HAL_TIMEx_CommutCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b4f8   0x00000008   Code   RO         3733    .text.HAL_TIMEx_DirectionChangeCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b500   0x00000008   Code   RO         3731    .text.HAL_TIMEx_EncoderIndexCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b508   0x00000008   Code   RO         3735    .text.HAL_TIMEx_IndexErrorCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b510   0x00000008   Code   RO         3737    .text.HAL_TIMEx_TransitionErrorCallback  stm32u5xx_hal_tim_ex.o
-    0x0800b518   0x00000084   Code   RO         3354    .text.HAL_TIM_Base_Init  stm32u5xx_hal_tim.o
-    0x0800b59c   0x00000008   Code   RO         3356    .text.HAL_TIM_Base_MspInit  stm32u5xx_hal_tim.o
-    0x0800b5a4   0x00000162   Code   RO         3368    .text.HAL_TIM_Base_Start_IT  stm32u5xx_hal_tim.o
+    0x0800b4e0   0x00000008   Code   RO         1844    .text.HAL_TIMEx_Break2Callback  stm32u5xx_hal_tim_ex.o
+    0x0800b4e8   0x00000008   Code   RO         1842    .text.HAL_TIMEx_BreakCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b4f0   0x00000008   Code   RO         1838    .text.HAL_TIMEx_CommutCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b4f8   0x00000008   Code   RO         1848    .text.HAL_TIMEx_DirectionChangeCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b500   0x00000008   Code   RO         1846    .text.HAL_TIMEx_EncoderIndexCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b508   0x00000008   Code   RO         1850    .text.HAL_TIMEx_IndexErrorCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b510   0x00000008   Code   RO         1852    .text.HAL_TIMEx_TransitionErrorCallback  stm32u5xx_hal_tim_ex.o
+    0x0800b518   0x00000084   Code   RO         1469    .text.HAL_TIM_Base_Init  stm32u5xx_hal_tim.o
+    0x0800b59c   0x00000008   Code   RO         1471    .text.HAL_TIM_Base_MspInit  stm32u5xx_hal_tim.o
+    0x0800b5a4   0x00000162   Code   RO         1483    .text.HAL_TIM_Base_Start_IT  stm32u5xx_hal_tim.o
     0x0800b706   0x00000002   PAD
-    0x0800b708   0x00000008   Code   RO         3492    .text.HAL_TIM_IC_CaptureCallback  stm32u5xx_hal_tim.o
-    0x0800b710   0x00000300   Code   RO         3490    .text.HAL_TIM_IRQHandler  stm32u5xx_hal_tim.o
-    0x0800ba10   0x00000008   Code   RO         3494    .text.HAL_TIM_OC_DelayElapsedCallback  stm32u5xx_hal_tim.o
-    0x0800ba18   0x00000008   Code   RO         3496    .text.HAL_TIM_PWM_PulseFinishedCallback  stm32u5xx_hal_tim.o
-    0x0800ba20   0x00000022   Code   RO         4362    .text.HAL_TIM_PeriodElapsedCallback  main.o
+    0x0800b708   0x00000008   Code   RO         1607    .text.HAL_TIM_IC_CaptureCallback  stm32u5xx_hal_tim.o
+    0x0800b710   0x00000300   Code   RO         1605    .text.HAL_TIM_IRQHandler  stm32u5xx_hal_tim.o
+    0x0800ba10   0x00000008   Code   RO         1609    .text.HAL_TIM_OC_DelayElapsedCallback  stm32u5xx_hal_tim.o
+    0x0800ba18   0x00000008   Code   RO         1611    .text.HAL_TIM_PWM_PulseFinishedCallback  stm32u5xx_hal_tim.o
+    0x0800ba20   0x00000022   Code   RO         2477    .text.HAL_TIM_PeriodElapsedCallback  main.o
     0x0800ba42   0x00000002   PAD
-    0x0800ba44   0x00000008   Code   RO         3500    .text.HAL_TIM_TriggerCallback  stm32u5xx_hal_tim.o
-    0x0800ba4c   0x00000076   Code   RO         3922    .text.HAL_UARTEx_DisableFifoMode  stm32u5xx_hal_uart_ex.o
+    0x0800ba44   0x00000008   Code   RO         1615    .text.HAL_TIM_TriggerCallback  stm32u5xx_hal_tim.o
+    0x0800ba4c   0x00000076   Code   RO         2037    .text.HAL_UARTEx_DisableFifoMode  stm32u5xx_hal_uart_ex.o
     0x0800bac2   0x00000002   PAD
-    0x0800bac4   0x0000000c   Code   RO         3848    .text.HAL_UARTEx_RxEventCallback  stm32u5xx_hal_uart.o
-    0x0800bad0   0x00000008   Code   RO         3904    .text.HAL_UARTEx_RxFifoFullCallback  stm32u5xx_hal_uart_ex.o
-    0x0800bad8   0x00000086   Code   RO         3926    .text.HAL_UARTEx_SetRxFifoThreshold  stm32u5xx_hal_uart_ex.o
+    0x0800bac4   0x0000000c   Code   RO         1963    .text.HAL_UARTEx_RxEventCallback  stm32u5xx_hal_uart.o
+    0x0800bad0   0x00000008   Code   RO         2019    .text.HAL_UARTEx_RxFifoFullCallback  stm32u5xx_hal_uart_ex.o
+    0x0800bad8   0x00000086   Code   RO         2041    .text.HAL_UARTEx_SetRxFifoThreshold  stm32u5xx_hal_uart_ex.o
     0x0800bb5e   0x00000002   PAD
-    0x0800bb60   0x00000086   Code   RO         3924    .text.HAL_UARTEx_SetTxFifoThreshold  stm32u5xx_hal_uart_ex.o
+    0x0800bb60   0x00000086   Code   RO         2039    .text.HAL_UARTEx_SetTxFifoThreshold  stm32u5xx_hal_uart_ex.o
     0x0800bbe6   0x00000002   PAD
-    0x0800bbe8   0x00000008   Code   RO         3906    .text.HAL_UARTEx_TxFifoEmptyCallback  stm32u5xx_hal_uart_ex.o
-    0x0800bbf0   0x0000018a   Code   RO         3816    .text.HAL_UART_Abort  stm32u5xx_hal_uart.o
+    0x0800bbe8   0x00000008   Code   RO         2021    .text.HAL_UARTEx_TxFifoEmptyCallback  stm32u5xx_hal_uart_ex.o
+    0x0800bbf0   0x0000018a   Code   RO         1931    .text.HAL_UART_Abort  stm32u5xx_hal_uart.o
     0x0800bd7a   0x00000002   PAD
-    0x0800bd7c   0x00000110   Code   RO         3820    .text.HAL_UART_AbortReceive  stm32u5xx_hal_uart.o
-    0x0800be8c   0x000000d4   Code   RO         3818    .text.HAL_UART_AbortTransmit  stm32u5xx_hal_uart.o
-    0x0800bf60   0x00000094   Code   RO         1760    .text.HAL_UART_ErrorCallback  UART_STM32U5xx.o
-    0x0800bff4   0x0000000e   Code   RO         3880    .text.HAL_UART_GetError  stm32u5xx_hal_uart.o
+    0x0800bd7c   0x00000110   Code   RO         1935    .text.HAL_UART_AbortReceive  stm32u5xx_hal_uart.o
+    0x0800be8c   0x000000d4   Code   RO         1933    .text.HAL_UART_AbortTransmit  stm32u5xx_hal_uart.o
+    0x0800bf60   0x00000094   Code   RO         4384    .text.HAL_UART_ErrorCallback  UART_STM32U5xx.o
+    0x0800bff4   0x0000000e   Code   RO         1995    .text.HAL_UART_GetError  stm32u5xx_hal_uart.o
     0x0800c002   0x00000002   PAD
-    0x0800c004   0x0000001e   Code   RO         3878    .text.HAL_UART_GetState  stm32u5xx_hal_uart.o
+    0x0800c004   0x0000001e   Code   RO         1993    .text.HAL_UART_GetState  stm32u5xx_hal_uart.o
     0x0800c022   0x00000002   PAD
-    0x0800c024   0x000004e2   Code   RO         3842    .text.HAL_UART_IRQHandler  stm32u5xx_hal_uart.o
+    0x0800c024   0x000004e2   Code   RO         1957    .text.HAL_UART_IRQHandler  stm32u5xx_hal_uart.o
     0x0800c506   0x00000002   PAD
-    0x0800c508   0x000000a2   Code   RO         3754    .text.HAL_UART_Init  stm32u5xx_hal_uart.o
+    0x0800c508   0x000000a2   Code   RO         1869    .text.HAL_UART_Init  stm32u5xx_hal_uart.o
     0x0800c5aa   0x00000002   PAD
-    0x0800c5ac   0x00000078   Code   RO         4406    .text.HAL_UART_MspDeInit  stm32u5xx_hal_msp.o
-    0x0800c624   0x0000014a   Code   RO         4404    .text.HAL_UART_MspInit  stm32u5xx_hal_msp.o
+    0x0800c5ac   0x00000078   Code   RO         2521    .text.HAL_UART_MspDeInit  stm32u5xx_hal_msp.o
+    0x0800c624   0x0000014a   Code   RO         2519    .text.HAL_UART_MspInit  stm32u5xx_hal_msp.o
     0x0800c76e   0x00000002   PAD
-    0x0800c770   0x000000aa   Code   RO         3802    .text.HAL_UART_Receive_DMA  stm32u5xx_hal_uart.o
+    0x0800c770   0x000000aa   Code   RO         1917    .text.HAL_UART_Receive_DMA  stm32u5xx_hal_uart.o
     0x0800c81a   0x00000002   PAD
-    0x0800c81c   0x000000c6   Code   RO         3790    .text.HAL_UART_Receive_IT  stm32u5xx_hal_uart.o
+    0x0800c81c   0x000000c6   Code   RO         1905    .text.HAL_UART_Receive_IT  stm32u5xx_hal_uart.o
     0x0800c8e2   0x00000002   PAD
-    0x0800c8e4   0x00000030   Code   RO         1758    .text.HAL_UART_RxCpltCallback  UART_STM32U5xx.o
-    0x0800c914   0x00000008   Code   RO         3858    .text.HAL_UART_RxHalfCpltCallback  stm32u5xx_hal_uart.o
-    0x0800c91c   0x00000192   Code   RO         3794    .text.HAL_UART_Transmit_DMA  stm32u5xx_hal_uart.o
+    0x0800c8e4   0x00000030   Code   RO         4382    .text.HAL_UART_RxCpltCallback  UART_STM32U5xx.o
+    0x0800c914   0x00000008   Code   RO         1973    .text.HAL_UART_RxHalfCpltCallback  stm32u5xx_hal_uart.o
+    0x0800c91c   0x00000192   Code   RO         1909    .text.HAL_UART_Transmit_DMA  stm32u5xx_hal_uart.o
     0x0800caae   0x00000002   PAD
-    0x0800cab0   0x00000144   Code   RO         3780    .text.HAL_UART_Transmit_IT  stm32u5xx_hal_uart.o
-    0x0800cbf4   0x00000030   Code   RO         1754    .text.HAL_UART_TxCpltCallback  UART_STM32U5xx.o
-    0x0800cc24   0x00000008   Code   RO         3854    .text.HAL_UART_TxHalfCpltCallback  stm32u5xx_hal_uart.o
-    0x0800cc2c   0x00000004   Code   RO         4436    .text.HardFault_Handler  stm32u5xx_it.o
-    0x0800cc30   0x00000014   Code   RO           45    .text.IsException   rtx_delay.o
-    0x0800cc44   0x00000014   Code   RO          516    .text.IsException   rtx_kernel.o
-    0x0800cc58   0x00000014   Code   RO          759    .text.IsException   rtx_msgqueue.o
-    0x0800cc6c   0x00000014   Code   RO          840    .text.IsException   rtx_mutex.o
-    0x0800cc80   0x00000014   Code   RO          885    .text.IsException   rtx_semaphore.o
-    0x0800cc94   0x00000014   Code   RO         1043    .text.IsException   rtx_thread.o
-    0x0800cca8   0x00000014   Code   RO         1218    .text.IsException   rtx_timer.o
-    0x0800ccbc   0x0000002e   Code   RO           47    .text.IsIrqMasked   rtx_delay.o
+    0x0800cab0   0x00000144   Code   RO         1895    .text.HAL_UART_Transmit_IT  stm32u5xx_hal_uart.o
+    0x0800cbf4   0x00000030   Code   RO         4378    .text.HAL_UART_TxCpltCallback  UART_STM32U5xx.o
+    0x0800cc24   0x00000008   Code   RO         1969    .text.HAL_UART_TxHalfCpltCallback  stm32u5xx_hal_uart.o
+    0x0800cc2c   0x00000004   Code   RO         2551    .text.HardFault_Handler  stm32u5xx_it.o
+    0x0800cc30   0x00000014   Code   RO         2669    .text.IsException   rtx_delay.o
+    0x0800cc44   0x00000014   Code   RO         3140    .text.IsException   rtx_kernel.o
+    0x0800cc58   0x00000014   Code   RO         3383    .text.IsException   rtx_msgqueue.o
+    0x0800cc6c   0x00000014   Code   RO         3464    .text.IsException   rtx_mutex.o
+    0x0800cc80   0x00000014   Code   RO         3509    .text.IsException   rtx_semaphore.o
+    0x0800cc94   0x00000014   Code   RO         3667    .text.IsException   rtx_thread.o
+    0x0800cca8   0x00000014   Code   RO         3842    .text.IsException   rtx_timer.o
+    0x0800ccbc   0x0000002e   Code   RO         2671    .text.IsIrqMasked   rtx_delay.o
     0x0800ccea   0x00000002   PAD
-    0x0800ccec   0x0000002e   Code   RO          518    .text.IsIrqMasked   rtx_kernel.o
+    0x0800ccec   0x0000002e   Code   RO         3142    .text.IsIrqMasked   rtx_kernel.o
     0x0800cd1a   0x00000002   PAD
-    0x0800cd1c   0x0000002e   Code   RO          761    .text.IsIrqMasked   rtx_msgqueue.o
+    0x0800cd1c   0x0000002e   Code   RO         3385    .text.IsIrqMasked   rtx_msgqueue.o
     0x0800cd4a   0x00000002   PAD
-    0x0800cd4c   0x0000002e   Code   RO          842    .text.IsIrqMasked   rtx_mutex.o
+    0x0800cd4c   0x0000002e   Code   RO         3466    .text.IsIrqMasked   rtx_mutex.o
     0x0800cd7a   0x00000002   PAD
-    0x0800cd7c   0x0000002e   Code   RO          887    .text.IsIrqMasked   rtx_semaphore.o
+    0x0800cd7c   0x0000002e   Code   RO         3511    .text.IsIrqMasked   rtx_semaphore.o
     0x0800cdaa   0x00000002   PAD
-    0x0800cdac   0x0000002e   Code   RO         1045    .text.IsIrqMasked   rtx_thread.o
+    0x0800cdac   0x0000002e   Code   RO         3669    .text.IsIrqMasked   rtx_thread.o
     0x0800cdda   0x00000002   PAD
-    0x0800cddc   0x0000002e   Code   RO         1220    .text.IsIrqMasked   rtx_timer.o
+    0x0800cddc   0x0000002e   Code   RO         3844    .text.IsIrqMasked   rtx_timer.o
     0x0800ce0a   0x00000002   PAD
-    0x0800ce0c   0x00000022   Code   RO          795    .text.IsMessageQueuePtrValid  rtx_msgqueue.o
+    0x0800ce0c   0x00000022   Code   RO         3419    .text.IsMessageQueuePtrValid  rtx_msgqueue.o
     0x0800ce2e   0x00000002   PAD
-    0x0800ce30   0x00000022   Code   RO          858    .text.IsMutexPtrValid  rtx_mutex.o
+    0x0800ce30   0x00000022   Code   RO         3482    .text.IsMutexPtrValid  rtx_mutex.o
     0x0800ce52   0x00000002   PAD
-    0x0800ce54   0x00000014   Code   RO          522    .text.IsPrivileged  rtx_kernel.o
-    0x0800ce68   0x00000022   Code   RO          909    .text.IsSemaphorePtrValid  rtx_semaphore.o
+    0x0800ce54   0x00000014   Code   RO         3146    .text.IsPrivileged  rtx_kernel.o
+    0x0800ce68   0x00000022   Code   RO         3533    .text.IsSemaphorePtrValid  rtx_semaphore.o
     0x0800ce8a   0x00000002   PAD
-    0x0800ce8c   0x00000022   Code   RO         1129    .text.IsThreadPtrValid  rtx_thread.o
+    0x0800ce8c   0x00000022   Code   RO         3753    .text.IsThreadPtrValid  rtx_thread.o
     0x0800ceae   0x00000002   PAD
-    0x0800ceb0   0x00000022   Code   RO         1244    .text.IsTimerPtrValid  rtx_timer.o
+    0x0800ceb0   0x00000022   Code   RO         3868    .text.IsTimerPtrValid  rtx_timer.o
     0x0800ced2   0x00000002   PAD
-    0x0800ced4   0x00000022   Code   RO         4366    .text.LL_AHB2_GRP1_EnableClock  main.o
+    0x0800ced4   0x00000022   Code   RO         2481    .text.LL_AHB2_GRP1_EnableClock  main.o
     0x0800cef6   0x00000002   PAD
-    0x0800cef8   0x00000022   Code   RO         4364    .text.LL_APB1_GRP2_EnableClock  main.o
+    0x0800cef8   0x00000022   Code   RO         2479    .text.LL_APB1_GRP2_EnableClock  main.o
     0x0800cf1a   0x00000002   PAD
-    0x0800cf1c   0x00000012   Code   RO         2801    .text.LL_DLYB_Enable  stm32u5xx_hal_ospi.o
+    0x0800cf1c   0x00000012   Code   RO          916    .text.LL_DLYB_Enable  stm32u5xx_hal_ospi.o
     0x0800cf2e   0x00000002   PAD
-    0x0800cf30   0x0000002c   Code   RO         3951    .text.LL_DLYB_SetDelay  stm32u5xx_ll_dlyb.o
-    0x0800cf5c   0x000000da   Code   RO         4073    .text.LL_GPIO_Init  stm32u5xx_ll_gpio.o
+    0x0800cf30   0x0000002c   Code   RO         2066    .text.LL_DLYB_SetDelay  stm32u5xx_ll_dlyb.o
+    0x0800cf5c   0x000000da   Code   RO         2188    .text.LL_GPIO_Init  stm32u5xx_ll_gpio.o
     0x0800d036   0x00000002   PAD
-    0x0800d038   0x00000048   Code   RO         4081    .text.LL_GPIO_SetAFPin_0_7  stm32u5xx_ll_gpio.o
-    0x0800d080   0x0000004c   Code   RO         4083    .text.LL_GPIO_SetAFPin_8_15  stm32u5xx_ll_gpio.o
-    0x0800d0cc   0x00000048   Code   RO         4085    .text.LL_GPIO_SetPinMode  stm32u5xx_ll_gpio.o
-    0x0800d114   0x00000020   Code   RO         4077    .text.LL_GPIO_SetPinOutputType  stm32u5xx_ll_gpio.o
-    0x0800d134   0x00000048   Code   RO         4079    .text.LL_GPIO_SetPinPull  stm32u5xx_ll_gpio.o
-    0x0800d17c   0x00000048   Code   RO         4075    .text.LL_GPIO_SetPinSpeed  stm32u5xx_ll_gpio.o
-    0x0800d1c4   0x0000009e   Code   RO         2605    .text.MDF_GetHandleNumberFromInstance  stm32u5xx_hal_mdf.o
+    0x0800d038   0x00000048   Code   RO         2196    .text.LL_GPIO_SetAFPin_0_7  stm32u5xx_ll_gpio.o
+    0x0800d080   0x0000004c   Code   RO         2198    .text.LL_GPIO_SetAFPin_8_15  stm32u5xx_ll_gpio.o
+    0x0800d0cc   0x00000048   Code   RO         2200    .text.LL_GPIO_SetPinMode  stm32u5xx_ll_gpio.o
+    0x0800d114   0x00000020   Code   RO         2192    .text.LL_GPIO_SetPinOutputType  stm32u5xx_ll_gpio.o
+    0x0800d134   0x00000048   Code   RO         2194    .text.LL_GPIO_SetPinPull  stm32u5xx_ll_gpio.o
+    0x0800d17c   0x00000048   Code   RO         2190    .text.LL_GPIO_SetPinSpeed  stm32u5xx_ll_gpio.o
+    0x0800d1c4   0x0000009e   Code   RO          720    .text.MDF_GetHandleNumberFromInstance  stm32u5xx_hal_mdf.o
     0x0800d262   0x00000002   PAD
-    0x0800d264   0x00000062   Code   RO         4338    .text.MX_ADF1_Init  main.o
+    0x0800d264   0x00000062   Code   RO         2453    .text.MX_ADF1_Init  main.o
     0x0800d2c6   0x00000002   PAD
-    0x0800d2c8   0x000002a4   Code   RO         4336    .text.MX_GPIO_Init  main.o
-    0x0800d56c   0x00000076   Code   RO         4340    .text.MX_I2C1_Init  main.o
+    0x0800d2c8   0x000002a4   Code   RO         2451    .text.MX_GPIO_Init  main.o
+    0x0800d56c   0x00000076   Code   RO         2455    .text.MX_I2C1_Init  main.o
     0x0800d5e2   0x00000002   PAD
-    0x0800d5e4   0x00000076   Code   RO         4342    .text.MX_I2C2_Init  main.o
+    0x0800d5e4   0x00000076   Code   RO         2457    .text.MX_I2C2_Init  main.o
     0x0800d65a   0x00000002   PAD
-    0x0800d65c   0x00000022   Code   RO         4344    .text.MX_ICACHE_Init  main.o
+    0x0800d65c   0x00000022   Code   RO         2459    .text.MX_ICACHE_Init  main.o
     0x0800d67e   0x00000002   PAD
-    0x0800d680   0x000000be   Code   RO         4346    .text.MX_OCTOSPI1_Init  main.o
+    0x0800d680   0x000000be   Code   RO         2461    .text.MX_OCTOSPI1_Init  main.o
     0x0800d73e   0x00000002   PAD
-    0x0800d740   0x000000bc   Code   RO         4348    .text.MX_OCTOSPI2_Init  main.o
-    0x0800d7fc   0x00000092   Code   RO         4350    .text.MX_SPI2_Init  main.o
+    0x0800d740   0x000000bc   Code   RO         2463    .text.MX_OCTOSPI2_Init  main.o
+    0x0800d7fc   0x00000092   Code   RO         2465    .text.MX_SPI2_Init  main.o
     0x0800d88e   0x00000002   PAD
-    0x0800d890   0x0000008e   Code   RO         4352    .text.MX_UART4_Init  main.o
+    0x0800d890   0x0000008e   Code   RO         2467    .text.MX_UART4_Init  main.o
     0x0800d91e   0x00000002   PAD
-    0x0800d920   0x00000066   Code   RO         4356    .text.MX_UCPD1_Init  main.o
+    0x0800d920   0x00000066   Code   RO         2471    .text.MX_UCPD1_Init  main.o
     0x0800d986   0x00000002   PAD
-    0x0800d988   0x0000008e   Code   RO         4354    .text.MX_USART1_UART_Init  main.o
+    0x0800d988   0x0000008e   Code   RO         2469    .text.MX_USART1_UART_Init  main.o
     0x0800da16   0x00000002   PAD
-    0x0800da18   0x00000042   Code   RO         4358    .text.MX_USB_OTG_FS_PCD_Init  main.o
+    0x0800da18   0x00000042   Code   RO         2473    .text.MX_USB_OTG_FS_PCD_Init  main.o
     0x0800da5a   0x00000002   PAD
-    0x0800da5c   0x00000018   Code   RO          661    .text.MemBlockPtr   rtx_memory.o
-    0x0800da74   0x0000000a   Code   RO          659    .text.MemHeadPtr    rtx_memory.o
+    0x0800da5c   0x00000018   Code   RO         3285    .text.MemBlockPtr   rtx_memory.o
+    0x0800da74   0x0000000a   Code   RO         3283    .text.MemHeadPtr    rtx_memory.o
     0x0800da7e   0x00000002   PAD
-    0x0800da80   0x00000004   Code   RO         4438    .text.MemManage_Handler  stm32u5xx_it.o
-    0x0800da84   0x00000052   Code   RO          811    .text.MessageQueueGet  rtx_msgqueue.o
+    0x0800da80   0x00000004   Code   RO         2553    .text.MemManage_Handler  stm32u5xx_it.o
+    0x0800da84   0x00000052   Code   RO         3435    .text.MessageQueueGet  rtx_msgqueue.o
     0x0800dad6   0x00000002   PAD
-    0x0800dad8   0x000000ac   Code   RO          803    .text.MessageQueuePut  rtx_msgqueue.o
-    0x0800db84   0x00000042   Code   RO          799    .text.MessageQueueRemove  rtx_msgqueue.o
+    0x0800dad8   0x000000ac   Code   RO         3427    .text.MessageQueuePut  rtx_msgqueue.o
+    0x0800db84   0x00000042   Code   RO         3423    .text.MessageQueueRemove  rtx_msgqueue.o
     0x0800dbc6   0x00000002   PAD
-    0x0800dbc8   0x00000004   Code   RO         4434    .text.NMI_Handler   stm32u5xx_it.o
-    0x0800dbcc   0x0000006c   Code   RO         1999    .text.NVIC_EncodePriority  stm32u5xx_hal_cortex.o
-    0x0800dc38   0x000001ae   Code   RO         2797    .text.OSPIM_GetConfig  stm32u5xx_hal_ospi.o
+    0x0800dbc8   0x00000004   Code   RO         2549    .text.NMI_Handler   stm32u5xx_it.o
+    0x0800dbcc   0x0000006c   Code   RO          114    .text.NVIC_EncodePriority  stm32u5xx_hal_cortex.o
+    0x0800dc38   0x000001ae   Code   RO          912    .text.OSPIM_GetConfig  stm32u5xx_hal_ospi.o
     0x0800dde6   0x00000002   PAD
-    0x0800dde8   0x00000084   Code   RO         2719    .text.OSPI_WaitFlagStateUntilTimeout  stm32u5xx_hal_ospi.o
-    0x0800de6c   0x0000000c   Code   RO         1273    .text.OS_Tick_AcknowledgeIRQ  os_systick.o
-    0x0800de78   0x0000003c   Code   RO         1269    .text.OS_Tick_Enable  os_systick.o
-    0x0800deb4   0x00000006   Code   RO         1275    .text.OS_Tick_GetIRQn  os_systick.o
+    0x0800dde8   0x00000084   Code   RO          834    .text.OSPI_WaitFlagStateUntilTimeout  stm32u5xx_hal_ospi.o
+    0x0800de6c   0x0000000c   Code   RO         3897    .text.OS_Tick_AcknowledgeIRQ  os_systick.o
+    0x0800de78   0x0000003c   Code   RO         3893    .text.OS_Tick_Enable  os_systick.o
+    0x0800deb4   0x00000006   Code   RO         3899    .text.OS_Tick_GetIRQn  os_systick.o
     0x0800deba   0x00000002   PAD
-    0x0800debc   0x0000007e   Code   RO         1267    .text.OS_Tick_Setup  os_systick.o
+    0x0800debc   0x0000007e   Code   RO         3891    .text.OS_Tick_Setup  os_systick.o
     0x0800df3a   0x00000002   PAD
-    0x0800df3c   0x00000010   Code   RO         1744    .text.OTG_FS_IRQHandler  OTG_STM32U5xx.o
-    0x0800df4c   0x0000008a   Code   RO         2832    .text.PCD_EP_OutSetupPacket_int  stm32u5xx_hal_pcd.o
+    0x0800df3c   0x00000010   Code   RO         4368    .text.OTG_FS_IRQHandler  OTG_STM32U5xx.o
+    0x0800df4c   0x0000008a   Code   RO          947    .text.PCD_EP_OutSetupPacket_int  stm32u5xx_hal_pcd.o
     0x0800dfd6   0x00000002   PAD
-    0x0800dfd8   0x000001c8   Code   RO         2830    .text.PCD_EP_OutXfrComplete_int  stm32u5xx_hal_pcd.o
-    0x0800e1a0   0x0000012c   Code   RO         2840    .text.PCD_WriteEmptyTxFifo  stm32u5xx_hal_pcd.o
-    0x0800e2cc   0x0000016c   Code   RO         3141    .text.RCCEx_PLL2_Config  stm32u5xx_hal_rcc_ex.o
-    0x0800e438   0x0000016c   Code   RO         3143    .text.RCCEx_PLL3_Config  stm32u5xx_hal_rcc_ex.o
-    0x0800e5a4   0x0000013a   Code   RO         3100    .text.RCC_SetFlashLatencyFromMSIRange  stm32u5xx_hal_rcc.o
+    0x0800dfd8   0x000001c8   Code   RO          945    .text.PCD_EP_OutXfrComplete_int  stm32u5xx_hal_pcd.o
+    0x0800e1a0   0x0000012c   Code   RO          955    .text.PCD_WriteEmptyTxFifo  stm32u5xx_hal_pcd.o
+    0x0800e2cc   0x0000016c   Code   RO         1256    .text.RCCEx_PLL2_Config  stm32u5xx_hal_rcc_ex.o
+    0x0800e438   0x0000016c   Code   RO         1258    .text.RCCEx_PLL3_Config  stm32u5xx_hal_rcc_ex.o
+    0x0800e5a4   0x0000013a   Code   RO         1215    .text.RCC_SetFlashLatencyFromMSIRange  stm32u5xx_hal_rcc.o
     0x0800e6de   0x00000002   PAD
-    0x0800e6e0   0x0000002c   Code   RO         3230    .text.SPI_GetPacketSize  stm32u5xx_hal_spi.o
-    0x0800e70c   0x00000050   Code   RO          580    .text.SVC_Setup     rtx_kernel.o
-    0x0800e75c   0x00000024   Code   RO          913    .text.SemaphoreTokenDecrement  rtx_semaphore.o
-    0x0800e780   0x0000002e   Code   RO          925    .text.SemaphoreTokenIncrement  rtx_semaphore.o
+    0x0800e6e0   0x0000002c   Code   RO         1345    .text.SPI_GetPacketSize  stm32u5xx_hal_spi.o
+    0x0800e70c   0x00000050   Code   RO         3204    .text.SVC_Setup     rtx_kernel.o
+    0x0800e75c   0x00000024   Code   RO         3537    .text.SemaphoreTokenDecrement  rtx_semaphore.o
+    0x0800e780   0x0000002e   Code   RO         3549    .text.SemaphoreTokenIncrement  rtx_semaphore.o
     0x0800e7ae   0x00000002   PAD
-    0x0800e7b0   0x00000010   Code   RO          964    .text.SetPendSV     rtx_system.o
-    0x0800e7c0   0x00000034   Code   RO         1009    .text.SetPrivileged  rtx_thread.o
-    0x0800e7f4   0x00000018   Code   RO         1005    .text.StackOffsetR0  rtx_thread.o
-    0x0800e80c   0x0000009e   Code   RO         4332    .text.SystemClock_Config  main.o
+    0x0800e7b0   0x00000010   Code   RO         3588    .text.SetPendSV     rtx_system.o
+    0x0800e7c0   0x00000034   Code   RO         3633    .text.SetPrivileged  rtx_thread.o
+    0x0800e7f4   0x00000018   Code   RO         3629    .text.StackOffsetR0  rtx_thread.o
+    0x0800e80c   0x0000009e   Code   RO         2447    .text.SystemClock_Config  main.o
     0x0800e8aa   0x00000002   PAD
-    0x0800e8ac   0x000001fc   Code   RO         4459    .text.SystemCoreClockUpdate  system_stm32u5xx.o
-    0x0800eaa8   0x00000076   Code   RO         4457    .text.SystemInit    system_stm32u5xx.o
+    0x0800e8ac   0x000001fc   Code   RO         2574    .text.SystemCoreClockUpdate  system_stm32u5xx.o
+    0x0800eaa8   0x00000076   Code   RO         2572    .text.SystemInit    system_stm32u5xx.o
     0x0800eb1e   0x00000002   PAD
-    0x0800eb20   0x00000018   Code   RO         4334    .text.SystemPower_Config  main.o
-    0x0800eb38   0x00000010   Code   RO         4448    .text.TIM17_IRQHandler  stm32u5xx_it.o
-    0x0800eb48   0x000002ec   Code   RO         3358    .text.TIM_Base_SetConfig  stm32u5xx_hal_tim.o
-    0x0800ee34   0x0000007c   Code   RO         1137    .text.ThreadFlagsCheck  rtx_thread.o
-    0x0800eeb0   0x0000001a   Code   RO         1187    .text.ThreadFlagsSet  rtx_thread.o
+    0x0800eb20   0x00000018   Code   RO         2449    .text.SystemPower_Config  main.o
+    0x0800eb38   0x00000010   Code   RO         2563    .text.TIM17_IRQHandler  stm32u5xx_it.o
+    0x0800eb48   0x000002ec   Code   RO         1473    .text.TIM_Base_SetConfig  stm32u5xx_hal_tim.o
+    0x0800ee34   0x0000007c   Code   RO         3761    .text.ThreadFlagsCheck  rtx_thread.o
+    0x0800eeb0   0x0000001a   Code   RO         3811    .text.ThreadFlagsSet  rtx_thread.o
     0x0800eeca   0x00000002   PAD
-    0x0800eecc   0x0000009e   Code   RO         1240    .text.TimerInsert   rtx_timer.o
+    0x0800eecc   0x0000009e   Code   RO         3864    .text.TimerInsert   rtx_timer.o
     0x0800ef6a   0x00000002   PAD
-    0x0800ef6c   0x00000048   Code   RO         1250    .text.TimerRemove   rtx_timer.o
-    0x0800efb4   0x00000028   Code   RO         1236    .text.TimerUnlink   rtx_timer.o
-    0x0800efdc   0x0000008a   Code   RO         3920    .text.UARTEx_SetNbDataToProcess  stm32u5xx_hal_uart_ex.o
+    0x0800ef6c   0x00000048   Code   RO         3874    .text.TimerRemove   rtx_timer.o
+    0x0800efb4   0x00000028   Code   RO         3860    .text.TimerUnlink   rtx_timer.o
+    0x0800efdc   0x0000008a   Code   RO         2035    .text.UARTEx_SetNbDataToProcess  stm32u5xx_hal_uart_ex.o
     0x0800f066   0x00000002   PAD
-    0x0800f068   0x00000148   Code   RO         3758    .text.UART_AdvFeatureConfig  stm32u5xx_hal_uart.o
-    0x0800f1b0   0x0000013e   Code   RO         3762    .text.UART_CheckIdleState  stm32u5xx_hal_uart.o
+    0x0800f068   0x00000148   Code   RO         1873    .text.UART_AdvFeatureConfig  stm32u5xx_hal_uart.o
+    0x0800f1b0   0x0000013e   Code   RO         1877    .text.UART_CheckIdleState  stm32u5xx_hal_uart.o
     0x0800f2ee   0x00000002   PAD
-    0x0800f2f0   0x00000468   Code   RO         1810    .text.UART_Control  UART_STM32U5xx.o
-    0x0800f758   0x00000024   Code   RO         3844    .text.UART_DMAAbortOnError  stm32u5xx_hal_uart.o
-    0x0800f77c   0x00000080   Code   RO         3800    .text.UART_DMAError  stm32u5xx_hal_uart.o
-    0x0800f7fc   0x000000ce   Code   RO         3890    .text.UART_DMAReceiveCplt  stm32u5xx_hal_uart.o
+    0x0800f2f0   0x00000468   Code   RO         4434    .text.UART_Control  UART_STM32U5xx.o
+    0x0800f758   0x00000024   Code   RO         1959    .text.UART_DMAAbortOnError  stm32u5xx_hal_uart.o
+    0x0800f77c   0x00000080   Code   RO         1915    .text.UART_DMAError  stm32u5xx_hal_uart.o
+    0x0800f7fc   0x000000ce   Code   RO         2005    .text.UART_DMAReceiveCplt  stm32u5xx_hal_uart.o
     0x0800f8ca   0x00000002   PAD
-    0x0800f8cc   0x00000036   Code   RO         3892    .text.UART_DMARxHalfCplt  stm32u5xx_hal_uart.o
+    0x0800f8cc   0x00000036   Code   RO         2007    .text.UART_DMARxHalfCplt  stm32u5xx_hal_uart.o
     0x0800f902   0x00000002   PAD
-    0x0800f904   0x00000052   Code   RO         3796    .text.UART_DMATransmitCplt  stm32u5xx_hal_uart.o
+    0x0800f904   0x00000052   Code   RO         1911    .text.UART_DMATransmitCplt  stm32u5xx_hal_uart.o
     0x0800f956   0x00000002   PAD
-    0x0800f958   0x00000016   Code   RO         3798    .text.UART_DMATxHalfCplt  stm32u5xx_hal_uart.o
+    0x0800f958   0x00000016   Code   RO         1913    .text.UART_DMATxHalfCplt  stm32u5xx_hal_uart.o
     0x0800f96e   0x00000002   PAD
-    0x0800f970   0x0000009e   Code   RO         3814    .text.UART_EndRxTransfer  stm32u5xx_hal_uart.o
+    0x0800f970   0x0000009e   Code   RO         1929    .text.UART_EndRxTransfer  stm32u5xx_hal_uart.o
     0x0800fa0e   0x00000002   PAD
-    0x0800fa10   0x00000044   Code   RO         3850    .text.UART_EndTransmit_IT  stm32u5xx_hal_uart.o
-    0x0800fa54   0x0000005c   Code   RO         3812    .text.UART_EndTxTransfer  stm32u5xx_hal_uart.o
-    0x0800fab0   0x00000010   Code   RO         1790    .text.UART_GetCapabilities  UART_STM32U5xx.o
-    0x0800fac0   0x00000028   Code   RO         1788    .text.UART_GetModemStatus  UART_STM32U5xx.o
-    0x0800fae8   0x00000056   Code   RO         1808    .text.UART_GetRxCount  UART_STM32U5xx.o
+    0x0800fa10   0x00000044   Code   RO         1965    .text.UART_EndTransmit_IT  stm32u5xx_hal_uart.o
+    0x0800fa54   0x0000005c   Code   RO         1927    .text.UART_EndTxTransfer  stm32u5xx_hal_uart.o
+    0x0800fab0   0x00000010   Code   RO         4414    .text.UART_GetCapabilities  UART_STM32U5xx.o
+    0x0800fac0   0x00000028   Code   RO         4412    .text.UART_GetModemStatus  UART_STM32U5xx.o
+    0x0800fae8   0x00000056   Code   RO         4432    .text.UART_GetRxCount  UART_STM32U5xx.o
     0x0800fb3e   0x00000002   PAD
-    0x0800fb40   0x000000e8   Code   RO         1812    .text.UART_GetStatus  UART_STM32U5xx.o
-    0x0800fc28   0x00000054   Code   RO         1806    .text.UART_GetTxCount  UART_STM32U5xx.o
-    0x0800fc7c   0x00000012   Code   RO         1762    .text.UART_GetVersion  UART_STM32U5xx.o
+    0x0800fb40   0x000000e8   Code   RO         4436    .text.UART_GetStatus  UART_STM32U5xx.o
+    0x0800fc28   0x00000054   Code   RO         4430    .text.UART_GetTxCount  UART_STM32U5xx.o
+    0x0800fc7c   0x00000012   Code   RO         4386    .text.UART_GetVersion  UART_STM32U5xx.o
     0x0800fc8e   0x00000002   PAD
-    0x0800fc90   0x0000007c   Code   RO         1792    .text.UART_Initialize  UART_STM32U5xx.o
-    0x0800fd0c   0x00000054   Code   RO         1798    .text.UART_PeripheralReset  UART_STM32U5xx.o
-    0x0800fd60   0x00000132   Code   RO         1796    .text.UART_PowerControl  UART_STM32U5xx.o
+    0x0800fc90   0x0000007c   Code   RO         4416    .text.UART_Initialize  UART_STM32U5xx.o
+    0x0800fd0c   0x00000054   Code   RO         4422    .text.UART_PeripheralReset  UART_STM32U5xx.o
+    0x0800fd60   0x00000132   Code   RO         4420    .text.UART_PowerControl  UART_STM32U5xx.o
     0x0800fe92   0x00000002   PAD
-    0x0800fe94   0x00000106   Code   RO         1802    .text.UART_Receive  UART_STM32U5xx.o
+    0x0800fe94   0x00000106   Code   RO         4426    .text.UART_Receive  UART_STM32U5xx.o
     0x0800ff9a   0x00000002   PAD
-    0x0800ff9c   0x0000002c   Code   RO         1756    .text.UART_Resources  UART_STM32U5xx.o
-    0x0800ffc8   0x00000196   Code   RO         3886    .text.UART_RxISR_16BIT  stm32u5xx_hal_uart.o
+    0x0800ff9c   0x0000002c   Code   RO         4380    .text.UART_Resources  UART_STM32U5xx.o
+    0x0800ffc8   0x00000196   Code   RO         2001    .text.UART_RxISR_16BIT  stm32u5xx_hal_uart.o
     0x0801015e   0x00000002   PAD
-    0x08010160   0x0000031a   Code   RO         3882    .text.UART_RxISR_16BIT_FIFOEN  stm32u5xx_hal_uart.o
+    0x08010160   0x0000031a   Code   RO         1997    .text.UART_RxISR_16BIT_FIFOEN  stm32u5xx_hal_uart.o
     0x0801047a   0x00000002   PAD
-    0x0801047c   0x00000192   Code   RO         3888    .text.UART_RxISR_8BIT  stm32u5xx_hal_uart.o
+    0x0801047c   0x00000192   Code   RO         2003    .text.UART_RxISR_8BIT  stm32u5xx_hal_uart.o
     0x0801060e   0x00000002   PAD
-    0x08010610   0x00000316   Code   RO         3884    .text.UART_RxISR_8BIT_FIFOEN  stm32u5xx_hal_uart.o
+    0x08010610   0x00000316   Code   RO         1999    .text.UART_RxISR_8BIT_FIFOEN  stm32u5xx_hal_uart.o
     0x08010926   0x00000002   PAD
-    0x08010928   0x00000102   Code   RO         1800    .text.UART_Send     UART_STM32U5xx.o
+    0x08010928   0x00000102   Code   RO         4424    .text.UART_Send     UART_STM32U5xx.o
     0x08010a2a   0x00000002   PAD
-    0x08010a2c   0x0000034c   Code   RO         3760    .text.UART_SetConfig  stm32u5xx_hal_uart.o
-    0x08010d78   0x0000000c   Code   RO         1786    .text.UART_SetModemControl  UART_STM32U5xx.o
-    0x08010d84   0x000001ca   Code   RO         3804    .text.UART_Start_Receive_DMA  stm32u5xx_hal_uart.o
+    0x08010a2c   0x0000034c   Code   RO         1875    .text.UART_SetConfig  stm32u5xx_hal_uart.o
+    0x08010d78   0x0000000c   Code   RO         4410    .text.UART_SetModemControl  UART_STM32U5xx.o
+    0x08010d84   0x000001ca   Code   RO         1919    .text.UART_Start_Receive_DMA  stm32u5xx_hal_uart.o
     0x08010f4e   0x00000002   PAD
-    0x08010f50   0x00000222   Code   RO         3792    .text.UART_Start_Receive_IT  stm32u5xx_hal_uart.o
+    0x08010f50   0x00000222   Code   RO         1907    .text.UART_Start_Receive_IT  stm32u5xx_hal_uart.o
     0x08011172   0x00000002   PAD
-    0x08011174   0x00000012   Code   RO         1804    .text.UART_Transfer  UART_STM32U5xx.o
+    0x08011174   0x00000012   Code   RO         4428    .text.UART_Transfer  UART_STM32U5xx.o
     0x08011186   0x00000002   PAD
-    0x08011188   0x00000098   Code   RO         3786    .text.UART_TxISR_16BIT  stm32u5xx_hal_uart.o
-    0x08011220   0x000000ce   Code   RO         3782    .text.UART_TxISR_16BIT_FIFOEN  stm32u5xx_hal_uart.o
+    0x08011188   0x00000098   Code   RO         1901    .text.UART_TxISR_16BIT  stm32u5xx_hal_uart.o
+    0x08011220   0x000000ce   Code   RO         1897    .text.UART_TxISR_16BIT_FIFOEN  stm32u5xx_hal_uart.o
     0x080112ee   0x00000002   PAD
-    0x080112f0   0x0000008e   Code   RO         3788    .text.UART_TxISR_8BIT  stm32u5xx_hal_uart.o
+    0x080112f0   0x0000008e   Code   RO         1903    .text.UART_TxISR_8BIT  stm32u5xx_hal_uart.o
     0x0801137e   0x00000002   PAD
-    0x08011380   0x000000c4   Code   RO         3784    .text.UART_TxISR_8BIT_FIFOEN  stm32u5xx_hal_uart.o
-    0x08011444   0x00000010   Code   RO         1794    .text.UART_Uninitialize  UART_STM32U5xx.o
-    0x08011454   0x000000fe   Code   RO         3776    .text.UART_WaitOnFlagUntilTimeout  stm32u5xx_hal_uart.o
+    0x08011380   0x000000c4   Code   RO         1899    .text.UART_TxISR_8BIT_FIFOEN  stm32u5xx_hal_uart.o
+    0x08011444   0x00000010   Code   RO         4418    .text.UART_Uninitialize  UART_STM32U5xx.o
+    0x08011454   0x000000fe   Code   RO         1891    .text.UART_WaitOnFlagUntilTimeout  stm32u5xx_hal_uart.o
     0x08011552   0x00000002   PAD
-    0x08011554   0x0000001c   Code   RO         1782    .text.USART1_Control  UART_STM32U5xx.o
-    0x08011570   0x00000018   Code   RO         1764    .text.USART1_GetCapabilities  UART_STM32U5xx.o
-    0x08011588   0x00000010   Code   RO         1780    .text.USART1_GetGetRxCount  UART_STM32U5xx.o
-    0x08011598   0x00000010   Code   RO         1778    .text.USART1_GetGetTxCount  UART_STM32U5xx.o
-    0x080115a8   0x00000018   Code   RO         1784    .text.USART1_GetStatus  UART_STM32U5xx.o
-    0x080115c0   0x00000010   Code   RO         4446    .text.USART1_IRQHandler  stm32u5xx_it.o
-    0x080115d0   0x00000018   Code   RO         1766    .text.USART1_Initialize  UART_STM32U5xx.o
-    0x080115e8   0x00000018   Code   RO         1770    .text.USART1_PowerControl  UART_STM32U5xx.o
-    0x08011600   0x0000001c   Code   RO         1774    .text.USART1_Receive  UART_STM32U5xx.o
-    0x0801161c   0x0000001c   Code   RO         1772    .text.USART1_Send   UART_STM32U5xx.o
-    0x08011638   0x00000020   Code   RO         1776    .text.USART1_Transfer  UART_STM32U5xx.o
-    0x08011658   0x00000010   Code   RO         1768    .text.USART1_Uninitialize  UART_STM32U5xx.o
-    0x08011668   0x00000012   Code   RO         1321    .text.USBD0_SignalDeviceEvent  usbd_config.o
+    0x08011554   0x0000001c   Code   RO         4406    .text.USART1_Control  UART_STM32U5xx.o
+    0x08011570   0x00000018   Code   RO         4388    .text.USART1_GetCapabilities  UART_STM32U5xx.o
+    0x08011588   0x00000010   Code   RO         4404    .text.USART1_GetGetRxCount  UART_STM32U5xx.o
+    0x08011598   0x00000010   Code   RO         4402    .text.USART1_GetGetTxCount  UART_STM32U5xx.o
+    0x080115a8   0x00000018   Code   RO         4408    .text.USART1_GetStatus  UART_STM32U5xx.o
+    0x080115c0   0x00000010   Code   RO         2561    .text.USART1_IRQHandler  stm32u5xx_it.o
+    0x080115d0   0x00000018   Code   RO         4390    .text.USART1_Initialize  UART_STM32U5xx.o
+    0x080115e8   0x00000018   Code   RO         4394    .text.USART1_PowerControl  UART_STM32U5xx.o
+    0x08011600   0x0000001c   Code   RO         4398    .text.USART1_Receive  UART_STM32U5xx.o
+    0x0801161c   0x0000001c   Code   RO         4396    .text.USART1_Send   UART_STM32U5xx.o
+    0x08011638   0x00000020   Code   RO         4400    .text.USART1_Transfer  UART_STM32U5xx.o
+    0x08011658   0x00000010   Code   RO         4392    .text.USART1_Uninitialize  UART_STM32U5xx.o
+    0x08011668   0x00000012   Code   RO         3945    .text.USBD0_SignalDeviceEvent  usbd_config.o
     0x0801167a   0x00000002   PAD
-    0x0801167c   0x0000001a   Code   RO         1323    .text.USBD0_SignalEndpointEvent  usbd_config.o
+    0x0801167c   0x0000001a   Code   RO         3947    .text.USBD0_SignalEndpointEvent  usbd_config.o
     0x08011696   0x00000002   PAD
-    0x08011698   0x0000007e   Code   RO         1497    .text.USBD_CheckDevice  usbd_lib_core.o
+    0x08011698   0x0000007e   Code   RO         4121    .text.USBD_CheckDevice  usbd_lib_core.o
     0x08011716   0x00000002   PAD
-    0x08011718   0x0000007c   Code   RO         1393    .text.USBD_ClassInitialize  usbd_config.o
-    0x08011794   0x0000007c   Code   RO         1395    .text.USBD_ClassUninitialize  usbd_config.o
-    0x08011810   0x0000000c   Code   RO         1333    .text.USBD_Class_Endpoint0_InDataSent  usbd_config.o
-    0x0801181c   0x0000000c   Code   RO         1331    .text.USBD_Class_Endpoint0_OutDataReceived  usbd_config.o
-    0x08011828   0x0000000a   Code   RO         1329    .text.USBD_Class_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x08011718   0x0000007c   Code   RO         4017    .text.USBD_ClassInitialize  usbd_config.o
+    0x08011794   0x0000007c   Code   RO         4019    .text.USBD_ClassUninitialize  usbd_config.o
+    0x08011810   0x0000000c   Code   RO         3957    .text.USBD_Class_Endpoint0_InDataSent  usbd_config.o
+    0x0801181c   0x0000000c   Code   RO         3955    .text.USBD_Class_Endpoint0_OutDataReceived  usbd_config.o
+    0x08011828   0x0000000a   Code   RO         3953    .text.USBD_Class_Endpoint0_SetupPacketProcessed  usbd_config.o
     0x08011832   0x00000002   PAD
-    0x08011834   0x0000000c   Code   RO         1327    .text.USBD_Class_Endpoint0_SetupPacketReceived  usbd_config.o
-    0x08011840   0x00000070   Code   RO         1551    .text.USBD_ConfigureEndpoint0  usbd_lib_core.o
-    0x080118b0   0x00000048   Code   RO         1505    .text.USBD_Configured  usbd_lib_core.o
-    0x080118f8   0x0000002a   Code   RO         1501    .text.USBD_Connect  usbd_lib_core.o
+    0x08011834   0x0000000c   Code   RO         3951    .text.USBD_Class_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x08011840   0x00000070   Code   RO         4175    .text.USBD_ConfigureEndpoint0  usbd_lib_core.o
+    0x080118b0   0x00000048   Code   RO         4129    .text.USBD_Configured  usbd_lib_core.o
+    0x080118f8   0x0000002a   Code   RO         4125    .text.USBD_Connect  usbd_lib_core.o
     0x08011922   0x00000002   PAD
-    0x08011924   0x00000194   Code   RO         1539    .text.USBD_Core     usbd_lib_core.o
-    0x08011ab8   0x0000007e   Code   RO         1596    .text.USBD_Core_Endpoint0_InDataSent  usbd_lib_core_device.o
+    0x08011924   0x00000194   Code   RO         4163    .text.USBD_Core     usbd_lib_core.o
+    0x08011ab8   0x0000007e   Code   RO         4220    .text.USBD_Core_Endpoint0_InDataSent  usbd_lib_core_device.o
     0x08011b36   0x00000002   PAD
-    0x08011b38   0x0000007e   Code   RO         1594    .text.USBD_Core_Endpoint0_OutDataReceived  usbd_lib_core_device.o
+    0x08011b38   0x0000007e   Code   RO         4218    .text.USBD_Core_Endpoint0_OutDataReceived  usbd_lib_core_device.o
     0x08011bb6   0x00000002   PAD
-    0x08011bb8   0x0000005e   Code   RO         1592    .text.USBD_Core_Endpoint0_SetupPacketProcessed  usbd_lib_core_device.o
+    0x08011bb8   0x0000005e   Code   RO         4216    .text.USBD_Core_Endpoint0_SetupPacketProcessed  usbd_lib_core_device.o
     0x08011c16   0x00000002   PAD
-    0x08011c18   0x00000092   Code   RO         1590    .text.USBD_Core_Endpoint0_SetupPacketReceived  usbd_lib_core_device.o
+    0x08011c18   0x00000092   Code   RO         4214    .text.USBD_Core_Endpoint0_SetupPacketReceived  usbd_lib_core_device.o
     0x08011caa   0x00000002   PAD
-    0x08011cac   0x00000154   Code   RO         1537    .text.USBD_Core_Thread  usbd_lib_core.o
-    0x08011e00   0x0000010c   Code   RO         1525    .text.USBD_DataInStage  usbd_lib_core.o
-    0x08011f0c   0x00000062   Code   RO         1527    .text.USBD_DataOutStage  usbd_lib_core.o
+    0x08011cac   0x00000154   Code   RO         4161    .text.USBD_Core_Thread  usbd_lib_core.o
+    0x08011e00   0x0000010c   Code   RO         4149    .text.USBD_DataInStage  usbd_lib_core.o
+    0x08011f0c   0x00000062   Code   RO         4151    .text.USBD_DataOutStage  usbd_lib_core.o
     0x08011f6e   0x00000002   PAD
-    0x08011f70   0x00000014   Code   RO         1297    .text.USBD_Delay    usbd_config.o
-    0x08011f84   0x0000000a   Code   RO         1379    .text.USBD_Device0_ConfigurationChanged  usbd_config.o
+    0x08011f70   0x00000014   Code   RO         3921    .text.USBD_Delay    usbd_config.o
+    0x08011f84   0x0000000a   Code   RO         4003    .text.USBD_Device0_ConfigurationChanged  usbd_config.o
     0x08011f8e   0x00000002   PAD
-    0x08011f90   0x00000002   Code   RO         1383    .text.USBD_Device0_DisableRemoteWakeup  usbd_config.o
+    0x08011f90   0x00000002   Code   RO         4007    .text.USBD_Device0_DisableRemoteWakeup  usbd_config.o
     0x08011f92   0x00000002   PAD
-    0x08011f94   0x00000002   Code   RO         1381    .text.USBD_Device0_EnableRemoteWakeup  usbd_config.o
+    0x08011f94   0x00000002   Code   RO         4005    .text.USBD_Device0_EnableRemoteWakeup  usbd_config.o
     0x08011f96   0x00000002   PAD
-    0x08011f98   0x0000000a   Code   RO         1391    .text.USBD_Device0_Endpoint0_InDataSent  usbd_config.o
+    0x08011f98   0x0000000a   Code   RO         4015    .text.USBD_Device0_Endpoint0_InDataSent  usbd_config.o
     0x08011fa2   0x00000002   PAD
-    0x08011fa4   0x0000000a   Code   RO         1389    .text.USBD_Device0_Endpoint0_OutDataReceived  usbd_config.o
+    0x08011fa4   0x0000000a   Code   RO         4013    .text.USBD_Device0_Endpoint0_OutDataReceived  usbd_config.o
     0x08011fae   0x00000002   PAD
-    0x08011fb0   0x00000008   Code   RO         1387    .text.USBD_Device0_Endpoint0_SetupPacketProcessed  usbd_config.o
-    0x08011fb8   0x0000000e   Code   RO         1385    .text.USBD_Device0_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x08011fb0   0x00000008   Code   RO         4011    .text.USBD_Device0_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x08011fb8   0x0000000e   Code   RO         4009    .text.USBD_Device0_Endpoint0_SetupPacketReceived  usbd_config.o
     0x08011fc6   0x00000002   PAD
-    0x08011fc8   0x00000002   Code   RO         1369    .text.USBD_Device0_EventReset  usbd_config.o
+    0x08011fc8   0x00000002   Code   RO         3993    .text.USBD_Device0_EventReset  usbd_config.o
     0x08011fca   0x00000002   PAD
-    0x08011fcc   0x00000002   Code   RO         1373    .text.USBD_Device0_HighSpeedActivated  usbd_config.o
+    0x08011fcc   0x00000002   Code   RO         3997    .text.USBD_Device0_HighSpeedActivated  usbd_config.o
     0x08011fce   0x00000002   PAD
-    0x08011fd0   0x00000002   Code   RO         1363    .text.USBD_Device0_Initialize  usbd_config.o
+    0x08011fd0   0x00000002   Code   RO         3987    .text.USBD_Device0_Initialize  usbd_config.o
     0x08011fd2   0x00000002   PAD
-    0x08011fd4   0x00000008   Code   RO         1371    .text.USBD_Device0_Reset  usbd_config.o
-    0x08011fdc   0x00000002   Code   RO         1377    .text.USBD_Device0_Resumed  usbd_config.o
+    0x08011fd4   0x00000008   Code   RO         3995    .text.USBD_Device0_Reset  usbd_config.o
+    0x08011fdc   0x00000002   Code   RO         4001    .text.USBD_Device0_Resumed  usbd_config.o
     0x08011fde   0x00000002   PAD
-    0x08011fe0   0x00000002   Code   RO         1375    .text.USBD_Device0_Suspended  usbd_config.o
+    0x08011fe0   0x00000002   Code   RO         3999    .text.USBD_Device0_Suspended  usbd_config.o
     0x08011fe2   0x00000002   PAD
-    0x08011fe4   0x00000002   Code   RO         1365    .text.USBD_Device0_Uninitialize  usbd_config.o
+    0x08011fe4   0x00000002   Code   RO         3989    .text.USBD_Device0_Uninitialize  usbd_config.o
     0x08011fe6   0x00000002   PAD
-    0x08011fe8   0x0000000a   Code   RO         1367    .text.USBD_Device0_VbusChanged  usbd_config.o
+    0x08011fe8   0x0000000a   Code   RO         3991    .text.USBD_Device0_VbusChanged  usbd_config.o
     0x08011ff2   0x00000002   PAD
-    0x08011ff4   0x00000036   Code   RO         1859    .text.USBD_DeviceConnect  USBD_OTG_STM32U5xx.o
+    0x08011ff4   0x00000036   Code   RO         4483    .text.USBD_DeviceConnect  USBD_OTG_STM32U5xx.o
     0x0801202a   0x00000002   PAD
-    0x0801202c   0x00000036   Code   RO         1861    .text.USBD_DeviceDisconnect  USBD_OTG_STM32U5xx.o
+    0x0801202c   0x00000036   Code   RO         4485    .text.USBD_DeviceDisconnect  USBD_OTG_STM32U5xx.o
     0x08012062   0x00000002   PAD
-    0x08012064   0x00000014   Code   RO         1863    .text.USBD_DeviceGetState  USBD_OTG_STM32U5xx.o
-    0x08012078   0x00000036   Code   RO         1865    .text.USBD_DeviceRemoteWakeup  USBD_OTG_STM32U5xx.o
+    0x08012064   0x00000014   Code   RO         4487    .text.USBD_DeviceGetState  USBD_OTG_STM32U5xx.o
+    0x08012078   0x00000036   Code   RO         4489    .text.USBD_DeviceRemoteWakeup  USBD_OTG_STM32U5xx.o
     0x080120ae   0x00000002   PAD
-    0x080120b0   0x0000003e   Code   RO         1833    .text.USBD_DeviceSetAddress  USBD_OTG_STM32U5xx.o
+    0x080120b0   0x0000003e   Code   RO         4457    .text.USBD_DeviceSetAddress  USBD_OTG_STM32U5xx.o
     0x080120ee   0x00000002   PAD
-    0x080120f0   0x000000c6   Code   RO         1628    .text.USBD_DriverDeviceConnect  usbd_lib_drv.o
+    0x080120f0   0x000000c6   Code   RO         4252    .text.USBD_DriverDeviceConnect  usbd_lib_drv.o
     0x080121b6   0x00000002   PAD
-    0x080121b8   0x000000ce   Code   RO         1636    .text.USBD_DriverDeviceSetAddress  usbd_lib_drv.o
+    0x080121b8   0x000000ce   Code   RO         4260    .text.USBD_DriverDeviceSetAddress  usbd_lib_drv.o
     0x08012286   0x00000002   PAD
-    0x08012288   0x000001a6   Code   RO         1640    .text.USBD_DriverEndpointConfigure  usbd_lib_drv.o
+    0x08012288   0x000001a6   Code   RO         4264    .text.USBD_DriverEndpointConfigure  usbd_lib_drv.o
     0x0801242e   0x00000002   PAD
-    0x08012430   0x00000178   Code   RO         1646    .text.USBD_DriverEndpointStall  usbd_lib_drv.o
-    0x080125a8   0x000001f6   Code   RO         1648    .text.USBD_DriverEndpointTransfer  usbd_lib_drv.o
+    0x08012430   0x00000178   Code   RO         4270    .text.USBD_DriverEndpointStall  usbd_lib_drv.o
+    0x080125a8   0x000001f6   Code   RO         4272    .text.USBD_DriverEndpointTransfer  usbd_lib_drv.o
     0x0801279e   0x00000002   PAD
-    0x080127a0   0x00000170   Code   RO         1642    .text.USBD_DriverEndpointTransferAbort  usbd_lib_drv.o
-    0x08012910   0x000000ec   Code   RO         1650    .text.USBD_DriverEndpointTransferGetResult  usbd_lib_drv.o
-    0x080129fc   0x0000016c   Code   RO         1644    .text.USBD_DriverEndpointUnconfigure  usbd_lib_drv.o
-    0x08012b68   0x00000026   Code   RO         1620    .text.USBD_DriverGetCapabilities  usbd_lib_drv.o
+    0x080127a0   0x00000170   Code   RO         4266    .text.USBD_DriverEndpointTransferAbort  usbd_lib_drv.o
+    0x08012910   0x000000ec   Code   RO         4274    .text.USBD_DriverEndpointTransferGetResult  usbd_lib_drv.o
+    0x080129fc   0x0000016c   Code   RO         4268    .text.USBD_DriverEndpointUnconfigure  usbd_lib_drv.o
+    0x08012b68   0x00000026   Code   RO         4244    .text.USBD_DriverGetCapabilities  usbd_lib_drv.o
     0x08012b8e   0x00000002   PAD
-    0x08012b90   0x00000026   Code   RO         1618    .text.USBD_DriverGetVersion  usbd_lib_drv.o
+    0x08012b90   0x00000026   Code   RO         4242    .text.USBD_DriverGetVersion  usbd_lib_drv.o
     0x08012bb6   0x00000002   PAD
-    0x08012bb8   0x000000ce   Code   RO         1622    .text.USBD_DriverInitialize  usbd_lib_drv.o
+    0x08012bb8   0x000000ce   Code   RO         4246    .text.USBD_DriverInitialize  usbd_lib_drv.o
     0x08012c86   0x00000002   PAD
-    0x08012c88   0x000000ca   Code   RO         1626    .text.USBD_DriverPowerControl  usbd_lib_drv.o
+    0x08012c88   0x000000ca   Code   RO         4250    .text.USBD_DriverPowerControl  usbd_lib_drv.o
     0x08012d52   0x00000002   PAD
-    0x08012d54   0x000000ca   Code   RO         1638    .text.USBD_DriverReadSetupPacket  usbd_lib_drv.o
+    0x08012d54   0x000000ca   Code   RO         4262    .text.USBD_DriverReadSetupPacket  usbd_lib_drv.o
     0x08012e1e   0x00000002   PAD
-    0x08012e20   0x00000668   Code   RO         1555    .text.USBD_Endpoint0  usbd_lib_core.o
-    0x08013488   0x0000000e   Code   RO         1359    .text.USBD_Endpoint0_ClearFeatureStall_MSC  usbd_config.o
+    0x08012e20   0x00000668   Code   RO         4179    .text.USBD_Endpoint0  usbd_lib_core.o
+    0x08013488   0x0000000e   Code   RO         3983    .text.USBD_Endpoint0_ClearFeatureStall_MSC  usbd_config.o
     0x08013496   0x00000002   PAD
-    0x08013498   0x0000000c   Code   RO         1341    .text.USBD_Endpoint0_Out_ADC_ReqToEP  usbd_config.o
-    0x080134a4   0x0000000c   Code   RO         1337    .text.USBD_Endpoint0_Out_ADC_ReqToIF  usbd_config.o
-    0x080134b0   0x0000000c   Code   RO         1345    .text.USBD_Endpoint0_Out_CDC_ReqToIF  usbd_config.o
-    0x080134bc   0x000000ea   Code   RO         1609    .text.USBD_Endpoint0_Out_HID_ReqToIF  usbd_lib_core_hid.o
+    0x08013498   0x0000000c   Code   RO         3965    .text.USBD_Endpoint0_Out_ADC_ReqToEP  usbd_config.o
+    0x080134a4   0x0000000c   Code   RO         3961    .text.USBD_Endpoint0_Out_ADC_ReqToIF  usbd_config.o
+    0x080134b0   0x0000000c   Code   RO         3969    .text.USBD_Endpoint0_Out_CDC_ReqToIF  usbd_config.o
+    0x080134bc   0x000000ea   Code   RO         4233    .text.USBD_Endpoint0_Out_HID_ReqToIF  usbd_lib_core_hid.o
     0x080135a6   0x00000002   PAD
-    0x080135a8   0x0000025c   Code   RO         1605    .text.USBD_Endpoint0_ReqGetDescriptor_HID  usbd_lib_core_hid.o
-    0x08013804   0x0000000e   Code   RO         1325    .text.USBD_Endpoint0_ReqGetExtProp_CC  usbd_config.o
+    0x080135a8   0x0000025c   Code   RO         4229    .text.USBD_Endpoint0_ReqGetDescriptor_HID  usbd_lib_core_hid.o
+    0x08013804   0x0000000e   Code   RO         3949    .text.USBD_Endpoint0_ReqGetExtProp_CC  usbd_config.o
     0x08013812   0x00000002   PAD
-    0x08013814   0x0000000c   Code   RO         1339    .text.USBD_Endpoint0_Setup_ADC_ReqToEP  usbd_config.o
-    0x08013820   0x0000000c   Code   RO         1335    .text.USBD_Endpoint0_Setup_ADC_ReqToIF  usbd_config.o
-    0x0801382c   0x0000000c   Code   RO         1343    .text.USBD_Endpoint0_Setup_CDC_ReqToIF  usbd_config.o
-    0x08013838   0x0000031a   Code   RO         1607    .text.USBD_Endpoint0_Setup_HID_ReqToIF  usbd_lib_core_hid.o
+    0x08013814   0x0000000c   Code   RO         3963    .text.USBD_Endpoint0_Setup_ADC_ReqToEP  usbd_config.o
+    0x08013820   0x0000000c   Code   RO         3959    .text.USBD_Endpoint0_Setup_ADC_ReqToIF  usbd_config.o
+    0x0801382c   0x0000000c   Code   RO         3967    .text.USBD_Endpoint0_Setup_CDC_ReqToIF  usbd_config.o
+    0x08013838   0x0000031a   Code   RO         4231    .text.USBD_Endpoint0_Setup_HID_ReqToIF  usbd_lib_core_hid.o
     0x08013b52   0x00000002   PAD
-    0x08013b54   0x0000000c   Code   RO         1361    .text.USBD_Endpoint0_Setup_MSC_ReqToIF  usbd_config.o
-    0x08013b60   0x0000010a   Code   RO         1869    .text.USBD_EndpointConfigure  USBD_OTG_STM32U5xx.o
+    0x08013b54   0x0000000c   Code   RO         3985    .text.USBD_Endpoint0_Setup_MSC_ReqToIF  usbd_config.o
+    0x08013b60   0x0000010a   Code   RO         4493    .text.USBD_EndpointConfigure  USBD_OTG_STM32U5xx.o
     0x08013c6a   0x00000002   PAD
-    0x08013c6c   0x00000080   Code   RO         1873    .text.USBD_EndpointStall  USBD_OTG_STM32U5xx.o
-    0x08013cec   0x000000b0   Code   RO         1401    .text.USBD_EndpointStart  usbd_config.o
-    0x08013d9c   0x0000000e   Code   RO         1403    .text.USBD_EndpointStop  usbd_config.o
+    0x08013c6c   0x00000080   Code   RO         4497    .text.USBD_EndpointStall  USBD_OTG_STM32U5xx.o
+    0x08013cec   0x000000b0   Code   RO         4025    .text.USBD_EndpointStart  usbd_config.o
+    0x08013d9c   0x0000000e   Code   RO         4027    .text.USBD_EndpointStop  usbd_config.o
     0x08013daa   0x00000002   PAD
-    0x08013dac   0x00000106   Code   RO         1875    .text.USBD_EndpointTransfer  USBD_OTG_STM32U5xx.o
+    0x08013dac   0x00000106   Code   RO         4499    .text.USBD_EndpointTransfer  USBD_OTG_STM32U5xx.o
     0x08013eb2   0x00000002   PAD
-    0x08013eb4   0x00000080   Code   RO         1879    .text.USBD_EndpointTransferAbort  USBD_OTG_STM32U5xx.o
-    0x08013f34   0x0000002e   Code   RO         1877    .text.USBD_EndpointTransferGetResult  USBD_OTG_STM32U5xx.o
+    0x08013eb4   0x00000080   Code   RO         4503    .text.USBD_EndpointTransferAbort  USBD_OTG_STM32U5xx.o
+    0x08013f34   0x0000002e   Code   RO         4501    .text.USBD_EndpointTransferGetResult  USBD_OTG_STM32U5xx.o
     0x08013f62   0x00000002   PAD
-    0x08013f64   0x0000009e   Code   RO         1871    .text.USBD_EndpointUnconfigure  USBD_OTG_STM32U5xx.o
+    0x08013f64   0x0000009e   Code   RO         4495    .text.USBD_EndpointUnconfigure  USBD_OTG_STM32U5xx.o
     0x08014002   0x00000002   PAD
-    0x08014004   0x0000000c   Code   RO         1851    .text.USBD_GetCapabilities  USBD_OTG_STM32U5xx.o
-    0x08014010   0x00000034   Code   RO         1881    .text.USBD_GetFrameNumber  USBD_OTG_STM32U5xx.o
-    0x08014044   0x00000012   Code   RO         1849    .text.USBD_GetVersion  USBD_OTG_STM32U5xx.o
+    0x08014004   0x0000000c   Code   RO         4475    .text.USBD_GetCapabilities  USBD_OTG_STM32U5xx.o
+    0x08014010   0x00000034   Code   RO         4505    .text.USBD_GetFrameNumber  USBD_OTG_STM32U5xx.o
+    0x08014044   0x00000012   Code   RO         4473    .text.USBD_GetVersion  USBD_OTG_STM32U5xx.o
     0x08014056   0x00000002   PAD
-    0x08014058   0x00000006   Code   RO         1355    .text.USBD_HID0_GetProtocol  usbd_config.o
+    0x08014058   0x00000006   Code   RO         3979    .text.USBD_HID0_GetProtocol  usbd_config.o
     0x0801405e   0x00000002   PAD
-    0x08014060   0x00000060   Code   RO         4516    .text.USBD_HID0_GetReport  USBD_User_HID_0.o
-    0x080140c0   0x00000002   Code   RO         4512    .text.USBD_HID0_Initialize  USBD_User_HID_0.o
+    0x08014060   0x00000060   Code   RO         2631    .text.USBD_HID0_GetReport  USBD_User_HID_0.o
+    0x080140c0   0x00000002   Code   RO         2627    .text.USBD_HID0_Initialize  USBD_User_HID_0.o
     0x080140c2   0x00000002   PAD
-    0x080140c4   0x0000000c   Code   RO         1357    .text.USBD_HID0_SetProtocol  usbd_config.o
-    0x080140d0   0x0000004a   Code   RO         4518    .text.USBD_HID0_SetReport  USBD_User_HID_0.o
+    0x080140c4   0x0000000c   Code   RO         3981    .text.USBD_HID0_SetProtocol  usbd_config.o
+    0x080140d0   0x0000004a   Code   RO         2633    .text.USBD_HID0_SetReport  USBD_User_HID_0.o
     0x0801411a   0x00000002   PAD
-    0x0801411c   0x00000002   Code   RO         4514    .text.USBD_HID0_Uninitialize  USBD_User_HID_0.o
+    0x0801411c   0x00000002   Code   RO         2629    .text.USBD_HID0_Uninitialize  USBD_User_HID_0.o
     0x0801411e   0x00000002   PAD
-    0x08014120   0x000000dc   Code   RO         1667    .text.USBD_HID_CheckInstance  usbd_lib_hid.o
-    0x080141fc   0x00000068   Code   RO         1675    .text.USBD_HID_CoreGetIdle  usbd_lib_hid.o
-    0x08014264   0x0000008c   Code   RO         1679    .text.USBD_HID_CoreGetProtocol  usbd_lib_hid.o
-    0x080142f0   0x000000e8   Code   RO         1671    .text.USBD_HID_CoreGetReport  usbd_lib_hid.o
-    0x080143d8   0x00000108   Code   RO         1677    .text.USBD_HID_CoreSetIdle  usbd_lib_hid.o
-    0x080144e0   0x0000008e   Code   RO         1681    .text.USBD_HID_CoreSetProtocol  usbd_lib_hid.o
+    0x08014120   0x000000dc   Code   RO         4291    .text.USBD_HID_CheckInstance  usbd_lib_hid.o
+    0x080141fc   0x00000068   Code   RO         4299    .text.USBD_HID_CoreGetIdle  usbd_lib_hid.o
+    0x08014264   0x0000008c   Code   RO         4303    .text.USBD_HID_CoreGetProtocol  usbd_lib_hid.o
+    0x080142f0   0x000000e8   Code   RO         4295    .text.USBD_HID_CoreGetReport  usbd_lib_hid.o
+    0x080143d8   0x00000108   Code   RO         4301    .text.USBD_HID_CoreSetIdle  usbd_lib_hid.o
+    0x080144e0   0x0000008e   Code   RO         4305    .text.USBD_HID_CoreSetProtocol  usbd_lib_hid.o
     0x0801456e   0x00000002   PAD
-    0x08014570   0x00000102   Code   RO         1673    .text.USBD_HID_CoreSetReport  usbd_lib_hid.o
+    0x08014570   0x00000102   Code   RO         4297    .text.USBD_HID_CoreSetReport  usbd_lib_hid.o
     0x08014672   0x00000002   PAD
-    0x08014674   0x00000050   Code   RO         1691    .text.USBD_HID_EndpointStart  usbd_lib_hid.o
-    0x080146c4   0x000002f0   Code   RO         1669    .text.USBD_HID_EpIntIn  usbd_lib_hid.o
-    0x080149b4   0x00000144   Code   RO         1697    .text.USBD_HID_EpIntOut  usbd_lib_hid.o
-    0x08014af8   0x000000fe   Code   RO         1665    .text.USBD_HID_GetReportTrigger  usbd_lib_hid.o
+    0x08014674   0x00000050   Code   RO         4315    .text.USBD_HID_EndpointStart  usbd_lib_hid.o
+    0x080146c4   0x000002f0   Code   RO         4293    .text.USBD_HID_EpIntIn  usbd_lib_hid.o
+    0x080149b4   0x00000144   Code   RO         4321    .text.USBD_HID_EpIntOut  usbd_lib_hid.o
+    0x08014af8   0x000000fe   Code   RO         4289    .text.USBD_HID_GetReportTrigger  usbd_lib_hid.o
     0x08014bf6   0x00000002   PAD
-    0x08014bf8   0x00000116   Code   RO         1683    .text.USBD_HID_Initialize  usbd_lib_hid.o
+    0x08014bf8   0x00000116   Code   RO         4307    .text.USBD_HID_Initialize  usbd_lib_hid.o
     0x08014d0e   0x00000002   PAD
-    0x08014d10   0x000000ea   Code   RO         1687    .text.USBD_HID_Reset  usbd_lib_hid.o
+    0x08014d10   0x000000ea   Code   RO         4311    .text.USBD_HID_Reset  usbd_lib_hid.o
     0x08014dfa   0x00000002   PAD
-    0x08014dfc   0x00000080   Code   RO         1689    .text.USBD_HID_SetConfiguration  usbd_lib_hid.o
-    0x08014e7c   0x00000064   Code   RO         1695    .text.USBD_HID_Thread  usbd_lib_hid.o
-    0x08014ee0   0x00000296   Code   RO         1693    .text.USBD_HID_Timer  usbd_lib_hid.o
+    0x08014dfc   0x00000080   Code   RO         4313    .text.USBD_HID_SetConfiguration  usbd_lib_hid.o
+    0x08014e7c   0x00000064   Code   RO         4319    .text.USBD_HID_Thread  usbd_lib_hid.o
+    0x08014ee0   0x00000296   Code   RO         4317    .text.USBD_HID_Timer  usbd_lib_hid.o
     0x08015176   0x00000002   PAD
-    0x08015178   0x000000d6   Code   RO         1685    .text.USBD_HID_Uninitialize  usbd_lib_hid.o
+    0x08015178   0x000000d6   Code   RO         4309    .text.USBD_HID_Uninitialize  usbd_lib_hid.o
     0x0801524e   0x00000002   PAD
-    0x08015250   0x000003bc   Code   RO         1495    .text.USBD_Initialize  usbd_lib_core.o
-    0x0801560c   0x00000068   Code   RO         1853    .text.USBD_Initialize  USBD_OTG_STM32U5xx.o
-    0x08015674   0x000000ac   Code   RO         1299    .text.USBD_MsToTick  usbd_config.o
-    0x08015720   0x000000ce   Code   RO         1857    .text.USBD_PowerControl  USBD_OTG_STM32U5xx.o
+    0x08015250   0x000003bc   Code   RO         4119    .text.USBD_Initialize  usbd_lib_core.o
+    0x0801560c   0x00000068   Code   RO         4477    .text.USBD_Initialize  USBD_OTG_STM32U5xx.o
+    0x08015674   0x000000ac   Code   RO         3923    .text.USBD_MsToTick  usbd_config.o
+    0x08015720   0x000000ce   Code   RO         4481    .text.USBD_PowerControl  USBD_OTG_STM32U5xx.o
     0x080157ee   0x00000002   PAD
-    0x080157f0   0x0000006a   Code   RO         1867    .text.USBD_ReadSetupPacket  USBD_OTG_STM32U5xx.o
+    0x080157f0   0x0000006a   Code   RO         4491    .text.USBD_ReadSetupPacket  USBD_OTG_STM32U5xx.o
     0x0801585a   0x00000002   PAD
-    0x0801585c   0x0000009e   Code   RO         1567    .text.USBD_ReqGetConfiguration  usbd_lib_core.o
+    0x0801585c   0x0000009e   Code   RO         4191    .text.USBD_ReqGetConfiguration  usbd_lib_core.o
     0x080158fa   0x00000002   PAD
-    0x080158fc   0x0000047e   Code   RO         1565    .text.USBD_ReqGetDescriptor  usbd_lib_core.o
+    0x080158fc   0x0000047e   Code   RO         4189    .text.USBD_ReqGetDescriptor  usbd_lib_core.o
     0x08015d7a   0x00000002   PAD
-    0x08015d7c   0x000000ca   Code   RO         1571    .text.USBD_ReqGetInterface  usbd_lib_core.o
+    0x08015d7c   0x000000ca   Code   RO         4195    .text.USBD_ReqGetInterface  usbd_lib_core.o
     0x08015e46   0x00000002   PAD
-    0x08015e48   0x000001d0   Code   RO         1575    .text.USBD_ReqGetMSDescriptor  usbd_lib_core.o
-    0x08016018   0x00000182   Code   RO         1559    .text.USBD_ReqGetStatus  usbd_lib_core.o
+    0x08015e48   0x000001d0   Code   RO         4199    .text.USBD_ReqGetMSDescriptor  usbd_lib_core.o
+    0x08016018   0x00000182   Code   RO         4183    .text.USBD_ReqGetStatus  usbd_lib_core.o
     0x0801619a   0x00000002   PAD
-    0x0801619c   0x00000090   Code   RO         1563    .text.USBD_ReqSetAddress  usbd_lib_core.o
-    0x0801622c   0x0000023a   Code   RO         1561    .text.USBD_ReqSetClrFeature  usbd_lib_core.o
+    0x0801619c   0x00000090   Code   RO         4187    .text.USBD_ReqSetAddress  usbd_lib_core.o
+    0x0801622c   0x0000023a   Code   RO         4185    .text.USBD_ReqSetClrFeature  usbd_lib_core.o
     0x08016466   0x00000002   PAD
-    0x08016468   0x000004ca   Code   RO         1569    .text.USBD_ReqSetConfiguration  usbd_lib_core.o
+    0x08016468   0x000004ca   Code   RO         4193    .text.USBD_ReqSetConfiguration  usbd_lib_core.o
     0x08016932   0x00000002   PAD
-    0x08016934   0x00000326   Code   RO         1573    .text.USBD_ReqSetInterface  usbd_lib_core.o
+    0x08016934   0x00000326   Code   RO         4197    .text.USBD_ReqSetInterface  usbd_lib_core.o
     0x08016c5a   0x00000002   PAD
-    0x08016c5c   0x0000006a   Code   RO         1397    .text.USBD_Reset    usbd_config.o
+    0x08016c5c   0x0000006a   Code   RO         4021    .text.USBD_Reset    usbd_config.o
     0x08016cc6   0x00000002   PAD
-    0x08016cc8   0x0000003c   Code   RO         1549    .text.USBD_ResetCore  usbd_lib_core.o
-    0x08016d04   0x00000032   Code   RO         1315    .text.USBD_SemaphoreAcquire  usbd_config.o
+    0x08016cc8   0x0000003c   Code   RO         4173    .text.USBD_ResetCore  usbd_lib_core.o
+    0x08016d04   0x00000032   Code   RO         3939    .text.USBD_SemaphoreAcquire  usbd_config.o
     0x08016d36   0x00000002   PAD
-    0x08016d38   0x000000f0   Code   RO         1313    .text.USBD_SemaphoreCreate  usbd_config.o
-    0x08016e28   0x00000024   Code   RO         1319    .text.USBD_SemaphoreDelete  usbd_config.o
-    0x08016e4c   0x00000024   Code   RO         1317    .text.USBD_SemaphoreRelease  usbd_config.o
-    0x08016e70   0x00000078   Code   RO         1399    .text.USBD_SetConfiguration  usbd_config.o
-    0x08016ee8   0x00000028   Code   RO         1557    .text.USBD_SetupStage  usbd_lib_core.o
-    0x08016f10   0x00000024   Code   RO         1654    .text.USBD_SignalDeviceEvent  usbd_lib_drv.o
-    0x08016f34   0x00000080   Code   RO         1656    .text.USBD_SignalEndpointEvent  usbd_lib_drv.o
-    0x08016fb4   0x0000001a   Code   RO         1529    .text.USBD_StatusInStage  usbd_lib_core.o
+    0x08016d38   0x000000f0   Code   RO         3937    .text.USBD_SemaphoreCreate  usbd_config.o
+    0x08016e28   0x00000024   Code   RO         3943    .text.USBD_SemaphoreDelete  usbd_config.o
+    0x08016e4c   0x00000024   Code   RO         3941    .text.USBD_SemaphoreRelease  usbd_config.o
+    0x08016e70   0x00000078   Code   RO         4023    .text.USBD_SetConfiguration  usbd_config.o
+    0x08016ee8   0x00000028   Code   RO         4181    .text.USBD_SetupStage  usbd_lib_core.o
+    0x08016f10   0x00000024   Code   RO         4278    .text.USBD_SignalDeviceEvent  usbd_lib_drv.o
+    0x08016f34   0x00000080   Code   RO         4280    .text.USBD_SignalEndpointEvent  usbd_lib_drv.o
+    0x08016fb4   0x0000001a   Code   RO         4153    .text.USBD_StatusInStage  usbd_lib_core.o
     0x08016fce   0x00000002   PAD
-    0x08016fd0   0x00000028   Code   RO         1531    .text.USBD_StatusInStageDone  usbd_lib_core.o
-    0x08016ff8   0x0000001a   Code   RO         1533    .text.USBD_StatusOutStage  usbd_lib_core.o
+    0x08016fd0   0x00000028   Code   RO         4155    .text.USBD_StatusInStageDone  usbd_lib_core.o
+    0x08016ff8   0x0000001a   Code   RO         4157    .text.USBD_StatusOutStage  usbd_lib_core.o
     0x08017012   0x00000002   PAD
-    0x08017014   0x0000004e   Code   RO         1535    .text.USBD_StatusOutStageDone  usbd_lib_core.o
+    0x08017014   0x0000004e   Code   RO         4159    .text.USBD_StatusOutStageDone  usbd_lib_core.o
     0x08017062   0x00000002   PAD
-    0x08017064   0x00000022   Code   RO         1553    .text.USBD_SwitchToHighSpeedCore  usbd_lib_core.o
+    0x08017064   0x00000022   Code   RO         4177    .text.USBD_SwitchToHighSpeedCore  usbd_lib_core.o
     0x08017086   0x00000002   PAD
-    0x08017088   0x00000138   Code   RO         1293    .text.USBD_ThreadCreate  usbd_config.o
-    0x080171c0   0x00000026   Code   RO         1309    .text.USBD_ThreadFlagsSet  usbd_config.o
+    0x08017088   0x00000138   Code   RO         3917    .text.USBD_ThreadCreate  usbd_config.o
+    0x080171c0   0x00000026   Code   RO         3933    .text.USBD_ThreadFlagsSet  usbd_config.o
     0x080171e6   0x00000002   PAD
-    0x080171e8   0x00000048   Code   RO         1311    .text.USBD_ThreadFlagsWait  usbd_config.o
-    0x08017230   0x00000024   Code   RO         1295    .text.USBD_ThreadTerminate  usbd_config.o
-    0x08017254   0x00000056   Code   RO         1301    .text.USBD_TimerCreate  usbd_config.o
+    0x080171e8   0x00000048   Code   RO         3935    .text.USBD_ThreadFlagsWait  usbd_config.o
+    0x08017230   0x00000024   Code   RO         3919    .text.USBD_ThreadTerminate  usbd_config.o
+    0x08017254   0x00000056   Code   RO         3925    .text.USBD_TimerCreate  usbd_config.o
     0x080172aa   0x00000002   PAD
-    0x080172ac   0x00000032   Code   RO         1303    .text.USBD_TimerStart  usbd_config.o
+    0x080172ac   0x00000032   Code   RO         3927    .text.USBD_TimerStart  usbd_config.o
     0x080172de   0x00000002   PAD
-    0x080172e0   0x00000034   Code   RO         1305    .text.USBD_TimerStop  usbd_config.o
-    0x08017314   0x00000022   Code   RO         1855    .text.USBD_Uninitialize  USBD_OTG_STM32U5xx.o
+    0x080172e0   0x00000034   Code   RO         3929    .text.USBD_TimerStop  usbd_config.o
+    0x08017314   0x00000022   Code   RO         4479    .text.USBD_Uninitialize  USBD_OTG_STM32U5xx.o
     0x08017336   0x00000002   PAD
-    0x08017338   0x000000de   Code   RO         4162    .text.USB_ActivateEndpoint  stm32u5xx_ll_usb.o
+    0x08017338   0x000000de   Code   RO         2277    .text.USB_ActivateEndpoint  stm32u5xx_ll_usb.o
     0x08017416   0x00000002   PAD
-    0x08017418   0x0000002a   Code   RO         4232    .text.USB_ActivateRemoteWakeup  stm32u5xx_ll_usb.o
+    0x08017418   0x0000002a   Code   RO         2347    .text.USB_ActivateRemoteWakeup  stm32u5xx_ll_usb.o
     0x08017442   0x00000002   PAD
-    0x08017444   0x0000002c   Code   RO         4204    .text.USB_ActivateSetup  stm32u5xx_ll_usb.o
-    0x08017470   0x00000060   Code   RO         4138    .text.USB_CoreInit  stm32u5xx_ll_usb.o
-    0x080174d0   0x00000070   Code   RO         4140    .text.USB_CoreReset  stm32u5xx_ll_usb.o
-    0x08017540   0x00000138   Code   RO         4166    .text.USB_DeactivateEndpoint  stm32u5xx_ll_usb.o
-    0x08017678   0x0000002a   Code   RO         4186    .text.USB_DevConnect  stm32u5xx_ll_usb.o
+    0x08017444   0x0000002c   Code   RO         2319    .text.USB_ActivateSetup  stm32u5xx_ll_usb.o
+    0x08017470   0x00000060   Code   RO         2253    .text.USB_CoreInit  stm32u5xx_ll_usb.o
+    0x080174d0   0x00000070   Code   RO         2255    .text.USB_CoreReset  stm32u5xx_ll_usb.o
+    0x08017540   0x00000138   Code   RO         2281    .text.USB_DeactivateEndpoint  stm32u5xx_ll_usb.o
+    0x08017678   0x0000002a   Code   RO         2301    .text.USB_DevConnect  stm32u5xx_ll_usb.o
     0x080176a2   0x00000002   PAD
-    0x080176a4   0x0000002a   Code   RO         4188    .text.USB_DevDisconnect  stm32u5xx_ll_usb.o
+    0x080176a4   0x0000002a   Code   RO         2303    .text.USB_DevDisconnect  stm32u5xx_ll_usb.o
     0x080176ce   0x00000002   PAD
-    0x080176d0   0x0000025e   Code   RO         4152    .text.USB_DevInit   stm32u5xx_ll_usb.o
+    0x080176d0   0x0000025e   Code   RO         2267    .text.USB_DevInit   stm32u5xx_ll_usb.o
     0x0801792e   0x00000002   PAD
-    0x08017930   0x00000014   Code   RO         4146    .text.USB_DisableGlobalInt  stm32u5xx_ll_usb.o
-    0x08017944   0x00000098   Code   RO         4206    .text.USB_EP0_OutStart  stm32u5xx_ll_usb.o
-    0x080179dc   0x000000a0   Code   RO         4180    .text.USB_EPClearStall  stm32u5xx_ll_usb.o
-    0x08017a7c   0x000000a8   Code   RO         4178    .text.USB_EPSetStall  stm32u5xx_ll_usb.o
-    0x08017b24   0x000003ea   Code   RO         4170    .text.USB_EPStartXfer  stm32u5xx_ll_usb.o
+    0x08017930   0x00000014   Code   RO         2261    .text.USB_DisableGlobalInt  stm32u5xx_ll_usb.o
+    0x08017944   0x00000098   Code   RO         2321    .text.USB_EP0_OutStart  stm32u5xx_ll_usb.o
+    0x080179dc   0x000000a0   Code   RO         2295    .text.USB_EPClearStall  stm32u5xx_ll_usb.o
+    0x08017a7c   0x000000a8   Code   RO         2293    .text.USB_EPSetStall  stm32u5xx_ll_usb.o
+    0x08017b24   0x000003ea   Code   RO         2285    .text.USB_EPStartXfer  stm32u5xx_ll_usb.o
     0x08017f0e   0x00000002   PAD
-    0x08017f10   0x00000114   Code   RO         4174    .text.USB_EPStopXfer  stm32u5xx_ll_usb.o
-    0x08018024   0x00000014   Code   RO         4144    .text.USB_EnableGlobalInt  stm32u5xx_ll_usb.o
-    0x08018038   0x0000006c   Code   RO         4158    .text.USB_FlushRxFifo  stm32u5xx_ll_usb.o
-    0x080180a4   0x00000072   Code   RO         4156    .text.USB_FlushTxFifo  stm32u5xx_ll_usb.o
+    0x08017f10   0x00000114   Code   RO         2289    .text.USB_EPStopXfer  stm32u5xx_ll_usb.o
+    0x08018024   0x00000014   Code   RO         2259    .text.USB_EnableGlobalInt  stm32u5xx_ll_usb.o
+    0x08018038   0x0000006c   Code   RO         2273    .text.USB_FlushRxFifo  stm32u5xx_ll_usb.o
+    0x080180a4   0x00000072   Code   RO         2271    .text.USB_FlushTxFifo  stm32u5xx_ll_usb.o
     0x08018116   0x00000002   PAD
-    0x08018118   0x00000014   Code   RO         4218    .text.USB_GetCurrentFrame  stm32u5xx_ll_usb.o
-    0x0801812c   0x0000004c   Code   RO         4160    .text.USB_GetDevSpeed  stm32u5xx_ll_usb.o
-    0x08018178   0x00000010   Code   RO         4150    .text.USB_GetMode   stm32u5xx_ll_usb.o
-    0x08018188   0x00000024   Code   RO         4196    .text.USB_ReadDevAllInEpInterrupt  stm32u5xx_ll_usb.o
-    0x080181ac   0x00000024   Code   RO         4194    .text.USB_ReadDevAllOutEpInterrupt  stm32u5xx_ll_usb.o
-    0x080181d0   0x0000004e   Code   RO         4200    .text.USB_ReadDevInEPInterrupt  stm32u5xx_ll_usb.o
+    0x08018118   0x00000014   Code   RO         2333    .text.USB_GetCurrentFrame  stm32u5xx_ll_usb.o
+    0x0801812c   0x0000004c   Code   RO         2275    .text.USB_GetDevSpeed  stm32u5xx_ll_usb.o
+    0x08018178   0x00000010   Code   RO         2265    .text.USB_GetMode   stm32u5xx_ll_usb.o
+    0x08018188   0x00000024   Code   RO         2311    .text.USB_ReadDevAllInEpInterrupt  stm32u5xx_ll_usb.o
+    0x080181ac   0x00000024   Code   RO         2309    .text.USB_ReadDevAllOutEpInterrupt  stm32u5xx_ll_usb.o
+    0x080181d0   0x0000004e   Code   RO         2315    .text.USB_ReadDevInEPInterrupt  stm32u5xx_ll_usb.o
     0x0801821e   0x00000002   PAD
-    0x08018220   0x0000002e   Code   RO         4198    .text.USB_ReadDevOutEPInterrupt  stm32u5xx_ll_usb.o
+    0x08018220   0x0000002e   Code   RO         2313    .text.USB_ReadDevOutEPInterrupt  stm32u5xx_ll_usb.o
     0x0801824e   0x00000002   PAD
-    0x08018250   0x0000001a   Code   RO         4190    .text.USB_ReadInterrupts  stm32u5xx_ll_usb.o
+    0x08018250   0x0000001a   Code   RO         2305    .text.USB_ReadInterrupts  stm32u5xx_ll_usb.o
     0x0801826a   0x00000002   PAD
-    0x0801826c   0x000000b4   Code   RO         4176    .text.USB_ReadPacket  stm32u5xx_ll_usb.o
-    0x08018320   0x000000d0   Code   RO         4148    .text.USB_SetCurrentMode  stm32u5xx_ll_usb.o
-    0x080183f0   0x00000036   Code   RO         4184    .text.USB_SetDevAddress  stm32u5xx_ll_usb.o
+    0x0801826c   0x000000b4   Code   RO         2291    .text.USB_ReadPacket  stm32u5xx_ll_usb.o
+    0x08018320   0x000000d0   Code   RO         2263    .text.USB_SetCurrentMode  stm32u5xx_ll_usb.o
+    0x080183f0   0x00000036   Code   RO         2299    .text.USB_SetDevAddress  stm32u5xx_ll_usb.o
     0x08018426   0x00000002   PAD
-    0x08018428   0x00000022   Code   RO         4154    .text.USB_SetDevSpeed  stm32u5xx_ll_usb.o
+    0x08018428   0x00000022   Code   RO         2269    .text.USB_SetDevSpeed  stm32u5xx_ll_usb.o
     0x0801844a   0x00000002   PAD
-    0x0801844c   0x000001ba   Code   RO         4142    .text.USB_SetTurnaroundTime  stm32u5xx_ll_usb.o
+    0x0801844c   0x000001ba   Code   RO         2257    .text.USB_SetTurnaroundTime  stm32u5xx_ll_usb.o
     0x08018606   0x00000002   PAD
-    0x08018608   0x00000088   Code   RO         4182    .text.USB_StopDevice  stm32u5xx_ll_usb.o
-    0x08018690   0x00000082   Code   RO         4172    .text.USB_WritePacket  stm32u5xx_ll_usb.o
+    0x08018608   0x00000088   Code   RO         2297    .text.USB_StopDevice  stm32u5xx_ll_usb.o
+    0x08018690   0x00000082   Code   RO         2287    .text.USB_WritePacket  stm32u5xx_ll_usb.o
     0x08018712   0x00000002   PAD
-    0x08018714   0x00000004   Code   RO         4442    .text.UsageFault_Handler  stm32u5xx_it.o
-    0x08018718   0x00000032   Code   RO         2007    .text.__NVIC_DisableIRQ  stm32u5xx_hal_cortex.o
+    0x08018714   0x00000004   Code   RO         2557    .text.UsageFault_Handler  stm32u5xx_it.o
+    0x08018718   0x00000032   Code   RO          122    .text.__NVIC_DisableIRQ  stm32u5xx_hal_cortex.o
     0x0801874a   0x00000002   PAD
-    0x0801874c   0x0000002a   Code   RO         2003    .text.__NVIC_EnableIRQ  stm32u5xx_hal_cortex.o
+    0x0801874c   0x0000002a   Code   RO          118    .text.__NVIC_EnableIRQ  stm32u5xx_hal_cortex.o
     0x08018776   0x00000002   PAD
-    0x08018778   0x00000010   Code   RO          582    .text.__NVIC_GetPriorityGrouping  rtx_kernel.o
-    0x08018788   0x00000010   Code   RO         1995    .text.__NVIC_GetPriorityGrouping  stm32u5xx_hal_cortex.o
-    0x08018798   0x0000003a   Code   RO         1997    .text.__NVIC_SetPriority  stm32u5xx_hal_cortex.o
+    0x08018778   0x00000010   Code   RO          110    .text.__NVIC_GetPriorityGrouping  stm32u5xx_hal_cortex.o
+    0x08018788   0x00000010   Code   RO         3206    .text.__NVIC_GetPriorityGrouping  rtx_kernel.o
+    0x08018798   0x0000003a   Code   RO          112    .text.__NVIC_SetPriority  stm32u5xx_hal_cortex.o
     0x080187d2   0x00000002   PAD
-    0x080187d4   0x0000003c   Code   RO         1991    .text.__NVIC_SetPriorityGrouping  stm32u5xx_hal_cortex.o
-    0x08018810   0x00000096   Code   RO          619    .text.__user_perthread_libspace  rtx_lib.o
+    0x080187d4   0x0000003c   Code   RO          106    .text.__NVIC_SetPriorityGrouping  stm32u5xx_hal_cortex.o
+    0x08018810   0x00000096   Code   RO         3243    .text.__user_perthread_libspace  rtx_lib.o
     0x080188a6   0x00000002   PAD
-    0x080188a8   0x00000020   Code   RO          629    .text._mutex_acquire  rtx_lib.o
-    0x080188c8   0x00000012   Code   RO          633    .text._mutex_free   rtx_lib.o
+    0x080188a8   0x00000020   Code   RO         3253    .text._mutex_acquire  rtx_lib.o
+    0x080188c8   0x00000012   Code   RO         3257    .text._mutex_free   rtx_lib.o
     0x080188da   0x00000002   PAD
-    0x080188dc   0x00000032   Code   RO          627    .text._mutex_initialize  rtx_lib.o
+    0x080188dc   0x00000032   Code   RO         3251    .text._mutex_initialize  rtx_lib.o
     0x0801890e   0x00000002   PAD
-    0x08018910   0x0000001c   Code   RO          631    .text._mutex_release  rtx_lib.o
-    0x0801892c   0x00000008   Code   RO          615    .text._platform_post_stackheap_init  rtx_lib.o
-    0x08018934   0x0000004a   Code   RO           20    .text._sys_close    retarget_io.o
+    0x08018910   0x0000001c   Code   RO         3255    .text._mutex_release  rtx_lib.o
+    0x0801892c   0x00000008   Code   RO         3239    .text._platform_post_stackheap_init  rtx_lib.o
+    0x08018934   0x0000004a   Code   RO         2644    .text._sys_close    retarget_io.o
     0x0801897e   0x00000002   PAD
-    0x08018980   0x0000004a   Code   RO           30    .text._sys_flen     retarget_io.o
+    0x08018980   0x0000004a   Code   RO         2654    .text._sys_flen     retarget_io.o
     0x080189ca   0x00000002   PAD
-    0x080189cc   0x00000048   Code   RO           26    .text._sys_istty    retarget_io.o
-    0x08018a14   0x00000084   Code   RO           18    .text._sys_open     retarget_io.o
-    0x08018a98   0x00000052   Code   RO           28    .text._sys_seek     retarget_io.o
+    0x080189cc   0x00000048   Code   RO         2650    .text._sys_istty    retarget_io.o
+    0x08018a14   0x00000084   Code   RO         2642    .text._sys_open     retarget_io.o
+    0x08018a98   0x00000052   Code   RO         2652    .text._sys_seek     retarget_io.o
     0x08018aea   0x00000002   PAD
-    0x08018aec   0x00000098   Code   RO           22    .text._sys_write    retarget_io.o
-    0x08018b84   0x0000002a   Code   RO         4489    .text.app_main      HID.o
+    0x08018aec   0x00000098   Code   RO         2646    .text._sys_write    retarget_io.o
+    0x08018b84   0x0000002a   Code   RO         2604    .text.app_main      HID.o
     0x08018bae   0x00000002   PAD
-    0x08018bb0   0x0000006a   Code   RO         4487    .text.app_main_thread  HID.o
+    0x08018bb0   0x0000006a   Code   RO         2602    .text.app_main_thread  HID.o
     0x08018c1a   0x00000002   PAD
-    0x08018c1c   0x00000038   Code   RO         1139    .text.atomic_chk32_all  rtx_thread.o
-    0x08018c54   0x00000034   Code   RO         1141    .text.atomic_chk32_any  rtx_thread.o
-    0x08018c88   0x0000002c   Code   RO          917    .text.atomic_dec16_nz  rtx_semaphore.o
-    0x08018cb4   0x0000002c   Code   RO          966    .text.atomic_dec16_nz  rtx_system.o
-    0x08018ce0   0x00000020   Code   RO          686    .text.atomic_dec32  rtx_mempool.o
-    0x08018d00   0x00000028   Code   RO          813    .text.atomic_dec32_nz  rtx_msgqueue.o
-    0x08018d28   0x00000034   Code   RO          968    .text.atomic_inc16_lim  rtx_system.o
-    0x08018d5c   0x00000038   Code   RO          927    .text.atomic_inc16_lt  rtx_semaphore.o
-    0x08018d94   0x00000038   Code   RO          972    .text.atomic_inc16_lt  rtx_system.o
-    0x08018dcc   0x00000020   Code   RO          680    .text.atomic_inc32  rtx_mempool.o
-    0x08018dec   0x00000020   Code   RO          805    .text.atomic_inc32  rtx_msgqueue.o
-    0x08018e0c   0x00000028   Code   RO          678    .text.atomic_link_get  rtx_mempool.o
-    0x08018e34   0x00000030   Code   RO          684    .text.atomic_link_put  rtx_mempool.o
-    0x08018e64   0x00000028   Code   RO         1189    .text.atomic_set32  rtx_thread.o
-    0x08018e8c   0x00000028   Code   RO          815    .text.atomic_wr8    rtx_msgqueue.o
-    0x08018eb4   0x000000ac   Code   RO          773    .text.isrRtxMessageQueueGet  rtx_msgqueue.o
-    0x08018f60   0x000000bc   Code   RO          769    .text.isrRtxMessageQueuePut  rtx_msgqueue.o
-    0x0801901c   0x0000006e   Code   RO          895    .text.isrRtxSemaphoreAcquire  rtx_semaphore.o
+    0x08018c1c   0x00000038   Code   RO         3763    .text.atomic_chk32_all  rtx_thread.o
+    0x08018c54   0x00000034   Code   RO         3765    .text.atomic_chk32_any  rtx_thread.o
+    0x08018c88   0x0000002c   Code   RO         3541    .text.atomic_dec16_nz  rtx_semaphore.o
+    0x08018cb4   0x0000002c   Code   RO         3590    .text.atomic_dec16_nz  rtx_system.o
+    0x08018ce0   0x00000020   Code   RO         3310    .text.atomic_dec32  rtx_mempool.o
+    0x08018d00   0x00000028   Code   RO         3437    .text.atomic_dec32_nz  rtx_msgqueue.o
+    0x08018d28   0x00000034   Code   RO         3592    .text.atomic_inc16_lim  rtx_system.o
+    0x08018d5c   0x00000038   Code   RO         3551    .text.atomic_inc16_lt  rtx_semaphore.o
+    0x08018d94   0x00000038   Code   RO         3596    .text.atomic_inc16_lt  rtx_system.o
+    0x08018dcc   0x00000020   Code   RO         3304    .text.atomic_inc32  rtx_mempool.o
+    0x08018dec   0x00000020   Code   RO         3429    .text.atomic_inc32  rtx_msgqueue.o
+    0x08018e0c   0x00000028   Code   RO         3302    .text.atomic_link_get  rtx_mempool.o
+    0x08018e34   0x00000030   Code   RO         3308    .text.atomic_link_put  rtx_mempool.o
+    0x08018e64   0x00000028   Code   RO         3813    .text.atomic_set32  rtx_thread.o
+    0x08018e8c   0x00000028   Code   RO         3439    .text.atomic_wr8    rtx_msgqueue.o
+    0x08018eb4   0x000000ac   Code   RO         3397    .text.isrRtxMessageQueueGet  rtx_msgqueue.o
+    0x08018f60   0x000000bc   Code   RO         3393    .text.isrRtxMessageQueuePut  rtx_msgqueue.o
+    0x0801901c   0x0000006e   Code   RO         3519    .text.isrRtxSemaphoreAcquire  rtx_semaphore.o
     0x0801908a   0x00000002   PAD
-    0x0801908c   0x00000074   Code   RO          899    .text.isrRtxSemaphoreRelease  rtx_semaphore.o
-    0x08019100   0x00000086   Code   RO         1121    .text.isrRtxThreadFlagsSet  rtx_thread.o
+    0x0801908c   0x00000074   Code   RO         3523    .text.isrRtxSemaphoreRelease  rtx_semaphore.o
+    0x08019100   0x00000086   Code   RO         3745    .text.isrRtxThreadFlagsSet  rtx_thread.o
     0x08019186   0x00000002   PAD
-    0x08019188   0x00000054   Code   RO          948    .text.isr_queue_get  rtx_system.o
-    0x080191dc   0x0000005e   Code   RO          962    .text.isr_queue_put  rtx_system.o
+    0x08019188   0x00000054   Code   RO         3572    .text.isr_queue_get  rtx_system.o
+    0x080191dc   0x0000005e   Code   RO         3586    .text.isr_queue_put  rtx_system.o
     0x0801923a   0x00000002   PAD
-    0x0801923c   0x00000058   Code   RO         4330    .text.main          main.o
-    0x08019294   0x00000054   Code   RO           43    .text.osDelay       rtx_delay.o
-    0x080192e8   0x00000042   Code   RO          526    .text.osKernelGetState  rtx_kernel.o
+    0x0801923c   0x00000058   Code   RO         2445    .text.main          main.o
+    0x08019294   0x00000054   Code   RO         2667    .text.osDelay       rtx_delay.o
+    0x080192e8   0x00000042   Code   RO         3150    .text.osKernelGetState  rtx_kernel.o
     0x0801932a   0x00000002   PAD
-    0x0801932c   0x0000003a   Code   RO          562    .text.osKernelGetTickFreq  rtx_kernel.o
+    0x0801932c   0x0000003a   Code   RO         3186    .text.osKernelGetTickFreq  rtx_kernel.o
     0x08019366   0x00000002   PAD
-    0x08019368   0x0000004a   Code   RO          514    .text.osKernelInitialize  rtx_kernel.o
+    0x08019368   0x0000004a   Code   RO         3138    .text.osKernelInitialize  rtx_kernel.o
     0x080193b2   0x00000002   PAD
-    0x080193b4   0x00000046   Code   RO          530    .text.osKernelStart  rtx_kernel.o
+    0x080193b4   0x00000046   Code   RO         3154    .text.osKernelStart  rtx_kernel.o
     0x080193fa   0x00000002   PAD
-    0x080193fc   0x0000007e   Code   RO          771    .text.osMessageQueueGet  rtx_msgqueue.o
+    0x080193fc   0x0000007e   Code   RO         3395    .text.osMessageQueueGet  rtx_msgqueue.o
     0x0801947a   0x00000002   PAD
-    0x0801947c   0x0000008a   Code   RO          767    .text.osMessageQueuePut  rtx_msgqueue.o
+    0x0801947c   0x0000008a   Code   RO         3391    .text.osMessageQueuePut  rtx_msgqueue.o
     0x08019506   0x00000002   PAD
-    0x08019508   0x00000064   Code   RO          848    .text.osMutexAcquire  rtx_mutex.o
-    0x0801956c   0x00000056   Code   RO          854    .text.osMutexDelete  rtx_mutex.o
+    0x08019508   0x00000064   Code   RO         3472    .text.osMutexAcquire  rtx_mutex.o
+    0x0801956c   0x00000056   Code   RO         3478    .text.osMutexDelete  rtx_mutex.o
     0x080195c2   0x00000002   PAD
-    0x080195c4   0x00000056   Code   RO          838    .text.osMutexNew    rtx_mutex.o
+    0x080195c4   0x00000056   Code   RO         3462    .text.osMutexNew    rtx_mutex.o
     0x0801961a   0x00000002   PAD
-    0x0801961c   0x00000056   Code   RO          850    .text.osMutexRelease  rtx_mutex.o
+    0x0801961c   0x00000056   Code   RO         3474    .text.osMutexRelease  rtx_mutex.o
     0x08019672   0x00000002   PAD
-    0x08019674   0x00000030   Code   RO         4503    .text.osRtxErrorNotify  RTX_Config.o
-    0x080196a4   0x0000000a   Code   RO          952    .text.osRtxEventFlagsObject  rtx_system.o
+    0x08019674   0x00000030   Code   RO         2618    .text.osRtxErrorNotify  RTX_Config.o
+    0x080196a4   0x0000000a   Code   RO         3576    .text.osRtxEventFlagsObject  rtx_system.o
     0x080196ae   0x00000002   PAD
-    0x080196b0   0x00000008   Code   RO         4501    .text.osRtxIdleThread  RTX_Config.o
-    0x080196b8   0x00000002   Code   RO          510    .text.osRtxKernelBeforeInit  rtx_kernel.o
+    0x080196b0   0x00000008   Code   RO         2616    .text.osRtxIdleThread  RTX_Config.o
+    0x080196b8   0x00000002   Code   RO         3134    .text.osRtxKernelBeforeInit  rtx_kernel.o
     0x080196ba   0x00000002   PAD
-    0x080196bc   0x0000001c   Code   RO          512    .text.osRtxKernelErrorNotify  rtx_kernel.o
-    0x080196d8   0x0000000c   Code   RO          944    .text.osRtxKernelGetState  rtx_system.o
-    0x080196e4   0x0000000c   Code   RO         1013    .text.osRtxKernelGetState  rtx_thread.o
-    0x080196f0   0x0000000c   Code   RO          576    .text.osRtxKernelState  rtx_kernel.o
-    0x080196fc   0x0000014c   Code   RO          663    .text.osRtxMemoryAlloc  rtx_memory.o
-    0x08019848   0x000000c2   Code   RO          665    .text.osRtxMemoryFree  rtx_memory.o
+    0x080196bc   0x0000001c   Code   RO         3136    .text.osRtxKernelErrorNotify  rtx_kernel.o
+    0x080196d8   0x0000000c   Code   RO         3568    .text.osRtxKernelGetState  rtx_system.o
+    0x080196e4   0x0000000c   Code   RO         3637    .text.osRtxKernelGetState  rtx_thread.o
+    0x080196f0   0x0000000c   Code   RO         3200    .text.osRtxKernelState  rtx_kernel.o
+    0x080196fc   0x0000014c   Code   RO         3287    .text.osRtxMemoryAlloc  rtx_memory.o
+    0x08019848   0x000000c2   Code   RO         3289    .text.osRtxMemoryFree  rtx_memory.o
     0x0801990a   0x00000002   PAD
-    0x0801990c   0x00000096   Code   RO          657    .text.osRtxMemoryInit  rtx_memory.o
+    0x0801990c   0x00000096   Code   RO         3281    .text.osRtxMemoryInit  rtx_memory.o
     0x080199a2   0x00000002   PAD
-    0x080199a4   0x0000004a   Code   RO          676    .text.osRtxMemoryPoolAlloc  rtx_mempool.o
+    0x080199a4   0x0000004a   Code   RO         3300    .text.osRtxMemoryPoolAlloc  rtx_mempool.o
     0x080199ee   0x00000002   PAD
-    0x080199f0   0x00000064   Code   RO          682    .text.osRtxMemoryPoolFree  rtx_mempool.o
-    0x08019a54   0x00000098   Code   RO          674    .text.osRtxMemoryPoolInit  rtx_mempool.o
-    0x08019aec   0x0000000a   Code   RO          956    .text.osRtxMemoryPoolObject  rtx_system.o
+    0x080199f0   0x00000064   Code   RO         3306    .text.osRtxMemoryPoolFree  rtx_mempool.o
+    0x08019a54   0x00000098   Code   RO         3298    .text.osRtxMemoryPoolInit  rtx_mempool.o
+    0x08019aec   0x0000000a   Code   RO         3580    .text.osRtxMemoryPoolObject  rtx_system.o
     0x08019af6   0x00000002   PAD
-    0x08019af8   0x0000000a   Code   RO          958    .text.osRtxMessageObject  rtx_system.o
+    0x08019af8   0x0000000a   Code   RO         3582    .text.osRtxMessageObject  rtx_system.o
     0x08019b02   0x00000002   PAD
-    0x08019b04   0x0000000a   Code   RO          753    .text.osRtxMessageQueueId  rtx_msgqueue.o
+    0x08019b04   0x0000000a   Code   RO         3377    .text.osRtxMessageQueueId  rtx_msgqueue.o
     0x08019b0e   0x00000002   PAD
-    0x08019b10   0x00000144   Code   RO          797    .text.osRtxMessageQueuePostProcess  rtx_msgqueue.o
-    0x08019c54   0x0000003e   Code   RO          751    .text.osRtxMessageQueueTimerSetup  rtx_msgqueue.o
+    0x08019b10   0x00000144   Code   RO         3421    .text.osRtxMessageQueuePostProcess  rtx_msgqueue.o
+    0x08019c54   0x0000003e   Code   RO         3375    .text.osRtxMessageQueueTimerSetup  rtx_msgqueue.o
     0x08019c92   0x00000002   PAD
-    0x08019c94   0x0000005a   Code   RO          874    .text.osRtxMutexDestroy  rtx_mutex.o
+    0x08019c94   0x0000005a   Code   RO         3498    .text.osRtxMutexDestroy  rtx_mutex.o
     0x08019cee   0x00000002   PAD
-    0x08019cf0   0x0000000a   Code   RO          860    .text.osRtxMutexId  rtx_mutex.o
+    0x08019cf0   0x0000000a   Code   RO         3484    .text.osRtxMutexId  rtx_mutex.o
     0x08019cfa   0x00000002   PAD
-    0x08019cfc   0x0000000a   Code   RO         1001    .text.osRtxMutexObject  rtx_thread.o
+    0x08019cfc   0x0000000a   Code   RO         3625    .text.osRtxMutexObject  rtx_thread.o
     0x08019d06   0x00000002   PAD
-    0x08019d08   0x00000098   Code   RO          832    .text.osRtxMutexOwnerRelease  rtx_mutex.o
-    0x08019da0   0x000000ac   Code   RO          836    .text.osRtxMutexOwnerRestore  rtx_mutex.o
-    0x08019e4c   0x000000fc   Code   RO          872    .text.osRtxMutexOwnerUnlock  rtx_mutex.o
-    0x08019f48   0x0000000a   Code   RO          801    .text.osRtxObject   rtx_msgqueue.o
+    0x08019d08   0x00000098   Code   RO         3456    .text.osRtxMutexOwnerRelease  rtx_mutex.o
+    0x08019da0   0x000000ac   Code   RO         3460    .text.osRtxMutexOwnerRestore  rtx_mutex.o
+    0x08019e4c   0x000000fc   Code   RO         3496    .text.osRtxMutexOwnerUnlock  rtx_mutex.o
+    0x08019f48   0x0000000a   Code   RO         3425    .text.osRtxObject   rtx_msgqueue.o
     0x08019f52   0x00000002   PAD
-    0x08019f54   0x0000000a   Code   RO          834    .text.osRtxObject   rtx_mutex.o
+    0x08019f54   0x0000000a   Code   RO         3458    .text.osRtxObject   rtx_mutex.o
     0x08019f5e   0x00000002   PAD
-    0x08019f60   0x0000000a   Code   RO          915    .text.osRtxObject   rtx_semaphore.o
+    0x08019f60   0x0000000a   Code   RO         3539    .text.osRtxObject   rtx_semaphore.o
     0x08019f6a   0x00000002   PAD
-    0x08019f6c   0x0000000a   Code   RO          970    .text.osRtxObject   rtx_system.o
+    0x08019f6c   0x0000000a   Code   RO         3594    .text.osRtxObject   rtx_system.o
     0x08019f76   0x00000002   PAD
-    0x08019f78   0x0000000a   Code   RO          989    .text.osRtxObject   rtx_thread.o
+    0x08019f78   0x0000000a   Code   RO         3613    .text.osRtxObject   rtx_thread.o
     0x08019f82   0x00000002   PAD
-    0x08019f84   0x000000b8   Code   RO          946    .text.osRtxPendSV_Handler  rtx_system.o
-    0x0801a03c   0x00000042   Code   RO          960    .text.osRtxPostProcess  rtx_system.o
+    0x08019f84   0x000000b8   Code   RO         3570    .text.osRtxPendSV_Handler  rtx_system.o
+    0x0801a03c   0x00000042   Code   RO         3584    .text.osRtxPostProcess  rtx_system.o
     0x0801a07e   0x00000002   PAD
-    0x0801a080   0x0000005a   Code   RO          933    .text.osRtxSemaphoreDestroy  rtx_semaphore.o
+    0x0801a080   0x0000005a   Code   RO         3557    .text.osRtxSemaphoreDestroy  rtx_semaphore.o
     0x0801a0da   0x00000002   PAD
-    0x0801a0dc   0x0000000a   Code   RO          919    .text.osRtxSemaphoreId  rtx_semaphore.o
+    0x0801a0dc   0x0000000a   Code   RO         3543    .text.osRtxSemaphoreId  rtx_semaphore.o
     0x0801a0e6   0x00000002   PAD
-    0x0801a0e8   0x0000000a   Code   RO          954    .text.osRtxSemaphoreObject  rtx_system.o
+    0x0801a0e8   0x0000000a   Code   RO         3578    .text.osRtxSemaphoreObject  rtx_system.o
     0x0801a0f2   0x00000002   PAD
-    0x0801a0f4   0x0000003e   Code   RO          911    .text.osRtxSemaphorePostProcess  rtx_semaphore.o
+    0x0801a0f4   0x0000003e   Code   RO         3535    .text.osRtxSemaphorePostProcess  rtx_semaphore.o
     0x0801a132   0x00000002   PAD
-    0x0801a134   0x00000010   Code   RO          623    .text.osRtxThreadBeforeFree  rtx_lib.o
-    0x0801a144   0x00000088   Code   RO         1017    .text.osRtxThreadBlock  rtx_thread.o
-    0x0801a1cc   0x000000fa   Code   RO         1023    .text.osRtxThreadDelayInsert  rtx_thread.o
+    0x0801a134   0x00000010   Code   RO         3247    .text.osRtxThreadBeforeFree  rtx_lib.o
+    0x0801a144   0x00000088   Code   RO         3641    .text.osRtxThreadBlock  rtx_thread.o
+    0x0801a1cc   0x000000fa   Code   RO         3647    .text.osRtxThreadDelayInsert  rtx_thread.o
     0x0801a2c6   0x00000002   PAD
-    0x0801a2c8   0x0000009c   Code   RO          995    .text.osRtxThreadDelayRemove  rtx_thread.o
-    0x0801a364   0x00000150   Code   RO          997    .text.osRtxThreadDelayTick  rtx_thread.o
-    0x0801a4b4   0x00000060   Code   RO         1029    .text.osRtxThreadDestroy  rtx_thread.o
-    0x0801a514   0x00000096   Code   RO         1011    .text.osRtxThreadDispatch  rtx_thread.o
+    0x0801a2c8   0x0000009c   Code   RO         3619    .text.osRtxThreadDelayRemove  rtx_thread.o
+    0x0801a364   0x00000150   Code   RO         3621    .text.osRtxThreadDelayTick  rtx_thread.o
+    0x0801a4b4   0x00000060   Code   RO         3653    .text.osRtxThreadDestroy  rtx_thread.o
+    0x0801a514   0x00000096   Code   RO         3635    .text.osRtxThreadDispatch  rtx_thread.o
     0x0801a5aa   0x00000002   PAD
-    0x0801a5ac   0x000000a2   Code   RO         1031    .text.osRtxThreadFree  rtx_thread.o
+    0x0801a5ac   0x000000a2   Code   RO         3655    .text.osRtxThreadFree  rtx_thread.o
     0x0801a64e   0x00000002   PAD
-    0x0801a650   0x0000000c   Code   RO          809    .text.osRtxThreadGetRunning  rtx_msgqueue.o
-    0x0801a65c   0x0000000c   Code   RO          864    .text.osRtxThreadGetRunning  rtx_mutex.o
-    0x0801a668   0x0000000c   Code   RO          923    .text.osRtxThreadGetRunning  rtx_semaphore.o
-    0x0801a674   0x0000000c   Code   RO         1015    .text.osRtxThreadGetRunning  rtx_thread.o
-    0x0801a680   0x0000000c   Code   RO         1234    .text.osRtxThreadGetRunning  rtx_timer.o
-    0x0801a68c   0x0000000a   Code   RO         1037    .text.osRtxThreadId  rtx_thread.o
+    0x0801a650   0x0000000c   Code   RO         3433    .text.osRtxThreadGetRunning  rtx_msgqueue.o
+    0x0801a65c   0x0000000c   Code   RO         3488    .text.osRtxThreadGetRunning  rtx_mutex.o
+    0x0801a668   0x0000000c   Code   RO         3547    .text.osRtxThreadGetRunning  rtx_semaphore.o
+    0x0801a674   0x0000000c   Code   RO         3639    .text.osRtxThreadGetRunning  rtx_thread.o
+    0x0801a680   0x0000000c   Code   RO         3858    .text.osRtxThreadGetRunning  rtx_timer.o
+    0x0801a68c   0x0000000a   Code   RO         3661    .text.osRtxThreadId  rtx_thread.o
     0x0801a696   0x00000002   PAD
-    0x0801a698   0x0000003c   Code   RO         1027    .text.osRtxThreadJoinWakeup  rtx_thread.o
-    0x0801a6d4   0x00000036   Code   RO          985    .text.osRtxThreadListGet  rtx_thread.o
+    0x0801a698   0x0000003c   Code   RO         3651    .text.osRtxThreadJoinWakeup  rtx_thread.o
+    0x0801a6d4   0x00000036   Code   RO         3609    .text.osRtxThreadListGet  rtx_thread.o
     0x0801a70a   0x00000002   PAD
-    0x0801a70c   0x00000076   Code   RO          981    .text.osRtxThreadListPut  rtx_thread.o
+    0x0801a70c   0x00000076   Code   RO         3605    .text.osRtxThreadListPut  rtx_thread.o
     0x0801a782   0x00000002   PAD
-    0x0801a784   0x00000032   Code   RO          991    .text.osRtxThreadListRemove  rtx_thread.o
+    0x0801a784   0x00000032   Code   RO         3615    .text.osRtxThreadListRemove  rtx_thread.o
     0x0801a7b6   0x00000002   PAD
-    0x0801a7b8   0x00000022   Code   RO          999    .text.osRtxThreadListRoot  rtx_thread.o
+    0x0801a7b8   0x00000022   Code   RO         3623    .text.osRtxThreadListRoot  rtx_thread.o
     0x0801a7da   0x00000002   PAD
-    0x0801a7dc   0x00000058   Code   RO          987    .text.osRtxThreadListSort  rtx_thread.o
-    0x0801a834   0x0000000a   Code   RO          950    .text.osRtxThreadObject  rtx_system.o
+    0x0801a7dc   0x00000058   Code   RO         3611    .text.osRtxThreadListSort  rtx_thread.o
+    0x0801a834   0x0000000a   Code   RO         3574    .text.osRtxThreadObject  rtx_system.o
     0x0801a83e   0x00000002   PAD
-    0x0801a840   0x0000000a   Code   RO          983    .text.osRtxThreadObject  rtx_thread.o
+    0x0801a840   0x0000000a   Code   RO         3607    .text.osRtxThreadObject  rtx_thread.o
     0x0801a84a   0x00000002   PAD
-    0x0801a84c   0x00000044   Code   RO         1135    .text.osRtxThreadPostProcess  rtx_thread.o
-    0x0801a890   0x00000020   Code   RO          993    .text.osRtxThreadReadyPut  rtx_thread.o
-    0x0801a8b0   0x00000022   Code   RO         1003    .text.osRtxThreadRegPtr  rtx_thread.o
+    0x0801a84c   0x00000044   Code   RO         3759    .text.osRtxThreadPostProcess  rtx_thread.o
+    0x0801a890   0x00000020   Code   RO         3617    .text.osRtxThreadReadyPut  rtx_thread.o
+    0x0801a8b0   0x00000022   Code   RO         3627    .text.osRtxThreadRegPtr  rtx_thread.o
     0x0801a8d2   0x00000002   PAD
-    0x0801a8d4   0x00000014   Code   RO         1171    .text.osRtxThreadSetRunning  rtx_thread.o
-    0x0801a8e8   0x00000014   Code   RO         1238    .text.osRtxThreadSetRunning  rtx_timer.o
-    0x0801a8fc   0x0000003c   Code   RO         1025    .text.osRtxThreadStackCheck  rtx_thread.o
-    0x0801a938   0x00000096   Code   RO         1035    .text.osRtxThreadStartup  rtx_thread.o
+    0x0801a8d4   0x00000014   Code   RO         3795    .text.osRtxThreadSetRunning  rtx_thread.o
+    0x0801a8e8   0x00000014   Code   RO         3862    .text.osRtxThreadSetRunning  rtx_timer.o
+    0x0801a8fc   0x0000003c   Code   RO         3649    .text.osRtxThreadStackCheck  rtx_thread.o
+    0x0801a938   0x00000096   Code   RO         3659    .text.osRtxThreadStartup  rtx_thread.o
     0x0801a9ce   0x00000002   PAD
-    0x0801a9d0   0x0000002e   Code   RO         1007    .text.osRtxThreadSwitch  rtx_thread.o
+    0x0801a9d0   0x0000002e   Code   RO         3631    .text.osRtxThreadSwitch  rtx_thread.o
     0x0801a9fe   0x00000002   PAD
-    0x0801aa00   0x00000076   Code   RO         1021    .text.osRtxThreadWaitEnter  rtx_thread.o
+    0x0801aa00   0x00000076   Code   RO         3645    .text.osRtxThreadWaitEnter  rtx_thread.o
     0x0801aa76   0x00000002   PAD
-    0x0801aa78   0x00000046   Code   RO         1019    .text.osRtxThreadWaitExit  rtx_thread.o
+    0x0801aa78   0x00000046   Code   RO         3643    .text.osRtxThreadWaitExit  rtx_thread.o
     0x0801aabe   0x00000002   PAD
-    0x0801aac0   0x00000110   Code   RO          942    .text.osRtxTick_Handler  rtx_system.o
-    0x0801abd0   0x0000000a   Code   RO         1246    .text.osRtxTimerId  rtx_timer.o
+    0x0801aac0   0x00000110   Code   RO         3566    .text.osRtxTick_Handler  rtx_system.o
+    0x0801abd0   0x0000000a   Code   RO         3870    .text.osRtxTimerId  rtx_timer.o
     0x0801abda   0x00000002   PAD
-    0x0801abdc   0x00000030   Code   RO         1210    .text.osRtxTimerSetup  rtx_timer.o
-    0x0801ac0c   0x00000032   Code   RO         1214    .text.osRtxTimerThread  rtx_timer.o
+    0x0801abdc   0x00000030   Code   RO         3834    .text.osRtxTimerSetup  rtx_timer.o
+    0x0801ac0c   0x00000032   Code   RO         3838    .text.osRtxTimerThread  rtx_timer.o
     0x0801ac3e   0x00000002   PAD
-    0x0801ac40   0x000000dc   Code   RO         1212    .text.osRtxTimerTick  rtx_timer.o
-    0x0801ad1c   0x0000005e   Code   RO          893    .text.osSemaphoreAcquire  rtx_semaphore.o
+    0x0801ac40   0x000000dc   Code   RO         3836    .text.osRtxTimerTick  rtx_timer.o
+    0x0801ad1c   0x0000005e   Code   RO         3517    .text.osSemaphoreAcquire  rtx_semaphore.o
     0x0801ad7a   0x00000002   PAD
-    0x0801ad7c   0x00000056   Code   RO          905    .text.osSemaphoreDelete  rtx_semaphore.o
+    0x0801ad7c   0x00000056   Code   RO         3529    .text.osSemaphoreDelete  rtx_semaphore.o
     0x0801add2   0x00000002   PAD
-    0x0801add4   0x00000072   Code   RO          883    .text.osSemaphoreNew  rtx_semaphore.o
+    0x0801add4   0x00000072   Code   RO         3507    .text.osSemaphoreNew  rtx_semaphore.o
     0x0801ae46   0x00000002   PAD
-    0x0801ae48   0x0000004e   Code   RO          897    .text.osSemaphoreRelease  rtx_semaphore.o
+    0x0801ae48   0x0000004e   Code   RO         3521    .text.osSemaphoreRelease  rtx_semaphore.o
     0x0801ae96   0x00000002   PAD
-    0x0801ae98   0x00000010   Code   RO         1131    .text.osThreadEntry  rtx_thread.o
-    0x0801aea8   0x00000024   Code   RO         1083    .text.osThreadExit  rtx_thread.o
-    0x0801aecc   0x0000005e   Code   RO         1119    .text.osThreadFlagsSet  rtx_thread.o
+    0x0801ae98   0x00000010   Code   RO         3755    .text.osThreadEntry  rtx_thread.o
+    0x0801aea8   0x00000024   Code   RO         3707    .text.osThreadExit  rtx_thread.o
+    0x0801aecc   0x0000005e   Code   RO         3743    .text.osThreadFlagsSet  rtx_thread.o
     0x0801af2a   0x00000002   PAD
-    0x0801af2c   0x00000072   Code   RO         1127    .text.osThreadFlagsWait  rtx_thread.o
+    0x0801af2c   0x00000072   Code   RO         3751    .text.osThreadFlagsWait  rtx_thread.o
     0x0801af9e   0x00000002   PAD
-    0x0801afa0   0x0000003a   Code   RO         1059    .text.osThreadGetId  rtx_thread.o
+    0x0801afa0   0x0000003a   Code   RO         3683    .text.osThreadGetId  rtx_thread.o
     0x0801afda   0x00000002   PAD
-    0x0801afdc   0x00000072   Code   RO         1041    .text.osThreadNew   rtx_thread.o
+    0x0801afdc   0x00000072   Code   RO         3665    .text.osThreadNew   rtx_thread.o
     0x0801b04e   0x00000002   PAD
-    0x0801b050   0x00000056   Code   RO         1085    .text.osThreadTerminate  rtx_thread.o
+    0x0801b050   0x00000056   Code   RO         3709    .text.osThreadTerminate  rtx_thread.o
     0x0801b0a6   0x00000002   PAD
-    0x0801b0a8   0x0000004e   Code   RO         1230    .text.osTimerIsRunning  rtx_timer.o
+    0x0801b0a8   0x0000004e   Code   RO         3854    .text.osTimerIsRunning  rtx_timer.o
     0x0801b0f6   0x00000002   PAD
-    0x0801b0f8   0x00000080   Code   RO         1216    .text.osTimerNew    rtx_timer.o
-    0x0801b178   0x00000064   Code   RO         1226    .text.osTimerStart  rtx_timer.o
-    0x0801b1dc   0x00000056   Code   RO         1228    .text.osTimerStop   rtx_timer.o
+    0x0801b0f8   0x00000080   Code   RO         3840    .text.osTimerNew    rtx_timer.o
+    0x0801b178   0x00000064   Code   RO         3850    .text.osTimerStart  rtx_timer.o
+    0x0801b1dc   0x00000056   Code   RO         3852    .text.osTimerStop   rtx_timer.o
     0x0801b232   0x00000002   PAD
-    0x0801b234   0x00000036   Code   RO          621    .text.os_kernel_is_active  rtx_lib.o
+    0x0801b234   0x00000036   Code   RO         3245    .text.os_kernel_is_active  rtx_lib.o
     0x0801b26a   0x00000002   PAD
-    0x0801b26c   0x0000004c   Code   RO         4474    .text.stderr_putchar  retarget_stdio.o
-    0x0801b2b8   0x0000007e   Code   RO         4472    .text.stdio_init    retarget_stdio.o
+    0x0801b26c   0x0000004c   Code   RO         2589    .text.stderr_putchar  retarget_stdio.o
+    0x0801b2b8   0x0000007e   Code   RO         2587    .text.stdio_init    retarget_stdio.o
     0x0801b336   0x00000002   PAD
-    0x0801b338   0x00000052   Code   RO         4476    .text.stdout_putchar  retarget_stdio.o
+    0x0801b338   0x00000052   Code   RO         2591    .text.stdout_putchar  retarget_stdio.o
     0x0801b38a   0x00000002   PAD
-    0x0801b38c   0x00000050   Code   RO           51    .text.svcRtxDelay   rtx_delay.o
-    0x0801b3dc   0x00000016   Code   RO          528    .text.svcRtxKernelGetState  rtx_kernel.o
+    0x0801b38c   0x00000050   Code   RO         2675    .text.svcRtxDelay   rtx_delay.o
+    0x0801b3dc   0x00000016   Code   RO         3152    .text.svcRtxKernelGetState  rtx_kernel.o
     0x0801b3f2   0x00000002   PAD
-    0x0801b3f4   0x0000001c   Code   RO          564    .text.svcRtxKernelGetTickFreq  rtx_kernel.o
-    0x0801b410   0x00000304   Code   RO          574    .text.svcRtxKernelInitialize  rtx_kernel.o
-    0x0801b714   0x000000a4   Code   RO          578    .text.svcRtxKernelStart  rtx_kernel.o
-    0x0801b7b8   0x00000168   Code   RO          817    .text.svcRtxMessageQueueGet  rtx_msgqueue.o
-    0x0801b920   0x00000292   Code   RO          755    .text.svcRtxMessageQueueNew  rtx_msgqueue.o
+    0x0801b3f4   0x0000001c   Code   RO         3188    .text.svcRtxKernelGetTickFreq  rtx_kernel.o
+    0x0801b410   0x00000304   Code   RO         3198    .text.svcRtxKernelInitialize  rtx_kernel.o
+    0x0801b714   0x000000a4   Code   RO         3202    .text.svcRtxKernelStart  rtx_kernel.o
+    0x0801b7b8   0x00000168   Code   RO         3441    .text.svcRtxMessageQueueGet  rtx_msgqueue.o
+    0x0801b920   0x00000292   Code   RO         3379    .text.svcRtxMessageQueueNew  rtx_msgqueue.o
     0x0801bbb2   0x00000002   PAD
-    0x0801bbb4   0x0000015c   Code   RO          807    .text.svcRtxMessageQueuePut  rtx_msgqueue.o
-    0x0801bd10   0x00000176   Code   RO          862    .text.svcRtxMutexAcquire  rtx_mutex.o
+    0x0801bbb4   0x0000015c   Code   RO         3431    .text.svcRtxMessageQueuePut  rtx_msgqueue.o
+    0x0801bd10   0x00000176   Code   RO         3486    .text.svcRtxMutexAcquire  rtx_mutex.o
     0x0801be86   0x00000002   PAD
-    0x0801be88   0x00000058   Code   RO          870    .text.svcRtxMutexDelete  rtx_mutex.o
-    0x0801bee0   0x00000142   Code   RO          856    .text.svcRtxMutexNew  rtx_mutex.o
+    0x0801be88   0x00000058   Code   RO         3494    .text.svcRtxMutexDelete  rtx_mutex.o
+    0x0801bee0   0x00000142   Code   RO         3480    .text.svcRtxMutexNew  rtx_mutex.o
     0x0801c022   0x00000002   PAD
-    0x0801c024   0x000001a0   Code   RO          866    .text.svcRtxMutexRelease  rtx_mutex.o
-    0x0801c1c4   0x000000aa   Code   RO          921    .text.svcRtxSemaphoreAcquire  rtx_semaphore.o
+    0x0801c024   0x000001a0   Code   RO         3490    .text.svcRtxMutexRelease  rtx_mutex.o
+    0x0801c1c4   0x000000aa   Code   RO         3545    .text.svcRtxSemaphoreAcquire  rtx_semaphore.o
     0x0801c26e   0x00000002   PAD
-    0x0801c270   0x0000007c   Code   RO          931    .text.svcRtxSemaphoreDelete  rtx_semaphore.o
-    0x0801c2ec   0x00000176   Code   RO          907    .text.svcRtxSemaphoreNew  rtx_semaphore.o
+    0x0801c270   0x0000007c   Code   RO         3555    .text.svcRtxSemaphoreDelete  rtx_semaphore.o
+    0x0801c2ec   0x00000176   Code   RO         3531    .text.svcRtxSemaphoreNew  rtx_semaphore.o
     0x0801c462   0x00000002   PAD
-    0x0801c464   0x000000a2   Code   RO          929    .text.svcRtxSemaphoreRelease  rtx_semaphore.o
+    0x0801c464   0x000000a2   Code   RO         3553    .text.svcRtxSemaphoreRelease  rtx_semaphore.o
     0x0801c506   0x00000002   PAD
-    0x0801c508   0x00000084   Code   RO         1169    .text.svcRtxThreadExit  rtx_thread.o
-    0x0801c58c   0x000000d6   Code   RO         1191    .text.svcRtxThreadFlagsSet  rtx_thread.o
+    0x0801c508   0x00000084   Code   RO         3793    .text.svcRtxThreadExit  rtx_thread.o
+    0x0801c58c   0x000000d6   Code   RO         3815    .text.svcRtxThreadFlagsSet  rtx_thread.o
     0x0801c662   0x00000002   PAD
-    0x0801c664   0x000000be   Code   RO         1201    .text.svcRtxThreadFlagsWait  rtx_thread.o
+    0x0801c664   0x000000be   Code   RO         3825    .text.svcRtxThreadFlagsWait  rtx_thread.o
     0x0801c722   0x00000002   PAD
-    0x0801c724   0x00000016   Code   RO         1061    .text.svcRtxThreadGetId  rtx_thread.o
+    0x0801c724   0x00000016   Code   RO         3685    .text.svcRtxThreadGetId  rtx_thread.o
     0x0801c73a   0x00000002   PAD
-    0x0801c73c   0x0000046a   Code   RO         1039    .text.svcRtxThreadNew  rtx_thread.o
+    0x0801c73c   0x0000046a   Code   RO         3663    .text.svcRtxThreadNew  rtx_thread.o
     0x0801cba6   0x00000002   PAD
-    0x0801cba8   0x00000136   Code   RO         1173    .text.svcRtxThreadTerminate  rtx_thread.o
+    0x0801cba8   0x00000136   Code   RO         3797    .text.svcRtxThreadTerminate  rtx_thread.o
     0x0801ccde   0x00000002   PAD
-    0x0801cce0   0x00000068   Code   RO         1254    .text.svcRtxTimerIsRunning  rtx_timer.o
-    0x0801cd48   0x00000188   Code   RO         1242    .text.svcRtxTimerNew  rtx_timer.o
-    0x0801ced0   0x0000009e   Code   RO         1248    .text.svcRtxTimerStart  rtx_timer.o
+    0x0801cce0   0x00000068   Code   RO         3878    .text.svcRtxTimerIsRunning  rtx_timer.o
+    0x0801cd48   0x00000188   Code   RO         3866    .text.svcRtxTimerNew  rtx_timer.o
+    0x0801ced0   0x0000009e   Code   RO         3872    .text.svcRtxTimerStart  rtx_timer.o
     0x0801cf6e   0x00000002   PAD
-    0x0801cf70   0x0000006e   Code   RO         1252    .text.svcRtxTimerStop  rtx_timer.o
+    0x0801cf70   0x0000006e   Code   RO         3876    .text.svcRtxTimerStop  rtx_timer.o
     0x0801cfde   0x00000002   PAD
-    0x0801cfe0   0x00000048   Code   RO          625    .text.user_perthread_libspace_free  rtx_lib.o
-    0x0801d028   0x00000062   Code   RO         1727    .text.vioGetSignal  vio_B-U585I-IOT02A.o
+    0x0801cfe0   0x00000048   Code   RO         3249    .text.user_perthread_libspace_free  rtx_lib.o
+    0x0801d028   0x00000062   Code   RO         4351    .text.vioGetSignal  vio_B-U585I-IOT02A.o
     0x0801d08a   0x00000002   PAD
-    0x0801d08c   0x000000ec   Code   RO         1723    .text.vioInit       vio_B-U585I-IOT02A.o
-    0x0801d178   0x000000a0   Code   RO         1725    .text.vioSetSignal  vio_B-U585I-IOT02A.o
-    0x0801d218   0x00000012   Code   RO         1133    .text.xPSR_InitVal  rtx_thread.o
+    0x0801d08c   0x000000ec   Code   RO         4347    .text.vioInit       vio_B-U585I-IOT02A.o
+    0x0801d178   0x000000a0   Code   RO         4349    .text.vioSetSignal  vio_B-U585I-IOT02A.o
+    0x0801d218   0x00000012   Code   RO         3757    .text.xPSR_InitVal  rtx_thread.o
     0x0801d22a   0x0000003e   Code   RO         4783    CL$$btod_d2e        c_wu.l(btod.o)
     0x0801d268   0x00000046   Code   RO         4785    CL$$btod_d2e_denorm_low  c_wu.l(btod.o)
     0x0801d2ae   0x00000060   Code   RO         4784    CL$$btod_d2e_norm_op1  c_wu.l(btod.o)
@@ -1250,85 +1250,85 @@ Memory Map of the image
     0x0801dad5   0x00000026   Data   RO         4684    .constdata          c_wu.l(_printf_fp_hex.o)
     0x0801dafb   0x00000001   PAD
     0x0801dafc   0x00000094   Data   RO         4781    .constdata          c_wu.l(bigflt0.o)
-    0x0801db90   0x00000070   Data   RO          639    .rodata             rtx_lib.o
-    0x0801dc00   0x00000038   Data   RO          642    .rodata             rtx_lib.o
-    0x0801dc38   0x00000010   Data   RO         4462    .rodata.AHBPrescTable  system_stm32u5xx.o
-    0x0801dc48   0x00000008   Data   RO         4463    .rodata.APBPrescTable  system_stm32u5xx.o
-    0x0801dc50   0x00000038   Data   RO         1814    .rodata.Driver_USART1  UART_STM32U5xx.o
-    0x0801dc88   0x00000048   Data   RO         1889    .rodata.Driver_USBD0  USBD_OTG_STM32U5xx.o
-    0x0801dcd0   0x00000020   Data   RO         1715    .rodata.INTERVAL_HS  usbd_lib_hid.o
-    0x0801dcf0   0x00000080   Data   RO         2359    .rodata.LPGPIO_Map  stm32u5xx_hal_gpio.o
-    0x0801dd70   0x00000040   Data   RO         4464    .rodata.MSIRangeTable  system_stm32u5xx.o
-    0x0801ddb0   0x00000008   Data   RO         1895    .rodata.OTG_TX_FIFO_SIZE  USBD_OTG_STM32U5xx.o
-    0x0801ddb8   0x00000018   Data   RO         1817    .rodata.UART1_Resources  UART_STM32U5xx.o
-    0x0801ddd0   0x00000008   Data   RO         3943    .rodata.UARTEx_SetNbDataToProcess.denominator  stm32u5xx_hal_uart_ex.o
-    0x0801ddd8   0x00000008   Data   RO         3942    .rodata.UARTEx_SetNbDataToProcess.numerator  stm32u5xx_hal_uart_ex.o
-    0x0801dde0   0x00000018   Data   RO         3894    .rodata.UARTPrescTable  stm32u5xx_hal_uart.o
-    0x0801ddf8   0x00000008   Data   RO           34    .rodata.__stderr_name  retarget_io.o
-    0x0801de00   0x00000007   Data   RO           32    .rodata.__stdin_name  retarget_io.o
-    0x0801de07   0x00000008   Data   RO           33    .rodata.__stdout_name  retarget_io.o
+    0x0801db90   0x00000070   Data   RO         3263    .rodata             rtx_lib.o
+    0x0801dc00   0x00000038   Data   RO         3266    .rodata             rtx_lib.o
+    0x0801dc38   0x00000010   Data   RO         2577    .rodata.AHBPrescTable  system_stm32u5xx.o
+    0x0801dc48   0x00000008   Data   RO         2578    .rodata.APBPrescTable  system_stm32u5xx.o
+    0x0801dc50   0x00000038   Data   RO         4438    .rodata.Driver_USART1  UART_STM32U5xx.o
+    0x0801dc88   0x00000048   Data   RO         4513    .rodata.Driver_USBD0  USBD_OTG_STM32U5xx.o
+    0x0801dcd0   0x00000020   Data   RO         4339    .rodata.INTERVAL_HS  usbd_lib_hid.o
+    0x0801dcf0   0x00000080   Data   RO          474    .rodata.LPGPIO_Map  stm32u5xx_hal_gpio.o
+    0x0801dd70   0x00000040   Data   RO         2579    .rodata.MSIRangeTable  system_stm32u5xx.o
+    0x0801ddb0   0x00000008   Data   RO         4519    .rodata.OTG_TX_FIFO_SIZE  USBD_OTG_STM32U5xx.o
+    0x0801ddb8   0x00000018   Data   RO         4441    .rodata.UART1_Resources  UART_STM32U5xx.o
+    0x0801ddd0   0x00000008   Data   RO         2058    .rodata.UARTEx_SetNbDataToProcess.denominator  stm32u5xx_hal_uart_ex.o
+    0x0801ddd8   0x00000008   Data   RO         2057    .rodata.UARTEx_SetNbDataToProcess.numerator  stm32u5xx_hal_uart_ex.o
+    0x0801dde0   0x00000018   Data   RO         2009    .rodata.UARTPrescTable  stm32u5xx_hal_uart.o
+    0x0801ddf8   0x00000008   Data   RO         2658    .rodata.__stderr_name  retarget_io.o
+    0x0801de00   0x00000007   Data   RO         2656    .rodata.__stdin_name  retarget_io.o
+    0x0801de07   0x00000008   Data   RO         2657    .rodata.__stdout_name  retarget_io.o
     0x0801de0f   0x00000001   PAD
-    0x0801de10   0x00000024   Data   RO         4492    .rodata.app_main_attr  HID.o
-    0x0801de34   0x00000004   Data   RO         1449    .rodata.fpUSBD_Device_ConfigurationChanged  usbd_config.o
-    0x0801de38   0x00000004   Data   RO         1451    .rodata.fpUSBD_Device_DisableRemoteWakeup  usbd_config.o
-    0x0801de3c   0x00000004   Data   RO         1450    .rodata.fpUSBD_Device_EnableRemoteWakeup  usbd_config.o
-    0x0801de40   0x00000004   Data   RO         1455    .rodata.fpUSBD_Device_Endpoint0_InDataSent  usbd_config.o
-    0x0801de44   0x00000004   Data   RO         1454    .rodata.fpUSBD_Device_Endpoint0_OutDataReceived  usbd_config.o
-    0x0801de48   0x00000004   Data   RO         1453    .rodata.fpUSBD_Device_Endpoint0_SetupPacketProcessed  usbd_config.o
-    0x0801de4c   0x00000004   Data   RO         1452    .rodata.fpUSBD_Device_Endpoint0_SetupPacketReceived  usbd_config.o
-    0x0801de50   0x00000004   Data   RO         1446    .rodata.fpUSBD_Device_HighSpeedActivated  usbd_config.o
-    0x0801de54   0x00000004   Data   RO         1442    .rodata.fpUSBD_Device_Initialize  usbd_config.o
-    0x0801de58   0x00000004   Data   RO         1445    .rodata.fpUSBD_Device_Reset  usbd_config.o
-    0x0801de5c   0x00000004   Data   RO         1448    .rodata.fpUSBD_Device_Resumed  usbd_config.o
-    0x0801de60   0x00000004   Data   RO         1447    .rodata.fpUSBD_Device_Suspended  usbd_config.o
-    0x0801de64   0x00000004   Data   RO         1443    .rodata.fpUSBD_Device_Uninitialize  usbd_config.o
-    0x0801de68   0x00000004   Data   RO         1444    .rodata.fpUSBD_Device_VbusChanged  usbd_config.o
-    0x0801de6c   0x00000004   Data   RO         1440    .rodata.fpUSBD_HID_GetProtocol  usbd_config.o
-    0x0801de70   0x00000004   Data   RO         1438    .rodata.fpUSBD_HID_GetReport  usbd_config.o
-    0x0801de74   0x00000004   Data   RO         1436    .rodata.fpUSBD_HID_Initialize  usbd_config.o
-    0x0801de78   0x00000004   Data   RO         1441    .rodata.fpUSBD_HID_SetProtocol  usbd_config.o
-    0x0801de7c   0x00000004   Data   RO         1439    .rodata.fpUSBD_HID_SetReport  usbd_config.o
-    0x0801de80   0x00000004   Data   RO         1437    .rodata.fpUSBD_HID_Uninitialize  usbd_config.o
-    0x0801de84   0x00000004   Data   RO          641    .rodata.osRtxUserSVC  rtx_lib.o
-    0x0801de88   0x00000024   Data   RO          636    .rodata.os_idle_thread_attr  rtx_lib.o
-    0x0801deac   0x00000018   Data   RO          638    .rodata.os_timer_mq_attr  rtx_lib.o
-    0x0801dec4   0x00000024   Data   RO          637    .rodata.os_timer_thread_attr  rtx_lib.o
-    0x0801dee8   0x00000017   Data   RO           35    .rodata.str1.1      retarget_io.o
-    0x0801deff   0x0000000b   Data   RO          606    .rodata.str1.1      rtx_kernel.o
-    0x0801df0a   0x00000023   Data   RO         1409    .rodata.str1.1      usbd_config.o
-    0x0801df2d   0x00000018   Data   RO         4491    .rodata.str1.1      HID.o
+    0x0801de10   0x00000024   Data   RO         2607    .rodata.app_main_attr  HID.o
+    0x0801de34   0x00000004   Data   RO         4073    .rodata.fpUSBD_Device_ConfigurationChanged  usbd_config.o
+    0x0801de38   0x00000004   Data   RO         4075    .rodata.fpUSBD_Device_DisableRemoteWakeup  usbd_config.o
+    0x0801de3c   0x00000004   Data   RO         4074    .rodata.fpUSBD_Device_EnableRemoteWakeup  usbd_config.o
+    0x0801de40   0x00000004   Data   RO         4079    .rodata.fpUSBD_Device_Endpoint0_InDataSent  usbd_config.o
+    0x0801de44   0x00000004   Data   RO         4078    .rodata.fpUSBD_Device_Endpoint0_OutDataReceived  usbd_config.o
+    0x0801de48   0x00000004   Data   RO         4077    .rodata.fpUSBD_Device_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x0801de4c   0x00000004   Data   RO         4076    .rodata.fpUSBD_Device_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x0801de50   0x00000004   Data   RO         4070    .rodata.fpUSBD_Device_HighSpeedActivated  usbd_config.o
+    0x0801de54   0x00000004   Data   RO         4066    .rodata.fpUSBD_Device_Initialize  usbd_config.o
+    0x0801de58   0x00000004   Data   RO         4069    .rodata.fpUSBD_Device_Reset  usbd_config.o
+    0x0801de5c   0x00000004   Data   RO         4072    .rodata.fpUSBD_Device_Resumed  usbd_config.o
+    0x0801de60   0x00000004   Data   RO         4071    .rodata.fpUSBD_Device_Suspended  usbd_config.o
+    0x0801de64   0x00000004   Data   RO         4067    .rodata.fpUSBD_Device_Uninitialize  usbd_config.o
+    0x0801de68   0x00000004   Data   RO         4068    .rodata.fpUSBD_Device_VbusChanged  usbd_config.o
+    0x0801de6c   0x00000004   Data   RO         4064    .rodata.fpUSBD_HID_GetProtocol  usbd_config.o
+    0x0801de70   0x00000004   Data   RO         4062    .rodata.fpUSBD_HID_GetReport  usbd_config.o
+    0x0801de74   0x00000004   Data   RO         4060    .rodata.fpUSBD_HID_Initialize  usbd_config.o
+    0x0801de78   0x00000004   Data   RO         4065    .rodata.fpUSBD_HID_SetProtocol  usbd_config.o
+    0x0801de7c   0x00000004   Data   RO         4063    .rodata.fpUSBD_HID_SetReport  usbd_config.o
+    0x0801de80   0x00000004   Data   RO         4061    .rodata.fpUSBD_HID_Uninitialize  usbd_config.o
+    0x0801de84   0x00000004   Data   RO         3265    .rodata.osRtxUserSVC  rtx_lib.o
+    0x0801de88   0x00000024   Data   RO         3260    .rodata.os_idle_thread_attr  rtx_lib.o
+    0x0801deac   0x00000018   Data   RO         3262    .rodata.os_timer_mq_attr  rtx_lib.o
+    0x0801dec4   0x00000024   Data   RO         3261    .rodata.os_timer_thread_attr  rtx_lib.o
+    0x0801dee8   0x00000018   Data   RO         2606    .rodata.str1.1      HID.o
+    0x0801df00   0x00000017   Data   RO         2659    .rodata.str1.1      retarget_io.o
+    0x0801df17   0x0000000b   Data   RO         3230    .rodata.str1.1      rtx_kernel.o
+    0x0801df22   0x00000023   Data   RO         4033    .rodata.str1.1      usbd_config.o
     0x0801df45   0x00000003   PAD
-    0x0801df48   0x0000002a   Data   RO         1461    .rodata.usbd0_config_descriptor_fs  usbd_config.o
-    0x0801df72   0x00000001   Data   RO         1464    .rodata.usbd0_config_descriptor_hs  usbd_config.o
+    0x0801df48   0x0000002a   Data   RO         4085    .rodata.usbd0_config_descriptor_fs  usbd_config.o
+    0x0801df72   0x00000001   Data   RO         4088    .rodata.usbd0_config_descriptor_hs  usbd_config.o
     0x0801df73   0x00000001   PAD
-    0x0801df74   0x00000024   Data   RO         1412    .rodata.usbd0_core_thread_attr  usbd_config.o
-    0x0801df98   0x0000001c   Data   RO         1408    .rodata.usbd0_dev   usbd_config.o
-    0x0801dfb4   0x00000012   Data   RO         1460    .rodata.usbd0_device_descriptor  usbd_config.o
-    0x0801dfc6   0x00000001   Data   RO         1462    .rodata.usbd0_device_qualifier_fs  usbd_config.o
-    0x0801dfc7   0x00000001   Data   RO         1463    .rodata.usbd0_device_qualifier_hs  usbd_config.o
-    0x0801dfc8   0x00000007   Data   RO         1459    .rodata.usbd0_ep0_descriptor  usbd_config.o
-    0x0801dfcf   0x00000001   Data   RO         1465    .rodata.usbd0_other_speed_config_descriptor_fs  usbd_config.o
-    0x0801dfd0   0x00000001   Data   RO         1466    .rodata.usbd0_other_speed_config_descriptor_hs  usbd_config.o
+    0x0801df74   0x00000024   Data   RO         4036    .rodata.usbd0_core_thread_attr  usbd_config.o
+    0x0801df98   0x0000001c   Data   RO         4032    .rodata.usbd0_dev   usbd_config.o
+    0x0801dfb4   0x00000012   Data   RO         4084    .rodata.usbd0_device_descriptor  usbd_config.o
+    0x0801dfc6   0x00000001   Data   RO         4086    .rodata.usbd0_device_qualifier_fs  usbd_config.o
+    0x0801dfc7   0x00000001   Data   RO         4087    .rodata.usbd0_device_qualifier_hs  usbd_config.o
+    0x0801dfc8   0x00000007   Data   RO         4083    .rodata.usbd0_ep0_descriptor  usbd_config.o
+    0x0801dfcf   0x00000001   Data   RO         4089    .rodata.usbd0_other_speed_config_descriptor_fs  usbd_config.o
+    0x0801dfd0   0x00000001   Data   RO         4090    .rodata.usbd0_other_speed_config_descriptor_hs  usbd_config.o
     0x0801dfd1   0x00000003   PAD
-    0x0801dfd4   0x00000071   Data   RO         1467    .rodata.usbd0_string_descriptor  usbd_config.o
+    0x0801dfd4   0x00000071   Data   RO         4091    .rodata.usbd0_string_descriptor  usbd_config.o
     0x0801e045   0x00000003   PAD
-    0x0801e048   0x00000004   Data   RO         1434    .rodata.usbd_cb_device_event_ptr  usbd_config.o
-    0x0801e04c   0x00000004   Data   RO         1435    .rodata.usbd_cb_endpoint_event_ptr  usbd_config.o
-    0x0801e050   0x00000004   Data   RO         1425    .rodata.usbd_core_thread_attr  usbd_config.o
-    0x0801e054   0x00000001   Data   RO         1413    .rodata.usbd_dev_num  usbd_config.o
+    0x0801e048   0x00000004   Data   RO         4058    .rodata.usbd_cb_device_event_ptr  usbd_config.o
+    0x0801e04c   0x00000004   Data   RO         4059    .rodata.usbd_cb_endpoint_event_ptr  usbd_config.o
+    0x0801e050   0x00000004   Data   RO         4049    .rodata.usbd_core_thread_attr  usbd_config.o
+    0x0801e054   0x00000001   Data   RO         4037    .rodata.usbd_dev_num  usbd_config.o
     0x0801e055   0x00000003   PAD
-    0x0801e058   0x00000004   Data   RO         1414    .rodata.usbd_dev_ptr  usbd_config.o
-    0x0801e05c   0x00000001   Data   RO         1430    .rodata.usbd_ep_max_num  usbd_config.o
+    0x0801e058   0x00000004   Data   RO         4038    .rodata.usbd_dev_ptr  usbd_config.o
+    0x0801e05c   0x00000001   Data   RO         4054    .rodata.usbd_ep_max_num  usbd_config.o
     0x0801e05d   0x00000003   PAD
-    0x0801e060   0x00000038   Data   RO         1423    .rodata.usbd_hid    usbd_config.o
-    0x0801e098   0x00000021   Data   RO         1456    .rodata.usbd_hid0_report_descriptor  usbd_config.o
+    0x0801e060   0x00000038   Data   RO         4047    .rodata.usbd_hid    usbd_config.o
+    0x0801e098   0x00000021   Data   RO         4080    .rodata.usbd_hid0_report_descriptor  usbd_config.o
     0x0801e0b9   0x00000003   PAD
-    0x0801e0bc   0x00000004   Data   RO         1458    .rodata.usbd_hid_desc_ptr  usbd_config.o
-    0x0801e0c0   0x00000001   Data   RO         1415    .rodata.usbd_hid_num  usbd_config.o
+    0x0801e0bc   0x00000004   Data   RO         4082    .rodata.usbd_hid_desc_ptr  usbd_config.o
+    0x0801e0c0   0x00000001   Data   RO         4039    .rodata.usbd_hid_num  usbd_config.o
     0x0801e0c1   0x00000003   PAD
-    0x0801e0c4   0x00000008   Data   RO         1427    .rodata.usbd_hid_thread_sp  usbd_config.o
+    0x0801e0c4   0x00000008   Data   RO         4051    .rodata.usbd_hid_thread_sp  usbd_config.o
     0x0801e0cc   0x00000020   Data   RO         5062    Region$$Table       anon$$obj.o
-    0x0801e0ec   0x00000004   Data   RO         1487    __MW_USB_LIB_VERSION_6.18.0  usb_lib_ver.o
+    0x0801e0ec   0x00000004   Data   RO         4111    __MW_USB_LIB_VERSION_6.18.0  usb_lib_ver.o
     0x0801e0f0   0x0000001c   Data   RO         4820    locale$$data        c_wu.l(lc_numeric_c.o)
     0x0801e10c   0x00000110   Data   RO         4953    locale$$data        c_wu.l(lc_ctype_c.o)
 
@@ -1346,99 +1346,99 @@ Memory Map of the image
     0x20000004   0x00000004   Data   RW         4646    .data               c_wu.l(stdio_streams.o)
     0x20000008   0x00000004   Data   RW         4647    .data               c_wu.l(stdio_streams.o)
     0x2000000c   0x00000004   Data   RW         4811    .data               c_wu.l(streamlock.o)
-    0x20000010   0x00000004   Data   RW         4461    .data.SystemCoreClock  system_stm32u5xx.o
-    0x20000014   0x000000a4   Data   RW          607    .data.os            rtx_kernel.o
-    0x200000b8   0x00000004   Data   RW         1885    .data.p_hpcd        USBD_OTG_STM32U5xx.o
-    0x200000bc   0x00000030   Data   RW         1469    .data.usbd0_desc    usbd_config.o
-    0x200000ec   0x00000004   Data   RW         1470    .data.usbd_desc_ptr  usbd_config.o
-    0x200000f0   0x00000008   Data   RW         1433    .data.usbd_ep_thread_id_ptr  usbd_config.o
-    0x200000f8   0x00000008   Data   RW         1457    .data.usbd_hid0_desc  usbd_config.o
-    0x20000100   0x00000004   Data   RW         1424    .data.usbd_hid_ptr  usbd_config.o
-    0x20000104   0x00000004   Data   RW         1426    .data.usbd_hid_thread_name  usbd_config.o
-    0x20000108   0x00000004   Data   RW         1980    .data.uwTickFreq    stm32u5xx_hal.o
-    0x2000010c   0x00000004   Data   RW         1979    .data.uwTickPrio    stm32u5xx_hal.o
+    0x20000010   0x00000004   Data   RW         2576    .data.SystemCoreClock  system_stm32u5xx.o
+    0x20000014   0x000000a4   Data   RW         3231    .data.os            rtx_kernel.o
+    0x200000b8   0x00000004   Data   RW         4509    .data.p_hpcd        USBD_OTG_STM32U5xx.o
+    0x200000bc   0x00000030   Data   RW         4093    .data.usbd0_desc    usbd_config.o
+    0x200000ec   0x00000004   Data   RW         4094    .data.usbd_desc_ptr  usbd_config.o
+    0x200000f0   0x00000008   Data   RW         4057    .data.usbd_ep_thread_id_ptr  usbd_config.o
+    0x200000f8   0x00000008   Data   RW         4081    .data.usbd_hid0_desc  usbd_config.o
+    0x20000100   0x00000004   Data   RW         4048    .data.usbd_hid_ptr  usbd_config.o
+    0x20000104   0x00000004   Data   RW         4050    .data.usbd_hid_thread_name  usbd_config.o
+    0x20000108   0x00000004   Data   RW           95    .data.uwTickFreq    stm32u5xx_hal.o
+    0x2000010c   0x00000004   Data   RW           94    .data.uwTickPrio    stm32u5xx_hal.o
     0x20000110   0x00000010   PAD
     0x20000120   0x00000054   Zero   RW         4642    .bss                c_wu.l(stdio_streams.o)
     0x20000174   0x00000054   Zero   RW         4643    .bss                c_wu.l(stdio_streams.o)
     0x200001c8   0x00000054   Zero   RW         4644    .bss                c_wu.l(stdio_streams.o)
     0x2000021c   0x00000060   Zero   RW         4908    .bss                c_wu.l(libspace.o)
-    0x2000027c   0x0000007c   Zero   RW         4369    .bss.AdfFilterConfig0  main.o
-    0x200002f8   0x00000044   Zero   RW         4368    .bss.AdfHandle0     main.o
-    0x2000033c   0x00000004   Zero   RW         4412    .bss.HAL_RCC_OSPIM_CLK_ENABLED  stm32u5xx_hal_msp.o
-    0x20000340   0x00000004   Zero   RW         1888    .bss.SignalDeviceEvent  USBD_OTG_STM32U5xx.o
-    0x20000344   0x00000004   Zero   RW         1884    .bss.SignalEndpointEvent  USBD_OTG_STM32U5xx.o
-    0x20000348   0x00000010   Zero   RW         1815    .bss.UART1_Info     UART_STM32U5xx.o
-    0x20000358   0x00000014   Zero   RW         1816    .bss.UART1_TransferInfo  UART_STM32U5xx.o
-    0x2000036c   0x00000004   Zero   RW         1478    .bss.USBD_MsToTick.max_ms  usbd_config.o
-    0x20000370   0x00000004   Zero   RW         1477    .bss.USBD_MsToTick.tick_freq_mul  usbd_config.o
-    0x20000374   0x00000004   Zero   RW         1580    .bss.USBD_ReqGetDescriptor.len  usbd_lib_core.o
-    0x20000378   0x00000004   Zero   RW         1579    .bss.USBD_ReqGetDescriptor.ptr_desc  usbd_lib_core.o
-    0x2000037c   0x00000004   Zero   RW         1582    .bss.USBD_ReqGetMSDescriptor.len  usbd_lib_core.o
-    0x20000380   0x00000004   Zero   RW         1581    .bss.USBD_ReqGetMSDescriptor.ptr_desc  usbd_lib_core.o
-    0x20000384   0x0000001c   Zero   RW         2703    .bss.a_mdfHandle    stm32u5xx_hal_mdf.o
-    0x200003a0   0x00001000   Zero   RW         4493    .bss.app_main_stk   HID.o
-    0x200013a0   0x00000120   Zero   RW         1883    .bss.ep             USBD_OTG_STM32U5xx.o
-    0x200014c0   0x0000005c   Zero   RW         4370    .bss.hi2c1          main.o
-    0x2000151c   0x0000005c   Zero   RW         4371    .bss.hi2c2          main.o
-    0x20001578   0x0000005c   Zero   RW         4372    .bss.hospi1         main.o
-    0x200015d4   0x0000005c   Zero   RW         4373    .bss.hospi2         main.o
-    0x20001630   0x000004e8   Zero   RW         4377    .bss.hpcd_USB_OTG_FS  main.o
-    0x20001b18   0x00000094   Zero   RW         4374    .bss.hspi2          main.o
-    0x20001bac   0x00000070   Zero   RW         4426    .bss.htim17         stm32u5xx_hal_timebase_tim.o
-    0x20001c1c   0x00000094   Zero   RW         4376    .bss.huart1         main.o
-    0x20001cb0   0x00000094   Zero   RW         4375    .bss.huart4         main.o
-    0x20001d44   0x00000001   Zero   RW         1893    .bss.hw_initialized  USBD_OTG_STM32U5xx.o
-    0x20001d45   0x00000001   Zero   RW         1890    .bss.hw_powered     USBD_OTG_STM32U5xx.o
+    0x2000027c   0x0000007c   Zero   RW         2484    .bss.AdfFilterConfig0  main.o
+    0x200002f8   0x00000044   Zero   RW         2483    .bss.AdfHandle0     main.o
+    0x2000033c   0x00000004   Zero   RW         2527    .bss.HAL_RCC_OSPIM_CLK_ENABLED  stm32u5xx_hal_msp.o
+    0x20000340   0x00000004   Zero   RW         4512    .bss.SignalDeviceEvent  USBD_OTG_STM32U5xx.o
+    0x20000344   0x00000004   Zero   RW         4508    .bss.SignalEndpointEvent  USBD_OTG_STM32U5xx.o
+    0x20000348   0x00000010   Zero   RW         4439    .bss.UART1_Info     UART_STM32U5xx.o
+    0x20000358   0x00000014   Zero   RW         4440    .bss.UART1_TransferInfo  UART_STM32U5xx.o
+    0x2000036c   0x00000004   Zero   RW         4102    .bss.USBD_MsToTick.max_ms  usbd_config.o
+    0x20000370   0x00000004   Zero   RW         4101    .bss.USBD_MsToTick.tick_freq_mul  usbd_config.o
+    0x20000374   0x00000004   Zero   RW         4204    .bss.USBD_ReqGetDescriptor.len  usbd_lib_core.o
+    0x20000378   0x00000004   Zero   RW         4203    .bss.USBD_ReqGetDescriptor.ptr_desc  usbd_lib_core.o
+    0x2000037c   0x00000004   Zero   RW         4206    .bss.USBD_ReqGetMSDescriptor.len  usbd_lib_core.o
+    0x20000380   0x00000004   Zero   RW         4205    .bss.USBD_ReqGetMSDescriptor.ptr_desc  usbd_lib_core.o
+    0x20000384   0x0000001c   Zero   RW          818    .bss.a_mdfHandle    stm32u5xx_hal_mdf.o
+    0x200003a0   0x00001000   Zero   RW         2608    .bss.app_main_stk   HID.o
+    0x200013a0   0x00000120   Zero   RW         4507    .bss.ep             USBD_OTG_STM32U5xx.o
+    0x200014c0   0x0000005c   Zero   RW         2485    .bss.hi2c1          main.o
+    0x2000151c   0x0000005c   Zero   RW         2486    .bss.hi2c2          main.o
+    0x20001578   0x0000005c   Zero   RW         2487    .bss.hospi1         main.o
+    0x200015d4   0x0000005c   Zero   RW         2488    .bss.hospi2         main.o
+    0x20001630   0x000004e8   Zero   RW         2492    .bss.hpcd_USB_OTG_FS  main.o
+    0x20001b18   0x00000094   Zero   RW         2489    .bss.hspi2          main.o
+    0x20001bac   0x00000070   Zero   RW         2541    .bss.htim17         stm32u5xx_hal_timebase_tim.o
+    0x20001c1c   0x00000094   Zero   RW         2491    .bss.huart1         main.o
+    0x20001cb0   0x00000094   Zero   RW         2490    .bss.huart4         main.o
+    0x20001d44   0x00000001   Zero   RW         4517    .bss.hw_initialized  USBD_OTG_STM32U5xx.o
+    0x20001d45   0x00000001   Zero   RW         4514    .bss.hw_powered     USBD_OTG_STM32U5xx.o
     0x20001d46   0x00000002   PAD
-    0x20001d48   0x00008040   Zero   RW          635    .bss.os             rtx_lib.o
-    0x20009d88   0x00000001   Zero   RW         1285    .bss.os             os_systick.o
+    0x20001d48   0x00008040   Zero   RW         3259    .bss.os             rtx_lib.o
+    0x20009d88   0x00000001   Zero   RW         3909    .bss.os             os_systick.o
     0x20009d89   0x00000003   PAD
-    0x20009d8c   0x000001f0   Zero   RW          643    .bss.os.libspace    rtx_lib.o
-    0x20009f7c   0x00000034   Zero   RW          647    .bss.os.msgqueue.cb  rtx_lib.o
-    0x20009fb0   0x00000050   Zero   RW          648    .bss.os.msgqueue.mem  rtx_lib.o
-    0x2000a000   0x00000060   Zero   RW         1429    .bss.os.semaphore.cb  usbd_config.o
-    0x2000a060   0x000000a0   Zero   RW          644    .bss.os.thread.cb   rtx_lib.o
-    0x2000a100   0x000000a0   Zero   RW         1410    .bss.os.thread.cb   usbd_config.o
-    0x2000a1a0   0x00000200   Zero   RW          645    .bss.os.thread.idle.stack  rtx_lib.o
-    0x2000a3a0   0x00000600   Zero   RW         1411    .bss.os.thread.stack  usbd_config.o
-    0x2000a9a0   0x00000200   Zero   RW          646    .bss.os.thread.timer.stack  rtx_lib.o
-    0x2000aba0   0x00000020   Zero   RW         1428    .bss.os.timer.cb    usbd_config.o
-    0x2000abc0   0x00000001   Zero   RW          649    .bss.os_kernel_is_active.os_kernel_active  rtx_lib.o
-    0x2000abc1   0x00000001   Zero   RW         1746    .bss.otg_fs_role    OTG_STM32U5xx.o
+    0x20009d8c   0x000001f0   Zero   RW         3267    .bss.os.libspace    rtx_lib.o
+    0x20009f7c   0x00000034   Zero   RW         3271    .bss.os.msgqueue.cb  rtx_lib.o
+    0x20009fb0   0x00000050   Zero   RW         3272    .bss.os.msgqueue.mem  rtx_lib.o
+    0x2000a000   0x00000060   Zero   RW         4053    .bss.os.semaphore.cb  usbd_config.o
+    0x2000a060   0x000000a0   Zero   RW         3268    .bss.os.thread.cb   rtx_lib.o
+    0x2000a100   0x000000a0   Zero   RW         4034    .bss.os.thread.cb   usbd_config.o
+    0x2000a1a0   0x00000200   Zero   RW         3269    .bss.os.thread.idle.stack  rtx_lib.o
+    0x2000a3a0   0x00000600   Zero   RW         4035    .bss.os.thread.stack  usbd_config.o
+    0x2000a9a0   0x00000200   Zero   RW         3270    .bss.os.thread.timer.stack  rtx_lib.o
+    0x2000aba0   0x00000020   Zero   RW         4052    .bss.os.timer.cb    usbd_config.o
+    0x2000abc0   0x00000001   Zero   RW         3273    .bss.os_kernel_is_active.os_kernel_active  rtx_lib.o
+    0x2000abc1   0x00000001   Zero   RW         4370    .bss.otg_fs_role    OTG_STM32U5xx.o
     0x2000abc2   0x00000002   PAD
-    0x2000abc4   0x00000008   Zero   RW         1886    .bss.setup_packet   USBD_OTG_STM32U5xx.o
-    0x2000abcc   0x00000001   Zero   RW         1887    .bss.setup_received  USBD_OTG_STM32U5xx.o
-    0x2000abcd   0x00000001   Zero   RW         1405    .bss.usbd0_alt_setting  usbd_config.o
+    0x2000abc4   0x00000008   Zero   RW         4510    .bss.setup_packet   USBD_OTG_STM32U5xx.o
+    0x2000abcc   0x00000001   Zero   RW         4511    .bss.setup_received  USBD_OTG_STM32U5xx.o
+    0x2000abcd   0x00000001   Zero   RW         4029    .bss.usbd0_alt_setting  usbd_config.o
     0x2000abce   0x00000002   PAD
-    0x2000abd0   0x000000b0   Zero   RW         1407    .bss.usbd0_data     usbd_config.o
-    0x2000ac80   0x00000080   Zero   RW         1406    .bss.usbd0_ep0_buf  usbd_config.o
-    0x2000ad00   0x00000022   Zero   RW         1468    .bss.usbd0_ser_num_string_descriptor  usbd_config.o
+    0x2000abd0   0x000000b0   Zero   RW         4031    .bss.usbd0_data     usbd_config.o
+    0x2000ac80   0x00000080   Zero   RW         4030    .bss.usbd0_ep0_buf  usbd_config.o
+    0x2000ad00   0x00000022   Zero   RW         4092    .bss.usbd0_ser_num_string_descriptor  usbd_config.o
     0x2000ad22   0x00000002   PAD
-    0x2000ad24   0x00000004   Zero   RW         1476    .bss.usbd_capabilities  usbd_config.o
-    0x2000ad28   0x00000004   Zero   RW         1431    .bss.usbd_core_thread_id  usbd_config.o
-    0x2000ad2c   0x00000010   Zero   RW         1472    .bss.usbd_driver_ep_semaphore_id  usbd_config.o
-    0x2000ad3c   0x00000004   Zero   RW         1471    .bss.usbd_driver_semaphore_id  usbd_config.o
-    0x2000ad40   0x00000004   Zero   RW         1475    .bss.usbd_drv_version  usbd_config.o
-    0x2000ad44   0x00000001   Zero   RW         1421    .bss.usbd_hid0_feat_report  usbd_config.o
+    0x2000ad24   0x00000004   Zero   RW         4100    .bss.usbd_capabilities  usbd_config.o
+    0x2000ad28   0x00000004   Zero   RW         4055    .bss.usbd_core_thread_id  usbd_config.o
+    0x2000ad2c   0x00000010   Zero   RW         4096    .bss.usbd_driver_ep_semaphore_id  usbd_config.o
+    0x2000ad3c   0x00000004   Zero   RW         4095    .bss.usbd_driver_semaphore_id  usbd_config.o
+    0x2000ad40   0x00000004   Zero   RW         4099    .bss.usbd_drv_version  usbd_config.o
+    0x2000ad44   0x00000001   Zero   RW         4045    .bss.usbd_hid0_feat_report  usbd_config.o
     0x2000ad45   0x00000001   PAD
-    0x2000ad46   0x00000002   Zero   RW         1416    .bss.usbd_hid0_idle_count  usbd_config.o
-    0x2000ad48   0x00000002   Zero   RW         1417    .bss.usbd_hid0_idle_reload  usbd_config.o
-    0x2000ad4a   0x00000001   Zero   RW         1418    .bss.usbd_hid0_idle_set  usbd_config.o
+    0x2000ad46   0x00000002   Zero   RW         4040    .bss.usbd_hid0_idle_count  usbd_config.o
+    0x2000ad48   0x00000002   Zero   RW         4041    .bss.usbd_hid0_idle_reload  usbd_config.o
+    0x2000ad4a   0x00000001   Zero   RW         4042    .bss.usbd_hid0_idle_set  usbd_config.o
     0x2000ad4b   0x00000001   PAD
-    0x2000ad4c   0x00000001   Zero   RW         1419    .bss.usbd_hid0_in_report  usbd_config.o
+    0x2000ad4c   0x00000001   Zero   RW         4043    .bss.usbd_hid0_in_report  usbd_config.o
     0x2000ad4d   0x00000013   PAD
-    0x2000ad60   0x00000020   Zero   RW         1420    .bss.usbd_hid0_out_report  usbd_config.o
-    0x2000ad80   0x00000020   Zero   RW         1422    .bss.usbd_hid_data  usbd_config.o
-    0x2000ada0   0x00000004   Zero   RW         1474    .bss.usbd_hid_semaphore_id  usbd_config.o
-    0x2000ada4   0x00000004   Zero   RW         1432    .bss.usbd_hid_thread_id  usbd_config.o
-    0x2000ada8   0x00000004   Zero   RW         1473    .bss.usbd_hid_timer_id  usbd_config.o
-    0x2000adac   0x00000004   Zero   RW         1894    .bss.usbd_state     USBD_OTG_STM32U5xx.o
-    0x2000adb0   0x00000004   Zero   RW         1981    .bss.uwTick         stm32u5xx_hal.o
-    0x2000adb4   0x00000004   Zero   RW         2705    .bss.v_adf1InstanceCounter  stm32u5xx_hal_mdf.o
-    0x2000adb8   0x00000004   Zero   RW         2704    .bss.v_mdf1InstanceCounter  stm32u5xx_hal_mdf.o
-    0x2000adbc   0x00000004   Zero   RW         1733    .bss.vioSignalIn    vio_B-U585I-IOT02A.o
-    0x2000adc0   0x00000004   Zero   RW         1734    .bss.vioSignalOut   vio_B-U585I-IOT02A.o
-    0x2000adc4   0x0000000c   Zero   RW         1735    .bss.vioValue       vio_B-U585I-IOT02A.o
+    0x2000ad60   0x00000020   Zero   RW         4044    .bss.usbd_hid0_out_report  usbd_config.o
+    0x2000ad80   0x00000020   Zero   RW         4046    .bss.usbd_hid_data  usbd_config.o
+    0x2000ada0   0x00000004   Zero   RW         4098    .bss.usbd_hid_semaphore_id  usbd_config.o
+    0x2000ada4   0x00000004   Zero   RW         4056    .bss.usbd_hid_thread_id  usbd_config.o
+    0x2000ada8   0x00000004   Zero   RW         4097    .bss.usbd_hid_timer_id  usbd_config.o
+    0x2000adac   0x00000004   Zero   RW         4518    .bss.usbd_state     USBD_OTG_STM32U5xx.o
+    0x2000adb0   0x00000004   Zero   RW           96    .bss.uwTick         stm32u5xx_hal.o
+    0x2000adb4   0x00000004   Zero   RW          820    .bss.v_adf1InstanceCounter  stm32u5xx_hal_mdf.o
+    0x2000adb8   0x00000004   Zero   RW          819    .bss.v_mdf1InstanceCounter  stm32u5xx_hal_mdf.o
+    0x2000adbc   0x00000004   Zero   RW         4357    .bss.vioSignalIn    vio_B-U585I-IOT02A.o
+    0x2000adc0   0x00000004   Zero   RW         4358    .bss.vioSignalOut   vio_B-U585I-IOT02A.o
+    0x2000adc4   0x0000000c   Zero   RW         4359    .bss.vioValue       vio_B-U585I-IOT02A.o
     0x2000add0   0x00000400   Zero   RW            9    HEAP                startup_stm32u585xx.o
     0x2000b1d0   0x00000400   Zero   RW            8    STACK               startup_stm32u585xx.o
 

@@ -1,8 +1,8 @@
-# CMSIS Build Audit File generated on 2024-05-06T16:13:56
+# CMSIS Build Audit File generated on 2024-05-21T13:11:34
 
 # Project Description File: c:/Test/USBD/HID/HID.Debug+B-U585I-IOT02A.cprj
 
-# Toolchain Configuration File: C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.18.0.cmake
+# Toolchain Configuration File: C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.16.2.cmake
 
 # Package: ARM::CMSIS@6.0.0
   Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS/6.0.0/
@@ -41,7 +41,7 @@
 # Package: ARM::CMSIS-RTX@5.8.0
   Location: C:\Users\reikei01\AppData\Local\Arm\Packs/ARM/CMSIS-RTX/5.8.0/
 
-  * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.8.0
+  * Component: ARM::CMSIS:RTOS2:Keil RTX5&Source@5.9.0
     - ConfigFile: c:/Test/USBD/HID/RTE/CMSIS/RTX_Config.c:5.2.0
     - ConfigFile: c:/Test/USBD/HID/RTE/CMSIS/RTX_Config.h:5.6.0
 

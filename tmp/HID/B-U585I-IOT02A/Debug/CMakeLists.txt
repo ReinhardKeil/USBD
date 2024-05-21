@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2024-05-06T15:57:52
+# CMSIS Build CMakeLists generated on 2024-05-21T13:11:34
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -139,7 +139,7 @@ set(CC_SRC_FILES
 set(REGISTERED_TOOLCHAIN_ROOT "c:/Users/reikei01/.vcpkg/artifacts/2139c4c6/compilers.arm.armclang/6.22.0/bin")
 set(REGISTERED_TOOLCHAIN_VERSION "6.22.0")
 set(TOOLCHAIN_VERSION_MIN "6.22.0")
-include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.18.0.cmake")
+include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.16.2.cmake")
 include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/CMSIS-Build-Utils.cmake")
 
 # Setup project
