@@ -176,9 +176,9 @@ Memory Map of the image
     0x08002bbc   0x00000040   Code   RO         2078    .text.DMA_SetConfig  stm32u5xx_hal_dma.o
     0x08002bfc   0x00000002   Code   RO         4444    .text.DebugMon_Handler  stm32u5xx_it.o
     0x08002bfe   0x00000002   PAD
-    0x08002c00   0x0000001a   Code   RO         1521    .text.EP_IDX        usbd_lib_core.o
+    0x08002c00   0x0000001a   Code   RO         1541    .text.EP_IDX        usbd_lib_core.o
     0x08002c1a   0x00000002   PAD
-    0x08002c1c   0x0000001e   Code   RO         1577    .text.EP_MSK        usbd_lib_core.o
+    0x08002c1c   0x0000001e   Code   RO         1597    .text.EP_MSK        usbd_lib_core.o
     0x08002c3a   0x00000002   PAD
     0x08002c3c   0x00000006   Code   RO         4360    .text.Error_Handler  main.o
     0x08002c42   0x00000002   PAD
@@ -694,64 +694,64 @@ Memory Map of the image
     0x0801161c   0x0000001c   Code   RO         1772    .text.USART1_Send   UART_STM32U5xx.o
     0x08011638   0x00000020   Code   RO         1776    .text.USART1_Transfer  UART_STM32U5xx.o
     0x08011658   0x00000010   Code   RO         1768    .text.USART1_Uninitialize  UART_STM32U5xx.o
-    0x08011668   0x00000012   Code   RO         1321    .text.USBD0_SignalDeviceEvent  usbd_config.o
+    0x08011668   0x00000012   Code   RO         1341    .text.USBD0_SignalDeviceEvent  usbd_config.o
     0x0801167a   0x00000002   PAD
-    0x0801167c   0x0000001a   Code   RO         1323    .text.USBD0_SignalEndpointEvent  usbd_config.o
+    0x0801167c   0x0000001a   Code   RO         1343    .text.USBD0_SignalEndpointEvent  usbd_config.o
     0x08011696   0x00000002   PAD
-    0x08011698   0x0000007e   Code   RO         1497    .text.USBD_CheckDevice  usbd_lib_core.o
+    0x08011698   0x0000007e   Code   RO         1517    .text.USBD_CheckDevice  usbd_lib_core.o
     0x08011716   0x00000002   PAD
-    0x08011718   0x0000007c   Code   RO         1393    .text.USBD_ClassInitialize  usbd_config.o
-    0x08011794   0x0000007c   Code   RO         1395    .text.USBD_ClassUninitialize  usbd_config.o
-    0x08011810   0x0000000c   Code   RO         1333    .text.USBD_Class_Endpoint0_InDataSent  usbd_config.o
-    0x0801181c   0x0000000c   Code   RO         1331    .text.USBD_Class_Endpoint0_OutDataReceived  usbd_config.o
-    0x08011828   0x0000000a   Code   RO         1329    .text.USBD_Class_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x08011718   0x0000007c   Code   RO         1413    .text.USBD_ClassInitialize  usbd_config.o
+    0x08011794   0x0000007c   Code   RO         1415    .text.USBD_ClassUninitialize  usbd_config.o
+    0x08011810   0x0000000c   Code   RO         1353    .text.USBD_Class_Endpoint0_InDataSent  usbd_config.o
+    0x0801181c   0x0000000c   Code   RO         1351    .text.USBD_Class_Endpoint0_OutDataReceived  usbd_config.o
+    0x08011828   0x0000000a   Code   RO         1349    .text.USBD_Class_Endpoint0_SetupPacketProcessed  usbd_config.o
     0x08011832   0x00000002   PAD
-    0x08011834   0x0000000c   Code   RO         1327    .text.USBD_Class_Endpoint0_SetupPacketReceived  usbd_config.o
-    0x08011840   0x00000070   Code   RO         1551    .text.USBD_ConfigureEndpoint0  usbd_lib_core.o
-    0x080118b0   0x00000048   Code   RO         1505    .text.USBD_Configured  usbd_lib_core.o
-    0x080118f8   0x0000002a   Code   RO         1501    .text.USBD_Connect  usbd_lib_core.o
+    0x08011834   0x0000000c   Code   RO         1347    .text.USBD_Class_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x08011840   0x00000070   Code   RO         1571    .text.USBD_ConfigureEndpoint0  usbd_lib_core.o
+    0x080118b0   0x00000048   Code   RO         1525    .text.USBD_Configured  usbd_lib_core.o
+    0x080118f8   0x0000002a   Code   RO         1521    .text.USBD_Connect  usbd_lib_core.o
     0x08011922   0x00000002   PAD
-    0x08011924   0x00000194   Code   RO         1539    .text.USBD_Core     usbd_lib_core.o
-    0x08011ab8   0x0000007e   Code   RO         1596    .text.USBD_Core_Endpoint0_InDataSent  usbd_lib_core_device.o
+    0x08011924   0x00000194   Code   RO         1559    .text.USBD_Core     usbd_lib_core.o
+    0x08011ab8   0x0000007e   Code   RO         1616    .text.USBD_Core_Endpoint0_InDataSent  usbd_lib_core_device.o
     0x08011b36   0x00000002   PAD
-    0x08011b38   0x0000007e   Code   RO         1594    .text.USBD_Core_Endpoint0_OutDataReceived  usbd_lib_core_device.o
+    0x08011b38   0x0000007e   Code   RO         1614    .text.USBD_Core_Endpoint0_OutDataReceived  usbd_lib_core_device.o
     0x08011bb6   0x00000002   PAD
-    0x08011bb8   0x0000005e   Code   RO         1592    .text.USBD_Core_Endpoint0_SetupPacketProcessed  usbd_lib_core_device.o
+    0x08011bb8   0x0000005e   Code   RO         1612    .text.USBD_Core_Endpoint0_SetupPacketProcessed  usbd_lib_core_device.o
     0x08011c16   0x00000002   PAD
-    0x08011c18   0x00000092   Code   RO         1590    .text.USBD_Core_Endpoint0_SetupPacketReceived  usbd_lib_core_device.o
+    0x08011c18   0x00000092   Code   RO         1610    .text.USBD_Core_Endpoint0_SetupPacketReceived  usbd_lib_core_device.o
     0x08011caa   0x00000002   PAD
-    0x08011cac   0x00000154   Code   RO         1537    .text.USBD_Core_Thread  usbd_lib_core.o
-    0x08011e00   0x0000010c   Code   RO         1525    .text.USBD_DataInStage  usbd_lib_core.o
-    0x08011f0c   0x00000062   Code   RO         1527    .text.USBD_DataOutStage  usbd_lib_core.o
+    0x08011cac   0x00000154   Code   RO         1557    .text.USBD_Core_Thread  usbd_lib_core.o
+    0x08011e00   0x0000010c   Code   RO         1545    .text.USBD_DataInStage  usbd_lib_core.o
+    0x08011f0c   0x00000062   Code   RO         1547    .text.USBD_DataOutStage  usbd_lib_core.o
     0x08011f6e   0x00000002   PAD
-    0x08011f70   0x00000014   Code   RO         1297    .text.USBD_Delay    usbd_config.o
-    0x08011f84   0x0000000a   Code   RO         1379    .text.USBD_Device0_ConfigurationChanged  usbd_config.o
+    0x08011f70   0x00000014   Code   RO         1317    .text.USBD_Delay    usbd_config.o
+    0x08011f84   0x0000000a   Code   RO         1399    .text.USBD_Device0_ConfigurationChanged  usbd_config.o
     0x08011f8e   0x00000002   PAD
-    0x08011f90   0x00000002   Code   RO         1383    .text.USBD_Device0_DisableRemoteWakeup  usbd_config.o
+    0x08011f90   0x00000002   Code   RO         1403    .text.USBD_Device0_DisableRemoteWakeup  usbd_config.o
     0x08011f92   0x00000002   PAD
-    0x08011f94   0x00000002   Code   RO         1381    .text.USBD_Device0_EnableRemoteWakeup  usbd_config.o
+    0x08011f94   0x00000002   Code   RO         1401    .text.USBD_Device0_EnableRemoteWakeup  usbd_config.o
     0x08011f96   0x00000002   PAD
-    0x08011f98   0x0000000a   Code   RO         1391    .text.USBD_Device0_Endpoint0_InDataSent  usbd_config.o
+    0x08011f98   0x0000000a   Code   RO         1411    .text.USBD_Device0_Endpoint0_InDataSent  usbd_config.o
     0x08011fa2   0x00000002   PAD
-    0x08011fa4   0x0000000a   Code   RO         1389    .text.USBD_Device0_Endpoint0_OutDataReceived  usbd_config.o
+    0x08011fa4   0x0000000a   Code   RO         1409    .text.USBD_Device0_Endpoint0_OutDataReceived  usbd_config.o
     0x08011fae   0x00000002   PAD
-    0x08011fb0   0x00000008   Code   RO         1387    .text.USBD_Device0_Endpoint0_SetupPacketProcessed  usbd_config.o
-    0x08011fb8   0x0000000e   Code   RO         1385    .text.USBD_Device0_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x08011fb0   0x00000008   Code   RO         1407    .text.USBD_Device0_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x08011fb8   0x0000000e   Code   RO         1405    .text.USBD_Device0_Endpoint0_SetupPacketReceived  usbd_config.o
     0x08011fc6   0x00000002   PAD
-    0x08011fc8   0x00000002   Code   RO         1369    .text.USBD_Device0_EventReset  usbd_config.o
+    0x08011fc8   0x00000002   Code   RO         1389    .text.USBD_Device0_EventReset  usbd_config.o
     0x08011fca   0x00000002   PAD
-    0x08011fcc   0x00000002   Code   RO         1373    .text.USBD_Device0_HighSpeedActivated  usbd_config.o
+    0x08011fcc   0x00000002   Code   RO         1393    .text.USBD_Device0_HighSpeedActivated  usbd_config.o
     0x08011fce   0x00000002   PAD
-    0x08011fd0   0x00000002   Code   RO         1363    .text.USBD_Device0_Initialize  usbd_config.o
+    0x08011fd0   0x00000002   Code   RO         1383    .text.USBD_Device0_Initialize  usbd_config.o
     0x08011fd2   0x00000002   PAD
-    0x08011fd4   0x00000008   Code   RO         1371    .text.USBD_Device0_Reset  usbd_config.o
-    0x08011fdc   0x00000002   Code   RO         1377    .text.USBD_Device0_Resumed  usbd_config.o
+    0x08011fd4   0x00000008   Code   RO         1391    .text.USBD_Device0_Reset  usbd_config.o
+    0x08011fdc   0x00000002   Code   RO         1397    .text.USBD_Device0_Resumed  usbd_config.o
     0x08011fde   0x00000002   PAD
-    0x08011fe0   0x00000002   Code   RO         1375    .text.USBD_Device0_Suspended  usbd_config.o
+    0x08011fe0   0x00000002   Code   RO         1395    .text.USBD_Device0_Suspended  usbd_config.o
     0x08011fe2   0x00000002   PAD
-    0x08011fe4   0x00000002   Code   RO         1365    .text.USBD_Device0_Uninitialize  usbd_config.o
+    0x08011fe4   0x00000002   Code   RO         1385    .text.USBD_Device0_Uninitialize  usbd_config.o
     0x08011fe6   0x00000002   PAD
-    0x08011fe8   0x0000000a   Code   RO         1367    .text.USBD_Device0_VbusChanged  usbd_config.o
+    0x08011fe8   0x0000000a   Code   RO         1387    .text.USBD_Device0_VbusChanged  usbd_config.o
     0x08011ff2   0x00000002   PAD
     0x08011ff4   0x00000036   Code   RO         1859    .text.USBD_DeviceConnect  USBD_OTG_STM32U5xx.o
     0x0801202a   0x00000002   PAD
@@ -762,50 +762,50 @@ Memory Map of the image
     0x080120ae   0x00000002   PAD
     0x080120b0   0x0000003e   Code   RO         1833    .text.USBD_DeviceSetAddress  USBD_OTG_STM32U5xx.o
     0x080120ee   0x00000002   PAD
-    0x080120f0   0x000000c6   Code   RO         1628    .text.USBD_DriverDeviceConnect  usbd_lib_drv.o
+    0x080120f0   0x000000c6   Code   RO         1648    .text.USBD_DriverDeviceConnect  usbd_lib_drv.o
     0x080121b6   0x00000002   PAD
-    0x080121b8   0x000000ce   Code   RO         1636    .text.USBD_DriverDeviceSetAddress  usbd_lib_drv.o
+    0x080121b8   0x000000ce   Code   RO         1656    .text.USBD_DriverDeviceSetAddress  usbd_lib_drv.o
     0x08012286   0x00000002   PAD
-    0x08012288   0x000001a6   Code   RO         1640    .text.USBD_DriverEndpointConfigure  usbd_lib_drv.o
+    0x08012288   0x000001a6   Code   RO         1660    .text.USBD_DriverEndpointConfigure  usbd_lib_drv.o
     0x0801242e   0x00000002   PAD
-    0x08012430   0x00000178   Code   RO         1646    .text.USBD_DriverEndpointStall  usbd_lib_drv.o
-    0x080125a8   0x000001f6   Code   RO         1648    .text.USBD_DriverEndpointTransfer  usbd_lib_drv.o
+    0x08012430   0x00000178   Code   RO         1666    .text.USBD_DriverEndpointStall  usbd_lib_drv.o
+    0x080125a8   0x000001f6   Code   RO         1668    .text.USBD_DriverEndpointTransfer  usbd_lib_drv.o
     0x0801279e   0x00000002   PAD
-    0x080127a0   0x00000170   Code   RO         1642    .text.USBD_DriverEndpointTransferAbort  usbd_lib_drv.o
-    0x08012910   0x000000ec   Code   RO         1650    .text.USBD_DriverEndpointTransferGetResult  usbd_lib_drv.o
-    0x080129fc   0x0000016c   Code   RO         1644    .text.USBD_DriverEndpointUnconfigure  usbd_lib_drv.o
-    0x08012b68   0x00000026   Code   RO         1620    .text.USBD_DriverGetCapabilities  usbd_lib_drv.o
+    0x080127a0   0x00000170   Code   RO         1662    .text.USBD_DriverEndpointTransferAbort  usbd_lib_drv.o
+    0x08012910   0x000000ec   Code   RO         1670    .text.USBD_DriverEndpointTransferGetResult  usbd_lib_drv.o
+    0x080129fc   0x0000016c   Code   RO         1664    .text.USBD_DriverEndpointUnconfigure  usbd_lib_drv.o
+    0x08012b68   0x00000026   Code   RO         1640    .text.USBD_DriverGetCapabilities  usbd_lib_drv.o
     0x08012b8e   0x00000002   PAD
-    0x08012b90   0x00000026   Code   RO         1618    .text.USBD_DriverGetVersion  usbd_lib_drv.o
+    0x08012b90   0x00000026   Code   RO         1638    .text.USBD_DriverGetVersion  usbd_lib_drv.o
     0x08012bb6   0x00000002   PAD
-    0x08012bb8   0x000000ce   Code   RO         1622    .text.USBD_DriverInitialize  usbd_lib_drv.o
+    0x08012bb8   0x000000ce   Code   RO         1642    .text.USBD_DriverInitialize  usbd_lib_drv.o
     0x08012c86   0x00000002   PAD
-    0x08012c88   0x000000ca   Code   RO         1626    .text.USBD_DriverPowerControl  usbd_lib_drv.o
+    0x08012c88   0x000000ca   Code   RO         1646    .text.USBD_DriverPowerControl  usbd_lib_drv.o
     0x08012d52   0x00000002   PAD
-    0x08012d54   0x000000ca   Code   RO         1638    .text.USBD_DriverReadSetupPacket  usbd_lib_drv.o
+    0x08012d54   0x000000ca   Code   RO         1658    .text.USBD_DriverReadSetupPacket  usbd_lib_drv.o
     0x08012e1e   0x00000002   PAD
-    0x08012e20   0x00000668   Code   RO         1555    .text.USBD_Endpoint0  usbd_lib_core.o
-    0x08013488   0x0000000e   Code   RO         1359    .text.USBD_Endpoint0_ClearFeatureStall_MSC  usbd_config.o
+    0x08012e20   0x00000668   Code   RO         1575    .text.USBD_Endpoint0  usbd_lib_core.o
+    0x08013488   0x0000000e   Code   RO         1379    .text.USBD_Endpoint0_ClearFeatureStall_MSC  usbd_config.o
     0x08013496   0x00000002   PAD
-    0x08013498   0x0000000c   Code   RO         1341    .text.USBD_Endpoint0_Out_ADC_ReqToEP  usbd_config.o
-    0x080134a4   0x0000000c   Code   RO         1337    .text.USBD_Endpoint0_Out_ADC_ReqToIF  usbd_config.o
-    0x080134b0   0x0000000c   Code   RO         1345    .text.USBD_Endpoint0_Out_CDC_ReqToIF  usbd_config.o
-    0x080134bc   0x000000ea   Code   RO         1609    .text.USBD_Endpoint0_Out_HID_ReqToIF  usbd_lib_core_hid.o
+    0x08013498   0x0000000c   Code   RO         1361    .text.USBD_Endpoint0_Out_ADC_ReqToEP  usbd_config.o
+    0x080134a4   0x0000000c   Code   RO         1357    .text.USBD_Endpoint0_Out_ADC_ReqToIF  usbd_config.o
+    0x080134b0   0x0000000c   Code   RO         1365    .text.USBD_Endpoint0_Out_CDC_ReqToIF  usbd_config.o
+    0x080134bc   0x000000ea   Code   RO         1629    .text.USBD_Endpoint0_Out_HID_ReqToIF  usbd_lib_core_hid.o
     0x080135a6   0x00000002   PAD
-    0x080135a8   0x0000025c   Code   RO         1605    .text.USBD_Endpoint0_ReqGetDescriptor_HID  usbd_lib_core_hid.o
-    0x08013804   0x0000000e   Code   RO         1325    .text.USBD_Endpoint0_ReqGetExtProp_CC  usbd_config.o
+    0x080135a8   0x0000025c   Code   RO         1625    .text.USBD_Endpoint0_ReqGetDescriptor_HID  usbd_lib_core_hid.o
+    0x08013804   0x0000000e   Code   RO         1345    .text.USBD_Endpoint0_ReqGetExtProp_CC  usbd_config.o
     0x08013812   0x00000002   PAD
-    0x08013814   0x0000000c   Code   RO         1339    .text.USBD_Endpoint0_Setup_ADC_ReqToEP  usbd_config.o
-    0x08013820   0x0000000c   Code   RO         1335    .text.USBD_Endpoint0_Setup_ADC_ReqToIF  usbd_config.o
-    0x0801382c   0x0000000c   Code   RO         1343    .text.USBD_Endpoint0_Setup_CDC_ReqToIF  usbd_config.o
-    0x08013838   0x0000031a   Code   RO         1607    .text.USBD_Endpoint0_Setup_HID_ReqToIF  usbd_lib_core_hid.o
+    0x08013814   0x0000000c   Code   RO         1359    .text.USBD_Endpoint0_Setup_ADC_ReqToEP  usbd_config.o
+    0x08013820   0x0000000c   Code   RO         1355    .text.USBD_Endpoint0_Setup_ADC_ReqToIF  usbd_config.o
+    0x0801382c   0x0000000c   Code   RO         1363    .text.USBD_Endpoint0_Setup_CDC_ReqToIF  usbd_config.o
+    0x08013838   0x0000031a   Code   RO         1627    .text.USBD_Endpoint0_Setup_HID_ReqToIF  usbd_lib_core_hid.o
     0x08013b52   0x00000002   PAD
-    0x08013b54   0x0000000c   Code   RO         1361    .text.USBD_Endpoint0_Setup_MSC_ReqToIF  usbd_config.o
+    0x08013b54   0x0000000c   Code   RO         1381    .text.USBD_Endpoint0_Setup_MSC_ReqToIF  usbd_config.o
     0x08013b60   0x0000010a   Code   RO         1869    .text.USBD_EndpointConfigure  USBD_OTG_STM32U5xx.o
     0x08013c6a   0x00000002   PAD
     0x08013c6c   0x00000080   Code   RO         1873    .text.USBD_EndpointStall  USBD_OTG_STM32U5xx.o
-    0x08013cec   0x000000b0   Code   RO         1401    .text.USBD_EndpointStart  usbd_config.o
-    0x08013d9c   0x0000000e   Code   RO         1403    .text.USBD_EndpointStop  usbd_config.o
+    0x08013cec   0x000000b0   Code   RO         1421    .text.USBD_EndpointStart  usbd_config.o
+    0x08013d9c   0x0000000e   Code   RO         1423    .text.USBD_EndpointStop  usbd_config.o
     0x08013daa   0x00000002   PAD
     0x08013dac   0x00000106   Code   RO         1875    .text.USBD_EndpointTransfer  USBD_OTG_STM32U5xx.o
     0x08013eb2   0x00000002   PAD
@@ -818,94 +818,94 @@ Memory Map of the image
     0x08014010   0x00000034   Code   RO         1881    .text.USBD_GetFrameNumber  USBD_OTG_STM32U5xx.o
     0x08014044   0x00000012   Code   RO         1849    .text.USBD_GetVersion  USBD_OTG_STM32U5xx.o
     0x08014056   0x00000002   PAD
-    0x08014058   0x00000006   Code   RO         1355    .text.USBD_HID0_GetProtocol  usbd_config.o
+    0x08014058   0x00000006   Code   RO         1375    .text.USBD_HID0_GetProtocol  usbd_config.o
     0x0801405e   0x00000002   PAD
     0x08014060   0x00000060   Code   RO         4516    .text.USBD_HID0_GetReport  USBD_User_HID_0.o
     0x080140c0   0x00000002   Code   RO         4512    .text.USBD_HID0_Initialize  USBD_User_HID_0.o
     0x080140c2   0x00000002   PAD
-    0x080140c4   0x0000000c   Code   RO         1357    .text.USBD_HID0_SetProtocol  usbd_config.o
+    0x080140c4   0x0000000c   Code   RO         1377    .text.USBD_HID0_SetProtocol  usbd_config.o
     0x080140d0   0x0000004a   Code   RO         4518    .text.USBD_HID0_SetReport  USBD_User_HID_0.o
     0x0801411a   0x00000002   PAD
     0x0801411c   0x00000002   Code   RO         4514    .text.USBD_HID0_Uninitialize  USBD_User_HID_0.o
     0x0801411e   0x00000002   PAD
-    0x08014120   0x000000dc   Code   RO         1667    .text.USBD_HID_CheckInstance  usbd_lib_hid.o
-    0x080141fc   0x00000068   Code   RO         1675    .text.USBD_HID_CoreGetIdle  usbd_lib_hid.o
-    0x08014264   0x0000008c   Code   RO         1679    .text.USBD_HID_CoreGetProtocol  usbd_lib_hid.o
-    0x080142f0   0x000000e8   Code   RO         1671    .text.USBD_HID_CoreGetReport  usbd_lib_hid.o
-    0x080143d8   0x00000108   Code   RO         1677    .text.USBD_HID_CoreSetIdle  usbd_lib_hid.o
-    0x080144e0   0x0000008e   Code   RO         1681    .text.USBD_HID_CoreSetProtocol  usbd_lib_hid.o
+    0x08014120   0x000000dc   Code   RO         1687    .text.USBD_HID_CheckInstance  usbd_lib_hid.o
+    0x080141fc   0x00000068   Code   RO         1695    .text.USBD_HID_CoreGetIdle  usbd_lib_hid.o
+    0x08014264   0x0000008c   Code   RO         1699    .text.USBD_HID_CoreGetProtocol  usbd_lib_hid.o
+    0x080142f0   0x000000e8   Code   RO         1691    .text.USBD_HID_CoreGetReport  usbd_lib_hid.o
+    0x080143d8   0x00000108   Code   RO         1697    .text.USBD_HID_CoreSetIdle  usbd_lib_hid.o
+    0x080144e0   0x0000008e   Code   RO         1701    .text.USBD_HID_CoreSetProtocol  usbd_lib_hid.o
     0x0801456e   0x00000002   PAD
-    0x08014570   0x00000102   Code   RO         1673    .text.USBD_HID_CoreSetReport  usbd_lib_hid.o
+    0x08014570   0x00000102   Code   RO         1693    .text.USBD_HID_CoreSetReport  usbd_lib_hid.o
     0x08014672   0x00000002   PAD
-    0x08014674   0x00000050   Code   RO         1691    .text.USBD_HID_EndpointStart  usbd_lib_hid.o
-    0x080146c4   0x000002f0   Code   RO         1669    .text.USBD_HID_EpIntIn  usbd_lib_hid.o
-    0x080149b4   0x00000144   Code   RO         1697    .text.USBD_HID_EpIntOut  usbd_lib_hid.o
-    0x08014af8   0x000000fe   Code   RO         1665    .text.USBD_HID_GetReportTrigger  usbd_lib_hid.o
+    0x08014674   0x00000050   Code   RO         1711    .text.USBD_HID_EndpointStart  usbd_lib_hid.o
+    0x080146c4   0x000002f0   Code   RO         1689    .text.USBD_HID_EpIntIn  usbd_lib_hid.o
+    0x080149b4   0x00000144   Code   RO         1717    .text.USBD_HID_EpIntOut  usbd_lib_hid.o
+    0x08014af8   0x000000fe   Code   RO         1685    .text.USBD_HID_GetReportTrigger  usbd_lib_hid.o
     0x08014bf6   0x00000002   PAD
-    0x08014bf8   0x00000116   Code   RO         1683    .text.USBD_HID_Initialize  usbd_lib_hid.o
+    0x08014bf8   0x00000116   Code   RO         1703    .text.USBD_HID_Initialize  usbd_lib_hid.o
     0x08014d0e   0x00000002   PAD
-    0x08014d10   0x000000ea   Code   RO         1687    .text.USBD_HID_Reset  usbd_lib_hid.o
+    0x08014d10   0x000000ea   Code   RO         1707    .text.USBD_HID_Reset  usbd_lib_hid.o
     0x08014dfa   0x00000002   PAD
-    0x08014dfc   0x00000080   Code   RO         1689    .text.USBD_HID_SetConfiguration  usbd_lib_hid.o
-    0x08014e7c   0x00000064   Code   RO         1695    .text.USBD_HID_Thread  usbd_lib_hid.o
-    0x08014ee0   0x00000296   Code   RO         1693    .text.USBD_HID_Timer  usbd_lib_hid.o
+    0x08014dfc   0x00000080   Code   RO         1709    .text.USBD_HID_SetConfiguration  usbd_lib_hid.o
+    0x08014e7c   0x00000064   Code   RO         1715    .text.USBD_HID_Thread  usbd_lib_hid.o
+    0x08014ee0   0x00000296   Code   RO         1713    .text.USBD_HID_Timer  usbd_lib_hid.o
     0x08015176   0x00000002   PAD
-    0x08015178   0x000000d6   Code   RO         1685    .text.USBD_HID_Uninitialize  usbd_lib_hid.o
+    0x08015178   0x000000d6   Code   RO         1705    .text.USBD_HID_Uninitialize  usbd_lib_hid.o
     0x0801524e   0x00000002   PAD
-    0x08015250   0x000003bc   Code   RO         1495    .text.USBD_Initialize  usbd_lib_core.o
+    0x08015250   0x000003bc   Code   RO         1515    .text.USBD_Initialize  usbd_lib_core.o
     0x0801560c   0x00000068   Code   RO         1853    .text.USBD_Initialize  USBD_OTG_STM32U5xx.o
-    0x08015674   0x000000ac   Code   RO         1299    .text.USBD_MsToTick  usbd_config.o
+    0x08015674   0x000000ac   Code   RO         1319    .text.USBD_MsToTick  usbd_config.o
     0x08015720   0x000000ce   Code   RO         1857    .text.USBD_PowerControl  USBD_OTG_STM32U5xx.o
     0x080157ee   0x00000002   PAD
     0x080157f0   0x0000006a   Code   RO         1867    .text.USBD_ReadSetupPacket  USBD_OTG_STM32U5xx.o
     0x0801585a   0x00000002   PAD
-    0x0801585c   0x0000009e   Code   RO         1567    .text.USBD_ReqGetConfiguration  usbd_lib_core.o
+    0x0801585c   0x0000009e   Code   RO         1587    .text.USBD_ReqGetConfiguration  usbd_lib_core.o
     0x080158fa   0x00000002   PAD
-    0x080158fc   0x0000047e   Code   RO         1565    .text.USBD_ReqGetDescriptor  usbd_lib_core.o
+    0x080158fc   0x0000047e   Code   RO         1585    .text.USBD_ReqGetDescriptor  usbd_lib_core.o
     0x08015d7a   0x00000002   PAD
-    0x08015d7c   0x000000ca   Code   RO         1571    .text.USBD_ReqGetInterface  usbd_lib_core.o
+    0x08015d7c   0x000000ca   Code   RO         1591    .text.USBD_ReqGetInterface  usbd_lib_core.o
     0x08015e46   0x00000002   PAD
-    0x08015e48   0x000001d0   Code   RO         1575    .text.USBD_ReqGetMSDescriptor  usbd_lib_core.o
-    0x08016018   0x00000182   Code   RO         1559    .text.USBD_ReqGetStatus  usbd_lib_core.o
+    0x08015e48   0x000001d0   Code   RO         1595    .text.USBD_ReqGetMSDescriptor  usbd_lib_core.o
+    0x08016018   0x00000182   Code   RO         1579    .text.USBD_ReqGetStatus  usbd_lib_core.o
     0x0801619a   0x00000002   PAD
-    0x0801619c   0x00000090   Code   RO         1563    .text.USBD_ReqSetAddress  usbd_lib_core.o
-    0x0801622c   0x0000023a   Code   RO         1561    .text.USBD_ReqSetClrFeature  usbd_lib_core.o
+    0x0801619c   0x00000090   Code   RO         1583    .text.USBD_ReqSetAddress  usbd_lib_core.o
+    0x0801622c   0x0000023a   Code   RO         1581    .text.USBD_ReqSetClrFeature  usbd_lib_core.o
     0x08016466   0x00000002   PAD
-    0x08016468   0x000004ca   Code   RO         1569    .text.USBD_ReqSetConfiguration  usbd_lib_core.o
+    0x08016468   0x000004ca   Code   RO         1589    .text.USBD_ReqSetConfiguration  usbd_lib_core.o
     0x08016932   0x00000002   PAD
-    0x08016934   0x00000326   Code   RO         1573    .text.USBD_ReqSetInterface  usbd_lib_core.o
+    0x08016934   0x00000326   Code   RO         1593    .text.USBD_ReqSetInterface  usbd_lib_core.o
     0x08016c5a   0x00000002   PAD
-    0x08016c5c   0x0000006a   Code   RO         1397    .text.USBD_Reset    usbd_config.o
+    0x08016c5c   0x0000006a   Code   RO         1417    .text.USBD_Reset    usbd_config.o
     0x08016cc6   0x00000002   PAD
-    0x08016cc8   0x0000003c   Code   RO         1549    .text.USBD_ResetCore  usbd_lib_core.o
-    0x08016d04   0x00000032   Code   RO         1315    .text.USBD_SemaphoreAcquire  usbd_config.o
+    0x08016cc8   0x0000003c   Code   RO         1569    .text.USBD_ResetCore  usbd_lib_core.o
+    0x08016d04   0x00000032   Code   RO         1335    .text.USBD_SemaphoreAcquire  usbd_config.o
     0x08016d36   0x00000002   PAD
-    0x08016d38   0x000000f0   Code   RO         1313    .text.USBD_SemaphoreCreate  usbd_config.o
-    0x08016e28   0x00000024   Code   RO         1319    .text.USBD_SemaphoreDelete  usbd_config.o
-    0x08016e4c   0x00000024   Code   RO         1317    .text.USBD_SemaphoreRelease  usbd_config.o
-    0x08016e70   0x00000078   Code   RO         1399    .text.USBD_SetConfiguration  usbd_config.o
-    0x08016ee8   0x00000028   Code   RO         1557    .text.USBD_SetupStage  usbd_lib_core.o
-    0x08016f10   0x00000024   Code   RO         1654    .text.USBD_SignalDeviceEvent  usbd_lib_drv.o
-    0x08016f34   0x00000080   Code   RO         1656    .text.USBD_SignalEndpointEvent  usbd_lib_drv.o
-    0x08016fb4   0x0000001a   Code   RO         1529    .text.USBD_StatusInStage  usbd_lib_core.o
+    0x08016d38   0x000000f0   Code   RO         1333    .text.USBD_SemaphoreCreate  usbd_config.o
+    0x08016e28   0x00000024   Code   RO         1339    .text.USBD_SemaphoreDelete  usbd_config.o
+    0x08016e4c   0x00000024   Code   RO         1337    .text.USBD_SemaphoreRelease  usbd_config.o
+    0x08016e70   0x00000078   Code   RO         1419    .text.USBD_SetConfiguration  usbd_config.o
+    0x08016ee8   0x00000028   Code   RO         1577    .text.USBD_SetupStage  usbd_lib_core.o
+    0x08016f10   0x00000024   Code   RO         1674    .text.USBD_SignalDeviceEvent  usbd_lib_drv.o
+    0x08016f34   0x00000080   Code   RO         1676    .text.USBD_SignalEndpointEvent  usbd_lib_drv.o
+    0x08016fb4   0x0000001a   Code   RO         1549    .text.USBD_StatusInStage  usbd_lib_core.o
     0x08016fce   0x00000002   PAD
-    0x08016fd0   0x00000028   Code   RO         1531    .text.USBD_StatusInStageDone  usbd_lib_core.o
-    0x08016ff8   0x0000001a   Code   RO         1533    .text.USBD_StatusOutStage  usbd_lib_core.o
+    0x08016fd0   0x00000028   Code   RO         1551    .text.USBD_StatusInStageDone  usbd_lib_core.o
+    0x08016ff8   0x0000001a   Code   RO         1553    .text.USBD_StatusOutStage  usbd_lib_core.o
     0x08017012   0x00000002   PAD
-    0x08017014   0x0000004e   Code   RO         1535    .text.USBD_StatusOutStageDone  usbd_lib_core.o
+    0x08017014   0x0000004e   Code   RO         1555    .text.USBD_StatusOutStageDone  usbd_lib_core.o
     0x08017062   0x00000002   PAD
-    0x08017064   0x00000022   Code   RO         1553    .text.USBD_SwitchToHighSpeedCore  usbd_lib_core.o
+    0x08017064   0x00000022   Code   RO         1573    .text.USBD_SwitchToHighSpeedCore  usbd_lib_core.o
     0x08017086   0x00000002   PAD
-    0x08017088   0x00000138   Code   RO         1293    .text.USBD_ThreadCreate  usbd_config.o
-    0x080171c0   0x00000026   Code   RO         1309    .text.USBD_ThreadFlagsSet  usbd_config.o
+    0x08017088   0x00000138   Code   RO         1313    .text.USBD_ThreadCreate  usbd_config.o
+    0x080171c0   0x00000026   Code   RO         1329    .text.USBD_ThreadFlagsSet  usbd_config.o
     0x080171e6   0x00000002   PAD
-    0x080171e8   0x00000048   Code   RO         1311    .text.USBD_ThreadFlagsWait  usbd_config.o
-    0x08017230   0x00000024   Code   RO         1295    .text.USBD_ThreadTerminate  usbd_config.o
-    0x08017254   0x00000056   Code   RO         1301    .text.USBD_TimerCreate  usbd_config.o
+    0x080171e8   0x00000048   Code   RO         1331    .text.USBD_ThreadFlagsWait  usbd_config.o
+    0x08017230   0x00000024   Code   RO         1315    .text.USBD_ThreadTerminate  usbd_config.o
+    0x08017254   0x00000056   Code   RO         1321    .text.USBD_TimerCreate  usbd_config.o
     0x080172aa   0x00000002   PAD
-    0x080172ac   0x00000032   Code   RO         1303    .text.USBD_TimerStart  usbd_config.o
+    0x080172ac   0x00000032   Code   RO         1323    .text.USBD_TimerStart  usbd_config.o
     0x080172de   0x00000002   PAD
-    0x080172e0   0x00000034   Code   RO         1305    .text.USBD_TimerStop  usbd_config.o
+    0x080172e0   0x00000034   Code   RO         1325    .text.USBD_TimerStop  usbd_config.o
     0x08017314   0x00000022   Code   RO         1855    .text.USBD_Uninitialize  USBD_OTG_STM32U5xx.o
     0x08017336   0x00000002   PAD
     0x08017338   0x000000de   Code   RO         4162    .text.USB_ActivateEndpoint  stm32u5xx_ll_usb.o
@@ -1219,10 +1219,10 @@ Memory Map of the image
     0x0801cf70   0x0000006e   Code   RO         1252    .text.svcRtxTimerStop  rtx_timer.o
     0x0801cfde   0x00000002   PAD
     0x0801cfe0   0x00000048   Code   RO          625    .text.user_perthread_libspace_free  rtx_lib.o
-    0x0801d028   0x00000062   Code   RO         1727    .text.vioGetSignal  vio_B-U585I-IOT02A.o
+    0x0801d028   0x00000062   Code   RO         1297    .text.vioGetSignal  vio_B-U585I-IOT02A.o
     0x0801d08a   0x00000002   PAD
-    0x0801d08c   0x000000ec   Code   RO         1723    .text.vioInit       vio_B-U585I-IOT02A.o
-    0x0801d178   0x000000a0   Code   RO         1725    .text.vioSetSignal  vio_B-U585I-IOT02A.o
+    0x0801d08c   0x000000ec   Code   RO         1293    .text.vioInit       vio_B-U585I-IOT02A.o
+    0x0801d178   0x000000a0   Code   RO         1295    .text.vioSetSignal  vio_B-U585I-IOT02A.o
     0x0801d218   0x00000012   Code   RO         1133    .text.xPSR_InitVal  rtx_thread.o
     0x0801d22a   0x0000003e   Code   RO         4783    CL$$btod_d2e        c_wu.l(btod.o)
     0x0801d268   0x00000046   Code   RO         4785    CL$$btod_d2e_denorm_low  c_wu.l(btod.o)
@@ -1256,7 +1256,7 @@ Memory Map of the image
     0x0801dc48   0x00000008   Data   RO         4463    .rodata.APBPrescTable  system_stm32u5xx.o
     0x0801dc50   0x00000038   Data   RO         1814    .rodata.Driver_USART1  UART_STM32U5xx.o
     0x0801dc88   0x00000048   Data   RO         1889    .rodata.Driver_USBD0  USBD_OTG_STM32U5xx.o
-    0x0801dcd0   0x00000020   Data   RO         1715    .rodata.INTERVAL_HS  usbd_lib_hid.o
+    0x0801dcd0   0x00000020   Data   RO         1735    .rodata.INTERVAL_HS  usbd_lib_hid.o
     0x0801dcf0   0x00000080   Data   RO         2359    .rodata.LPGPIO_Map  stm32u5xx_hal_gpio.o
     0x0801dd70   0x00000040   Data   RO         4464    .rodata.MSIRangeTable  system_stm32u5xx.o
     0x0801ddb0   0x00000008   Data   RO         1895    .rodata.OTG_TX_FIFO_SIZE  USBD_OTG_STM32U5xx.o
@@ -1269,66 +1269,66 @@ Memory Map of the image
     0x0801de07   0x00000008   Data   RO           33    .rodata.__stdout_name  retarget_io.o
     0x0801de0f   0x00000001   PAD
     0x0801de10   0x00000024   Data   RO         4492    .rodata.app_main_attr  HID.o
-    0x0801de34   0x00000004   Data   RO         1449    .rodata.fpUSBD_Device_ConfigurationChanged  usbd_config.o
-    0x0801de38   0x00000004   Data   RO         1451    .rodata.fpUSBD_Device_DisableRemoteWakeup  usbd_config.o
-    0x0801de3c   0x00000004   Data   RO         1450    .rodata.fpUSBD_Device_EnableRemoteWakeup  usbd_config.o
-    0x0801de40   0x00000004   Data   RO         1455    .rodata.fpUSBD_Device_Endpoint0_InDataSent  usbd_config.o
-    0x0801de44   0x00000004   Data   RO         1454    .rodata.fpUSBD_Device_Endpoint0_OutDataReceived  usbd_config.o
-    0x0801de48   0x00000004   Data   RO         1453    .rodata.fpUSBD_Device_Endpoint0_SetupPacketProcessed  usbd_config.o
-    0x0801de4c   0x00000004   Data   RO         1452    .rodata.fpUSBD_Device_Endpoint0_SetupPacketReceived  usbd_config.o
-    0x0801de50   0x00000004   Data   RO         1446    .rodata.fpUSBD_Device_HighSpeedActivated  usbd_config.o
-    0x0801de54   0x00000004   Data   RO         1442    .rodata.fpUSBD_Device_Initialize  usbd_config.o
-    0x0801de58   0x00000004   Data   RO         1445    .rodata.fpUSBD_Device_Reset  usbd_config.o
-    0x0801de5c   0x00000004   Data   RO         1448    .rodata.fpUSBD_Device_Resumed  usbd_config.o
-    0x0801de60   0x00000004   Data   RO         1447    .rodata.fpUSBD_Device_Suspended  usbd_config.o
-    0x0801de64   0x00000004   Data   RO         1443    .rodata.fpUSBD_Device_Uninitialize  usbd_config.o
-    0x0801de68   0x00000004   Data   RO         1444    .rodata.fpUSBD_Device_VbusChanged  usbd_config.o
-    0x0801de6c   0x00000004   Data   RO         1440    .rodata.fpUSBD_HID_GetProtocol  usbd_config.o
-    0x0801de70   0x00000004   Data   RO         1438    .rodata.fpUSBD_HID_GetReport  usbd_config.o
-    0x0801de74   0x00000004   Data   RO         1436    .rodata.fpUSBD_HID_Initialize  usbd_config.o
-    0x0801de78   0x00000004   Data   RO         1441    .rodata.fpUSBD_HID_SetProtocol  usbd_config.o
-    0x0801de7c   0x00000004   Data   RO         1439    .rodata.fpUSBD_HID_SetReport  usbd_config.o
-    0x0801de80   0x00000004   Data   RO         1437    .rodata.fpUSBD_HID_Uninitialize  usbd_config.o
+    0x0801de34   0x00000004   Data   RO         1469    .rodata.fpUSBD_Device_ConfigurationChanged  usbd_config.o
+    0x0801de38   0x00000004   Data   RO         1471    .rodata.fpUSBD_Device_DisableRemoteWakeup  usbd_config.o
+    0x0801de3c   0x00000004   Data   RO         1470    .rodata.fpUSBD_Device_EnableRemoteWakeup  usbd_config.o
+    0x0801de40   0x00000004   Data   RO         1475    .rodata.fpUSBD_Device_Endpoint0_InDataSent  usbd_config.o
+    0x0801de44   0x00000004   Data   RO         1474    .rodata.fpUSBD_Device_Endpoint0_OutDataReceived  usbd_config.o
+    0x0801de48   0x00000004   Data   RO         1473    .rodata.fpUSBD_Device_Endpoint0_SetupPacketProcessed  usbd_config.o
+    0x0801de4c   0x00000004   Data   RO         1472    .rodata.fpUSBD_Device_Endpoint0_SetupPacketReceived  usbd_config.o
+    0x0801de50   0x00000004   Data   RO         1466    .rodata.fpUSBD_Device_HighSpeedActivated  usbd_config.o
+    0x0801de54   0x00000004   Data   RO         1462    .rodata.fpUSBD_Device_Initialize  usbd_config.o
+    0x0801de58   0x00000004   Data   RO         1465    .rodata.fpUSBD_Device_Reset  usbd_config.o
+    0x0801de5c   0x00000004   Data   RO         1468    .rodata.fpUSBD_Device_Resumed  usbd_config.o
+    0x0801de60   0x00000004   Data   RO         1467    .rodata.fpUSBD_Device_Suspended  usbd_config.o
+    0x0801de64   0x00000004   Data   RO         1463    .rodata.fpUSBD_Device_Uninitialize  usbd_config.o
+    0x0801de68   0x00000004   Data   RO         1464    .rodata.fpUSBD_Device_VbusChanged  usbd_config.o
+    0x0801de6c   0x00000004   Data   RO         1460    .rodata.fpUSBD_HID_GetProtocol  usbd_config.o
+    0x0801de70   0x00000004   Data   RO         1458    .rodata.fpUSBD_HID_GetReport  usbd_config.o
+    0x0801de74   0x00000004   Data   RO         1456    .rodata.fpUSBD_HID_Initialize  usbd_config.o
+    0x0801de78   0x00000004   Data   RO         1461    .rodata.fpUSBD_HID_SetProtocol  usbd_config.o
+    0x0801de7c   0x00000004   Data   RO         1459    .rodata.fpUSBD_HID_SetReport  usbd_config.o
+    0x0801de80   0x00000004   Data   RO         1457    .rodata.fpUSBD_HID_Uninitialize  usbd_config.o
     0x0801de84   0x00000004   Data   RO          641    .rodata.osRtxUserSVC  rtx_lib.o
     0x0801de88   0x00000024   Data   RO          636    .rodata.os_idle_thread_attr  rtx_lib.o
     0x0801deac   0x00000018   Data   RO          638    .rodata.os_timer_mq_attr  rtx_lib.o
     0x0801dec4   0x00000024   Data   RO          637    .rodata.os_timer_thread_attr  rtx_lib.o
     0x0801dee8   0x00000017   Data   RO           35    .rodata.str1.1      retarget_io.o
     0x0801deff   0x0000000b   Data   RO          606    .rodata.str1.1      rtx_kernel.o
-    0x0801df0a   0x00000023   Data   RO         1409    .rodata.str1.1      usbd_config.o
+    0x0801df0a   0x00000023   Data   RO         1429    .rodata.str1.1      usbd_config.o
     0x0801df2d   0x00000018   Data   RO         4491    .rodata.str1.1      HID.o
     0x0801df45   0x00000003   PAD
-    0x0801df48   0x0000002a   Data   RO         1461    .rodata.usbd0_config_descriptor_fs  usbd_config.o
-    0x0801df72   0x00000001   Data   RO         1464    .rodata.usbd0_config_descriptor_hs  usbd_config.o
+    0x0801df48   0x0000002a   Data   RO         1481    .rodata.usbd0_config_descriptor_fs  usbd_config.o
+    0x0801df72   0x00000001   Data   RO         1484    .rodata.usbd0_config_descriptor_hs  usbd_config.o
     0x0801df73   0x00000001   PAD
-    0x0801df74   0x00000024   Data   RO         1412    .rodata.usbd0_core_thread_attr  usbd_config.o
-    0x0801df98   0x0000001c   Data   RO         1408    .rodata.usbd0_dev   usbd_config.o
-    0x0801dfb4   0x00000012   Data   RO         1460    .rodata.usbd0_device_descriptor  usbd_config.o
-    0x0801dfc6   0x00000001   Data   RO         1462    .rodata.usbd0_device_qualifier_fs  usbd_config.o
-    0x0801dfc7   0x00000001   Data   RO         1463    .rodata.usbd0_device_qualifier_hs  usbd_config.o
-    0x0801dfc8   0x00000007   Data   RO         1459    .rodata.usbd0_ep0_descriptor  usbd_config.o
-    0x0801dfcf   0x00000001   Data   RO         1465    .rodata.usbd0_other_speed_config_descriptor_fs  usbd_config.o
-    0x0801dfd0   0x00000001   Data   RO         1466    .rodata.usbd0_other_speed_config_descriptor_hs  usbd_config.o
+    0x0801df74   0x00000024   Data   RO         1432    .rodata.usbd0_core_thread_attr  usbd_config.o
+    0x0801df98   0x0000001c   Data   RO         1428    .rodata.usbd0_dev   usbd_config.o
+    0x0801dfb4   0x00000012   Data   RO         1480    .rodata.usbd0_device_descriptor  usbd_config.o
+    0x0801dfc6   0x00000001   Data   RO         1482    .rodata.usbd0_device_qualifier_fs  usbd_config.o
+    0x0801dfc7   0x00000001   Data   RO         1483    .rodata.usbd0_device_qualifier_hs  usbd_config.o
+    0x0801dfc8   0x00000007   Data   RO         1479    .rodata.usbd0_ep0_descriptor  usbd_config.o
+    0x0801dfcf   0x00000001   Data   RO         1485    .rodata.usbd0_other_speed_config_descriptor_fs  usbd_config.o
+    0x0801dfd0   0x00000001   Data   RO         1486    .rodata.usbd0_other_speed_config_descriptor_hs  usbd_config.o
     0x0801dfd1   0x00000003   PAD
-    0x0801dfd4   0x00000071   Data   RO         1467    .rodata.usbd0_string_descriptor  usbd_config.o
+    0x0801dfd4   0x00000071   Data   RO         1487    .rodata.usbd0_string_descriptor  usbd_config.o
     0x0801e045   0x00000003   PAD
-    0x0801e048   0x00000004   Data   RO         1434    .rodata.usbd_cb_device_event_ptr  usbd_config.o
-    0x0801e04c   0x00000004   Data   RO         1435    .rodata.usbd_cb_endpoint_event_ptr  usbd_config.o
-    0x0801e050   0x00000004   Data   RO         1425    .rodata.usbd_core_thread_attr  usbd_config.o
-    0x0801e054   0x00000001   Data   RO         1413    .rodata.usbd_dev_num  usbd_config.o
+    0x0801e048   0x00000004   Data   RO         1454    .rodata.usbd_cb_device_event_ptr  usbd_config.o
+    0x0801e04c   0x00000004   Data   RO         1455    .rodata.usbd_cb_endpoint_event_ptr  usbd_config.o
+    0x0801e050   0x00000004   Data   RO         1445    .rodata.usbd_core_thread_attr  usbd_config.o
+    0x0801e054   0x00000001   Data   RO         1433    .rodata.usbd_dev_num  usbd_config.o
     0x0801e055   0x00000003   PAD
-    0x0801e058   0x00000004   Data   RO         1414    .rodata.usbd_dev_ptr  usbd_config.o
-    0x0801e05c   0x00000001   Data   RO         1430    .rodata.usbd_ep_max_num  usbd_config.o
+    0x0801e058   0x00000004   Data   RO         1434    .rodata.usbd_dev_ptr  usbd_config.o
+    0x0801e05c   0x00000001   Data   RO         1450    .rodata.usbd_ep_max_num  usbd_config.o
     0x0801e05d   0x00000003   PAD
-    0x0801e060   0x00000038   Data   RO         1423    .rodata.usbd_hid    usbd_config.o
-    0x0801e098   0x00000021   Data   RO         1456    .rodata.usbd_hid0_report_descriptor  usbd_config.o
+    0x0801e060   0x00000038   Data   RO         1443    .rodata.usbd_hid    usbd_config.o
+    0x0801e098   0x00000021   Data   RO         1476    .rodata.usbd_hid0_report_descriptor  usbd_config.o
     0x0801e0b9   0x00000003   PAD
-    0x0801e0bc   0x00000004   Data   RO         1458    .rodata.usbd_hid_desc_ptr  usbd_config.o
-    0x0801e0c0   0x00000001   Data   RO         1415    .rodata.usbd_hid_num  usbd_config.o
+    0x0801e0bc   0x00000004   Data   RO         1478    .rodata.usbd_hid_desc_ptr  usbd_config.o
+    0x0801e0c0   0x00000001   Data   RO         1435    .rodata.usbd_hid_num  usbd_config.o
     0x0801e0c1   0x00000003   PAD
-    0x0801e0c4   0x00000008   Data   RO         1427    .rodata.usbd_hid_thread_sp  usbd_config.o
+    0x0801e0c4   0x00000008   Data   RO         1447    .rodata.usbd_hid_thread_sp  usbd_config.o
     0x0801e0cc   0x00000020   Data   RO         5062    Region$$Table       anon$$obj.o
-    0x0801e0ec   0x00000004   Data   RO         1487    __MW_USB_LIB_VERSION_6.18.0  usb_lib_ver.o
+    0x0801e0ec   0x00000004   Data   RO         1507    __MW_USB_LIB_VERSION_6.18.0  usb_lib_ver.o
     0x0801e0f0   0x0000001c   Data   RO         4820    locale$$data        c_wu.l(lc_numeric_c.o)
     0x0801e10c   0x00000110   Data   RO         4953    locale$$data        c_wu.l(lc_ctype_c.o)
 
@@ -1349,12 +1349,12 @@ Memory Map of the image
     0x20000010   0x00000004   Data   RW         4461    .data.SystemCoreClock  system_stm32u5xx.o
     0x20000014   0x000000a4   Data   RW          607    .data.os            rtx_kernel.o
     0x200000b8   0x00000004   Data   RW         1885    .data.p_hpcd        USBD_OTG_STM32U5xx.o
-    0x200000bc   0x00000030   Data   RW         1469    .data.usbd0_desc    usbd_config.o
-    0x200000ec   0x00000004   Data   RW         1470    .data.usbd_desc_ptr  usbd_config.o
-    0x200000f0   0x00000008   Data   RW         1433    .data.usbd_ep_thread_id_ptr  usbd_config.o
-    0x200000f8   0x00000008   Data   RW         1457    .data.usbd_hid0_desc  usbd_config.o
-    0x20000100   0x00000004   Data   RW         1424    .data.usbd_hid_ptr  usbd_config.o
-    0x20000104   0x00000004   Data   RW         1426    .data.usbd_hid_thread_name  usbd_config.o
+    0x200000bc   0x00000030   Data   RW         1489    .data.usbd0_desc    usbd_config.o
+    0x200000ec   0x00000004   Data   RW         1490    .data.usbd_desc_ptr  usbd_config.o
+    0x200000f0   0x00000008   Data   RW         1453    .data.usbd_ep_thread_id_ptr  usbd_config.o
+    0x200000f8   0x00000008   Data   RW         1477    .data.usbd_hid0_desc  usbd_config.o
+    0x20000100   0x00000004   Data   RW         1444    .data.usbd_hid_ptr  usbd_config.o
+    0x20000104   0x00000004   Data   RW         1446    .data.usbd_hid_thread_name  usbd_config.o
     0x20000108   0x00000004   Data   RW         1980    .data.uwTickFreq    stm32u5xx_hal.o
     0x2000010c   0x00000004   Data   RW         1979    .data.uwTickPrio    stm32u5xx_hal.o
     0x20000110   0x00000010   PAD
@@ -1369,12 +1369,12 @@ Memory Map of the image
     0x20000344   0x00000004   Zero   RW         1884    .bss.SignalEndpointEvent  USBD_OTG_STM32U5xx.o
     0x20000348   0x00000010   Zero   RW         1815    .bss.UART1_Info     UART_STM32U5xx.o
     0x20000358   0x00000014   Zero   RW         1816    .bss.UART1_TransferInfo  UART_STM32U5xx.o
-    0x2000036c   0x00000004   Zero   RW         1478    .bss.USBD_MsToTick.max_ms  usbd_config.o
-    0x20000370   0x00000004   Zero   RW         1477    .bss.USBD_MsToTick.tick_freq_mul  usbd_config.o
-    0x20000374   0x00000004   Zero   RW         1580    .bss.USBD_ReqGetDescriptor.len  usbd_lib_core.o
-    0x20000378   0x00000004   Zero   RW         1579    .bss.USBD_ReqGetDescriptor.ptr_desc  usbd_lib_core.o
-    0x2000037c   0x00000004   Zero   RW         1582    .bss.USBD_ReqGetMSDescriptor.len  usbd_lib_core.o
-    0x20000380   0x00000004   Zero   RW         1581    .bss.USBD_ReqGetMSDescriptor.ptr_desc  usbd_lib_core.o
+    0x2000036c   0x00000004   Zero   RW         1498    .bss.USBD_MsToTick.max_ms  usbd_config.o
+    0x20000370   0x00000004   Zero   RW         1497    .bss.USBD_MsToTick.tick_freq_mul  usbd_config.o
+    0x20000374   0x00000004   Zero   RW         1600    .bss.USBD_ReqGetDescriptor.len  usbd_lib_core.o
+    0x20000378   0x00000004   Zero   RW         1599    .bss.USBD_ReqGetDescriptor.ptr_desc  usbd_lib_core.o
+    0x2000037c   0x00000004   Zero   RW         1602    .bss.USBD_ReqGetMSDescriptor.len  usbd_lib_core.o
+    0x20000380   0x00000004   Zero   RW         1601    .bss.USBD_ReqGetMSDescriptor.ptr_desc  usbd_lib_core.o
     0x20000384   0x0000001c   Zero   RW         2703    .bss.a_mdfHandle    stm32u5xx_hal_mdf.o
     0x200003a0   0x00001000   Zero   RW         4493    .bss.app_main_stk   HID.o
     0x200013a0   0x00000120   Zero   RW         1883    .bss.ep             USBD_OTG_STM32U5xx.o
@@ -1396,49 +1396,49 @@ Memory Map of the image
     0x20009d8c   0x000001f0   Zero   RW          643    .bss.os.libspace    rtx_lib.o
     0x20009f7c   0x00000034   Zero   RW          647    .bss.os.msgqueue.cb  rtx_lib.o
     0x20009fb0   0x00000050   Zero   RW          648    .bss.os.msgqueue.mem  rtx_lib.o
-    0x2000a000   0x00000060   Zero   RW         1429    .bss.os.semaphore.cb  usbd_config.o
+    0x2000a000   0x00000060   Zero   RW         1449    .bss.os.semaphore.cb  usbd_config.o
     0x2000a060   0x000000a0   Zero   RW          644    .bss.os.thread.cb   rtx_lib.o
-    0x2000a100   0x000000a0   Zero   RW         1410    .bss.os.thread.cb   usbd_config.o
+    0x2000a100   0x000000a0   Zero   RW         1430    .bss.os.thread.cb   usbd_config.o
     0x2000a1a0   0x00000200   Zero   RW          645    .bss.os.thread.idle.stack  rtx_lib.o
-    0x2000a3a0   0x00000600   Zero   RW         1411    .bss.os.thread.stack  usbd_config.o
+    0x2000a3a0   0x00000600   Zero   RW         1431    .bss.os.thread.stack  usbd_config.o
     0x2000a9a0   0x00000200   Zero   RW          646    .bss.os.thread.timer.stack  rtx_lib.o
-    0x2000aba0   0x00000020   Zero   RW         1428    .bss.os.timer.cb    usbd_config.o
+    0x2000aba0   0x00000020   Zero   RW         1448    .bss.os.timer.cb    usbd_config.o
     0x2000abc0   0x00000001   Zero   RW          649    .bss.os_kernel_is_active.os_kernel_active  rtx_lib.o
     0x2000abc1   0x00000001   Zero   RW         1746    .bss.otg_fs_role    OTG_STM32U5xx.o
     0x2000abc2   0x00000002   PAD
     0x2000abc4   0x00000008   Zero   RW         1886    .bss.setup_packet   USBD_OTG_STM32U5xx.o
     0x2000abcc   0x00000001   Zero   RW         1887    .bss.setup_received  USBD_OTG_STM32U5xx.o
-    0x2000abcd   0x00000001   Zero   RW         1405    .bss.usbd0_alt_setting  usbd_config.o
+    0x2000abcd   0x00000001   Zero   RW         1425    .bss.usbd0_alt_setting  usbd_config.o
     0x2000abce   0x00000002   PAD
-    0x2000abd0   0x000000b0   Zero   RW         1407    .bss.usbd0_data     usbd_config.o
-    0x2000ac80   0x00000080   Zero   RW         1406    .bss.usbd0_ep0_buf  usbd_config.o
-    0x2000ad00   0x00000022   Zero   RW         1468    .bss.usbd0_ser_num_string_descriptor  usbd_config.o
+    0x2000abd0   0x000000b0   Zero   RW         1427    .bss.usbd0_data     usbd_config.o
+    0x2000ac80   0x00000080   Zero   RW         1426    .bss.usbd0_ep0_buf  usbd_config.o
+    0x2000ad00   0x00000022   Zero   RW         1488    .bss.usbd0_ser_num_string_descriptor  usbd_config.o
     0x2000ad22   0x00000002   PAD
-    0x2000ad24   0x00000004   Zero   RW         1476    .bss.usbd_capabilities  usbd_config.o
-    0x2000ad28   0x00000004   Zero   RW         1431    .bss.usbd_core_thread_id  usbd_config.o
-    0x2000ad2c   0x00000010   Zero   RW         1472    .bss.usbd_driver_ep_semaphore_id  usbd_config.o
-    0x2000ad3c   0x00000004   Zero   RW         1471    .bss.usbd_driver_semaphore_id  usbd_config.o
-    0x2000ad40   0x00000004   Zero   RW         1475    .bss.usbd_drv_version  usbd_config.o
-    0x2000ad44   0x00000001   Zero   RW         1421    .bss.usbd_hid0_feat_report  usbd_config.o
+    0x2000ad24   0x00000004   Zero   RW         1496    .bss.usbd_capabilities  usbd_config.o
+    0x2000ad28   0x00000004   Zero   RW         1451    .bss.usbd_core_thread_id  usbd_config.o
+    0x2000ad2c   0x00000010   Zero   RW         1492    .bss.usbd_driver_ep_semaphore_id  usbd_config.o
+    0x2000ad3c   0x00000004   Zero   RW         1491    .bss.usbd_driver_semaphore_id  usbd_config.o
+    0x2000ad40   0x00000004   Zero   RW         1495    .bss.usbd_drv_version  usbd_config.o
+    0x2000ad44   0x00000001   Zero   RW         1441    .bss.usbd_hid0_feat_report  usbd_config.o
     0x2000ad45   0x00000001   PAD
-    0x2000ad46   0x00000002   Zero   RW         1416    .bss.usbd_hid0_idle_count  usbd_config.o
-    0x2000ad48   0x00000002   Zero   RW         1417    .bss.usbd_hid0_idle_reload  usbd_config.o
-    0x2000ad4a   0x00000001   Zero   RW         1418    .bss.usbd_hid0_idle_set  usbd_config.o
+    0x2000ad46   0x00000002   Zero   RW         1436    .bss.usbd_hid0_idle_count  usbd_config.o
+    0x2000ad48   0x00000002   Zero   RW         1437    .bss.usbd_hid0_idle_reload  usbd_config.o
+    0x2000ad4a   0x00000001   Zero   RW         1438    .bss.usbd_hid0_idle_set  usbd_config.o
     0x2000ad4b   0x00000001   PAD
-    0x2000ad4c   0x00000001   Zero   RW         1419    .bss.usbd_hid0_in_report  usbd_config.o
+    0x2000ad4c   0x00000001   Zero   RW         1439    .bss.usbd_hid0_in_report  usbd_config.o
     0x2000ad4d   0x00000013   PAD
-    0x2000ad60   0x00000020   Zero   RW         1420    .bss.usbd_hid0_out_report  usbd_config.o
-    0x2000ad80   0x00000020   Zero   RW         1422    .bss.usbd_hid_data  usbd_config.o
-    0x2000ada0   0x00000004   Zero   RW         1474    .bss.usbd_hid_semaphore_id  usbd_config.o
-    0x2000ada4   0x00000004   Zero   RW         1432    .bss.usbd_hid_thread_id  usbd_config.o
-    0x2000ada8   0x00000004   Zero   RW         1473    .bss.usbd_hid_timer_id  usbd_config.o
+    0x2000ad60   0x00000020   Zero   RW         1440    .bss.usbd_hid0_out_report  usbd_config.o
+    0x2000ad80   0x00000020   Zero   RW         1442    .bss.usbd_hid_data  usbd_config.o
+    0x2000ada0   0x00000004   Zero   RW         1494    .bss.usbd_hid_semaphore_id  usbd_config.o
+    0x2000ada4   0x00000004   Zero   RW         1452    .bss.usbd_hid_thread_id  usbd_config.o
+    0x2000ada8   0x00000004   Zero   RW         1493    .bss.usbd_hid_timer_id  usbd_config.o
     0x2000adac   0x00000004   Zero   RW         1894    .bss.usbd_state     USBD_OTG_STM32U5xx.o
     0x2000adb0   0x00000004   Zero   RW         1981    .bss.uwTick         stm32u5xx_hal.o
     0x2000adb4   0x00000004   Zero   RW         2705    .bss.v_adf1InstanceCounter  stm32u5xx_hal_mdf.o
     0x2000adb8   0x00000004   Zero   RW         2704    .bss.v_mdf1InstanceCounter  stm32u5xx_hal_mdf.o
-    0x2000adbc   0x00000004   Zero   RW         1733    .bss.vioSignalIn    vio_B-U585I-IOT02A.o
-    0x2000adc0   0x00000004   Zero   RW         1734    .bss.vioSignalOut   vio_B-U585I-IOT02A.o
-    0x2000adc4   0x0000000c   Zero   RW         1735    .bss.vioValue       vio_B-U585I-IOT02A.o
+    0x2000adbc   0x00000004   Zero   RW         1303    .bss.vioSignalIn    vio_B-U585I-IOT02A.o
+    0x2000adc0   0x00000004   Zero   RW         1304    .bss.vioSignalOut   vio_B-U585I-IOT02A.o
+    0x2000adc4   0x0000000c   Zero   RW         1305    .bss.vioValue       vio_B-U585I-IOT02A.o
     0x2000add0   0x00000400   Zero   RW            9    HEAP                startup_stm32u585xx.o
     0x2000b1d0   0x00000400   Zero   RW            8    STACK               startup_stm32u585xx.o
 

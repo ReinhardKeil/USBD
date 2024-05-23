@@ -8,10 +8,10 @@ solution:
       variables:
         - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
 
-    - type: LPC55S69-EVK            # name of a target board with layer
-      board: LPC55S69-EVK
-      variables:
-        - Board-Layer: $SolutionDir()$\Board\LPC55S69-EVK\Board.clayer.yml
+#   - type: LPC55S69-EVK            # name of a target board with layer
+#     board: LPC55S69-EVK
+#     variables:
+#       - Board-Layer: $SolutionDir()$\Board\LPC55S69-EVK\Board.clayer.yml
 
   build-types:
     - type: Debug

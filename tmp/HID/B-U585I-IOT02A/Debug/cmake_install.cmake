@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/reikei01/.vcpkg/artifacts/2139c4c6/compilers.arm.arm.none.eabi.gcc/13.2.1/arm-none-eabi/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "CMAKE_OBJDUMP-NOTFOUND")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
