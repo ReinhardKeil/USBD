@@ -2,6 +2,16 @@ build-idx:
   generated-by: csolution version 2.4.0
   cdefault: cdefault.yml
   csolution: USB_Device.csolution.yml
+  configurations:
+    - target-type: B-U585I-IOT02A
+      target-configurations:
+        - configuration: 
+          variables:
+            - Board-Layer: ${CMSIS_PACK_ROOT}/Keil/B-U585I-IOT02A_BSP/2.0.0-dev1/Layers/IoT/Board.clayer.yml
+              description: B-U585I-IOT02A Board setup for IoT
+              path: ${CMSIS_PACK_ROOT}/Keil/B-U585I-IOT02A_BSP/2.0.0-dev1/Layers/IoT
+              file: Board.clayer.yml
+              copy-to: .Board/U585
   cprojects:
     - cproject: HID/HID.cproject.yml
       clayers:
@@ -16,9 +26,6 @@ build-idx:
     - cbuild: HID/HID.Debug+B-U585I-IOT02A.cbuild.yml
       project: HID
       configuration: .Debug+B-U585I-IOT02A
-      clayers:
-        - clayer: Board/B-U585I-IOT02A/CubeMX/Board.cgen.yml
-        - clayer: Board/B-U585I-IOT02A/Board.clayer.yml
     - cbuild: HID/HID.Release+B-U585I-IOT02A.cbuild.yml
       project: HID
       configuration: .Release+B-U585I-IOT02A

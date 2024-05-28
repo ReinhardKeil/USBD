@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <cprj schemaVersion="2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CPRJ.xsd">
-  <created timestamp="2024-05-23T13:46:48" tool="csolution 2.4.0"/>
+  <created timestamp="2024-05-28T09:10:33" tool="csolution 2.4.0"/>
 
   <info isLayer="false">
     <description>Automatically generated project</description>
@@ -11,12 +11,12 @@
     <package name="CMSIS-RTX" vendor="ARM" version="5.9.0:5.9.0"/>
     <package name="CMSIS" vendor="ARM" version="6.1.0:6.1.0"/>
     <package name="B-U585I-IOT02A_BSP" vendor="Keil" version="2.0.0-dev1:2.0.0-dev1"/>
-    <package name="MDK-Middleware" vendor="Keil" version="8.0.0-dev0:8.0.0-dev0"/>
+    <package name="MDK-Middleware" vendor="Keil" version="8.0.0-dev:8.0.0-dev"/>
     <package name="STM32U5xx_DFP" vendor="Keil" version="3.0.0-dev0:3.0.0-dev0"/>
   </packages>
 
   <compilers>
-    <compiler name="AC6" version="6.22.0"/>
+    <compiler name="AC6" version="6.19.0"/>
   </compilers>
 
   <target Bname="B-U585I-IOT02A" Brevision="Rev.C" Bvendor="STMicroelectronics" Bversion="Rev.C" Ddsp="DSP" Dendian="Little-endian" Dfpu="SP_FPU" Dname="STM32U585AIIx" Dsecure="TZ-disabled" Dtz="TZ" Dvendor="STMicroelectronics:13">
@@ -45,14 +45,14 @@
     <component Cclass="CMSIS Driver" Cgroup="USB Device" Csub="Full-speed" Cvendor="Keil" Cversion="1.1.0"/>
     <component Cclass="CMSIS Driver" Cgroup="VIO" Csub="Board" Cvariant="B-U585I-IOT02A" Cvendor="Keil" Cversion="2.0.1"/>
     <component Cclass="Device" Cgroup="CubeMX" Cvendor="Keil" Cversion="1.0.0"/>
-    <component Cbundle="MDK" Cclass="USB" Cgroup="CORE" Cvendor="Keil" Cversion="6.18.0">
-      <file attr="config" category="header" name="USB/Config/USB_Debug.h" version="1.0.0"/>
+    <component Cbundle="MDK" Cclass="USB" Cgroup="CORE" Cvendor="Keil" Cversion="8.0.0">
+      <file attr="config" category="header" name="Components/USB/Config/USB_Debug.h" version="8.0.0"/>
     </component>
-    <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="HID" Cvendor="Keil" Cversion="6.18.0">
-      <file attr="config" category="header" name="USB/Config/USBD_Config_HID.h" version="5.1.0"/>
+    <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Csub="HID" Cvendor="Keil" Cversion="8.0.0">
+      <file attr="config" category="header" name="Components/USB/Config/USBD_Config_HID.h" version="5.1.0"/>
     </component>
-    <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Cvendor="Keil" Cversion="6.18.0">
-      <file attr="config" category="header" name="USB/Config/USBD_Config.h" version="1.0.0"/>
+    <component Cbundle="MDK" Cclass="USB" Cgroup="Device" Cvendor="Keil" Cversion="8.0.0">
+      <file attr="config" category="header" name="Components/USB/Config/USBD_Config.h" version="8.0.0"/>
     </component>
   </components>
 

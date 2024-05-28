@@ -7,8 +7,8 @@ project:
 
   connections:
     - connect: USB Device Virtual COM
-      provides:
-        - CMSIS-RTOS2
+#     provides:
+#       - CMSIS-RTOS2
       consumes:
         - CMSIS_USB_Device: 0
         - CMSIS_VIO

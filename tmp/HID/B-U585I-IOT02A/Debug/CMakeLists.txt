@@ -1,4 +1,4 @@
-# CMSIS Build CMakeLists generated on 2024-05-23T13:45:33
+# CMSIS Build CMakeLists generated on 2024-05-28T09:10:34
 
 cmake_minimum_required(VERSION 3.22)
 
@@ -46,8 +46,7 @@ set(INC_PATHS
   "C:/Users/reikei01/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Driver/Include"
   "C:/Users/reikei01/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Driver/VIO/Include"
   "C:/Users/reikei01/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include"
-  "C:/w/MDK-Middleware/USB/Include"
-  "C:/w/MDK-Middleware/USB/Source/Include"
+  "C:/w/MDK-Middleware/Components/USB/Include"
 )
 
 set(ASM_SRC_FILES
@@ -118,14 +117,14 @@ set(CC_SRC_FILES
   "C:/Users/reikei01/AppData/Local/Arm/Packs/ARM/CMSIS-RTX/5.9.0/Source/rtx_timer.c"
   "C:/Users/reikei01/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Source/os_systick.c"
   "C:/Users/reikei01/AppData/Local/Arm/Packs/Keil/B-U585I-IOT02A_BSP/2.0.0-dev1/CMSIS/Driver/vio_B-U585I-IOT02A.c"
-  "C:/w/MDK-Middleware/USB/Include/usbd_config.c"
-  "C:/w/MDK-Middleware/USB/Include/usbd_debug.c"
-  "C:/w/MDK-Middleware/USB/Source/usb_lib_ver.c"
-  "C:/w/MDK-Middleware/USB/Source/usbd_lib_core.c"
-  "C:/w/MDK-Middleware/USB/Source/usbd_lib_core_device.c"
-  "C:/w/MDK-Middleware/USB/Source/usbd_lib_core_hid.c"
-  "C:/w/MDK-Middleware/USB/Source/usbd_lib_drv.c"
-  "C:/w/MDK-Middleware/USB/Source/usbd_lib_hid.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usb_lib_ver.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_config.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_debug.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_lib_core.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_lib_core_device.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_lib_core_hid.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_lib_drv.c"
+  "C:/w/MDK-Middleware/Components/USB/Source/usbd_lib_hid.c"
   "C:/w/pack-examples/STM32U5xx_DFP/CMSIS/Driver/IrDA_STM32U5xx.c"
   "C:/w/pack-examples/STM32U5xx_DFP/CMSIS/Driver/OTG_STM32U5xx.c"
   "C:/w/pack-examples/STM32U5xx_DFP/CMSIS/Driver/SmartCard_STM32U5xx.c"
@@ -137,8 +136,8 @@ set(CC_SRC_FILES
 # Toolchain config map
 
 set(REGISTERED_TOOLCHAIN_ROOT "C:/Keil_v5/ARM/ARMCLANG/bin")
-set(REGISTERED_TOOLCHAIN_VERSION "6.22.0")
-set(TOOLCHAIN_VERSION_MIN "6.22.0")
+set(REGISTERED_TOOLCHAIN_VERSION "6.19.0")
+set(TOOLCHAIN_VERSION_MIN "6.19.0")
 include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/AC6.6.18.0.cmake")
 include ("C:/Keil_v5/ARM/cmsis-toolbox/etc/CMSIS-Build-Utils.cmake")
 

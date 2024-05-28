@@ -5,8 +5,8 @@ solution:
   target-types:
     - type: B-U585I-IOT02A
       board: B-U585I-IOT02A         # name of a target board with layer
-      variables:
-        - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
+#     variables:
+#       - Board-Layer: $SolutionDir()$\Board\B-U585I-IOT02A\Board.clayer.yml
 
 #   - type: LPC55S69-EVK            # name of a target board with layer
 #     board: LPC55S69-EVK

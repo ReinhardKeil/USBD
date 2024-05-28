@@ -23,7 +23,7 @@ build:
       path: ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0
     - pack: Keil::B-U585I-IOT02A_BSP@2.0.0-dev1
       path: ${CMSIS_PACK_ROOT}/Keil/B-U585I-IOT02A_BSP/2.0.0-dev1
-    - pack: Keil::MDK-Middleware@8.0.0-dev0
+    - pack: Keil::MDK-Middleware@8.0.0-dev
       path: ../../../w/MDK-Middleware
     - pack: Keil::STM32U5xx_DFP@3.0.0-dev0
       path: ../../../w/pack-examples/STM32U5xx_DFP
@@ -73,8 +73,7 @@ build:
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Driver/Include
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/Driver/VIO/Include
     - ${CMSIS_PACK_ROOT}/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include
-    - ../../../w/MDK-Middleware/USB/Include
-    - ../../../w/MDK-Middleware/USB/Source/Include
+    - ../../../w/MDK-Middleware/Components/USB/Include
   output-dirs:
     intdir: ../tmp/HID/B-U585I-IOT02A/Debug
     outdir: ../out/HID/B-U585I-IOT02A/Debug
@@ -311,92 +310,89 @@ build:
       generator:
         id: CubeMX
         path: ../Board/B-U585I-IOT02A/CubeMX/Board.cgen.yml
-    - component: Keil::USB&MDK:CORE@6.18.0
+    - component: Keil::USB&MDK:CORE@8.0.0
       condition: CMSIS Core with RTOS
-      from-pack: Keil::MDK-Middleware@8.0.0-dev0
+      from-pack: Keil::MDK-Middleware@8.0.0-dev
       selected-by: Keil::USB&MDK:CORE
       files:
-        - file: ../../../w/MDK-Middleware/USB/Include/rl_usb.h
+        - file: ../../../w/MDK-Middleware/Components/USB/Include/rl_usb.h
           category: header
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/Include
-          category: include
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usb_lib_ver.c
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usb_lib_ver.c
           category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/USB.scvd
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/USB.scvd
           category: other
-          version: 6.18.0
+          version: 8.0.0
         - file: RTE/USB/USB_Debug.h
           category: header
           attr: config
-          version: 1.0.0
-    - component: Keil::USB&MDK:Device:HID@6.18.0
+          version: 8.0.0
+    - component: Keil::USB&MDK:Device:HID@8.0.0
       condition: USB Core and Device Instance and Device Driver
-      from-pack: Keil::MDK-Middleware@8.0.0-dev0
+      from-pack: Keil::MDK-Middleware@8.0.0-dev
       selected-by: Keil::USB&MDK:Device:HID
       files:
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_lib_core_hid.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_lib_hid.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Template/USBD_User_HID.c
+          category: source
+          attr: template
+          version: 8.0.0
+          select: USB Device HID (Human Interface Device)
+        - file: ../../../w/MDK-Middleware/Components/USB/Template/USBD_User_HID_Mouse.c
+          category: source
+          attr: template
+          version: 8.0.0
+          select: USB Device HID Mouse
         - file: ../../../w/MDK-Middleware/Documentation/html/USB/HID.html
           category: doc
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usbd_lib_core_hid.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usbd_lib_hid.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Template/USBD_User_HID.c
-          category: source
-          attr: template
-          version: 6.18.0
-          select: USB Device HID (Human Interface Device)
-        - file: ../../../w/MDK-Middleware/USB/Template/USBD_User_HID_Mouse.c
-          category: source
-          attr: template
-          version: 6.18.0
-          select: USB Device HID Mouse
+          version: 8.0.0
         - file: RTE/USB/USBD_Config_HID_0.h
           category: header
           attr: config
           version: 5.1.0
-    - component: Keil::USB&MDK:Device@6.18.0
+    - component: Keil::USB&MDK:Device@8.0.0
       condition: USB Core and Device Driver and Class Instance
-      from-pack: Keil::MDK-Middleware@8.0.0-dev0
+      from-pack: Keil::MDK-Middleware@8.0.0-dev
       selected-by: Keil::USB&MDK:Device
       files:
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_config.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_debug.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_lib_core.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_lib_core_device.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Source/usbd_lib_drv.c
+          category: source
+          version: 8.0.0
+        - file: ../../../w/MDK-Middleware/Components/USB/Template/USBD_User_Device.c
+          category: source
+          attr: template
+          version: 8.0.0
+          select: USB Device
+        - file: ../../../w/MDK-Middleware/Components/USB/Template/USBD_User_Device_SerNum.c
+          category: source
+          attr: template
+          version: 8.0.0
+          select: USB Device Serial Number
         - file: ../../../w/MDK-Middleware/Documentation/html/USB/USB_Device.html
           category: doc
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Include/usbd_config.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Include/usbd_debug.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usbd_lib_core.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usbd_lib_core_device.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Source/usbd_lib_drv.c
-          category: source
-          version: 6.18.0
-        - file: ../../../w/MDK-Middleware/USB/Template/USBD_User_Device.c
-          category: source
-          attr: template
-          version: 6.18.0
-          select: USB Device
-        - file: ../../../w/MDK-Middleware/USB/Template/USBD_User_Device_SerNum.c
-          category: source
-          attr: template
-          version: 6.18.0
-          select: USB Device Serial Number
+          version: 8.0.0
         - file: RTE/USB/USBD_Config_0.h
           category: header
           attr: config
-          version: 1.0.0
+          version: 8.0.0
   linker:
     script: ../Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/ac6_linker_script.sct.src
     regions: ../Board/B-U585I-IOT02A/RTE/Device/STM32U585AIIx/regions_B-U585I-IOT02A.h
@@ -503,13 +499,14 @@ build:
     - file: RTE/_Debug_B-U585I-IOT02A/RTE_Components.h
       category: header
   licenses:
-    - license: <unknown>
+    - license: <proprietary> END USER LICENSE AGREEMENT FOR ARM SOFTWARE DEVELOPMENT TOOLS
+      license-agreement: ${CMSIS_PACK_ROOT}/Keil/MDK-Middleware/8.0.0-dev/license_terms/license_agreement.txt
       packs:
-        - pack: Keil::MDK-Middleware@8.0.0-dev0
+        - pack: Keil::MDK-Middleware@8.0.0-dev
       components:
-        - component: Keil::USB&MDK:CORE@6.18.0
-        - component: Keil::USB&MDK:Device:HID@6.18.0
-        - component: Keil::USB&MDK:Device@6.18.0
+        - component: Keil::USB&MDK:CORE@8.0.0
+        - component: Keil::USB&MDK:Device:HID@8.0.0
+        - component: Keil::USB&MDK:Device@8.0.0
     - license: Apache-2.0
       packs:
         - pack: ARM::CMSIS-Compiler@2.1.0
